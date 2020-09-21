@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/2017/10/22/tubbs/</loc>
+<lastmod>2017-10-22T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2017/10/23/polaroid-williamsburg/</loc>
+<lastmod>2017-10-23T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2019/10/21/darien</loc>
+<lastmod>2019-10-21T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/404</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/subscribe/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/remote-sensing/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/dem/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/resume.pdf</loc>
+<lastmod>2020-09-20T21:12:25-07:00</lastmod>
+</url>
+</urlset>
