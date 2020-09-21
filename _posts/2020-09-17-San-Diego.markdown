@@ -1,0 +1,21 @@
+---
+layout: post
+title: "San Diego Elevation Mappings"
+date: 2019-10-21
+description: 
+image: /assets/images/san-diego-dem.png
+author: Thomas Vaeth
+tags: 
+  - DEM
+---
+### Relief Mapping - The Eastern San Diego Mountain Range
+
+![Placeholder](/assets/images/san-diego-dem.png)
+
+Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+
+### Most Suitable Camping Destinations - San Diego, CA
+
+![Placeholder](/assets/images/camping-locations.png)
+
+Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
