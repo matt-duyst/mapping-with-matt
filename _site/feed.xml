@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Sep 2020 15:06:15 -0700</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2020 15:06:15 -0700</lastBuildDate>
+    <pubDate>Mon, 21 Sep 2020 16:20:58 -0700</pubDate>
+    <lastBuildDate>Mon, 21 Sep 2020 16:20:58 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -71,6 +71,79 @@
         <guid isPermaLink="true">http://localhost:4000/2019/10/21/Darien-Gap/</guid>
         
         <category>DEM</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modeling Yellow Fever: Propositions for Mosquito Control Program vs. Isolation &amp; Incubation Program</title>
+        <description>&lt;h5 id=&quot;yellow-fever-model&quot;&gt;Yellow Fever Model&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Yellow-Fever-Model.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;h5 id=&quot;projected-graphings-of-original-model&quot;&gt;Projected Graphings of Original Model&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Cummulative-Deaths-vs-Infectious-Mosquito.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Sick-People-Simulation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Deaths-Over-Time.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Vulnerable-People.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;h5 id=&quot;understanding-the-net-negative-flow-of-the-loop-diagram&quot;&gt;Understanding the Net-Negative Flow of the Loop Diagram&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Net-Neg-Flow-Loop-Diagram.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+
+&lt;h5 id=&quot;a-proposed-mosquito-control-program-10-day-simulations-vs-20-day-simulations&quot;&gt;A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Mosquito-Control-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/10-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;h5 id=&quot;a-proposed-incubation--isolation-program-10-day-simulation-vs-20-day-simulation-vs-30-day-simulation&quot;&gt;A Proposed Incubation &amp;amp; Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Isolation-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/10-Day-Isolation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-vs-30-Day-Isolation.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Yellow-Fever/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Yellow-Fever/</guid>
+        
+        <category>Insight Maker</category>
         
         
       </item>
@@ -163,6 +236,43 @@
       </item>
     
       <item>
+        <title>Starbucks' Key to Success: Demographic Considerations for Ideal Store Locations in Riverside County, CA</title>
+        <description>&lt;h3 id=&quot;the-importance-of-drive-time-starbucks-store-locations-in-riverside-county-ca&quot;&gt;The Importance of Drive-Time: Starbucks Store Locations in Riverside County, CA&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/3-Minute-Drive-Time-Buffers.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Eliminated-store-based-on-drive-time.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;h3 id=&quot;understanding-your-targeted-audience-starbucks-demographic-analysis&quot;&gt;Understanding Your Targeted Audience: Starbucks’ Demographic Analysis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Age-Demographic.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Median-Income.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Pop-Density.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Starbucks/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Starbucks/</guid>
+        
+        <category>SQL &amp; Buffer Analysis</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Analysis of Topographic Data - DEM of Mt. Whitney, CA using SRTM Imagery</title>
         <description>&lt;h5 id=&quot;analyzing-horizontal--vertical-profiles---mt-whitney-ca&quot;&gt;Analyzing Horizontal &amp;amp; Vertical Profiles - Mt. Whitney, CA&lt;/h5&gt;
 
@@ -188,6 +298,89 @@
         <guid isPermaLink="true">http://localhost:4000/2017/10/23/SRTM-Topographic/</guid>
         
         <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Public School and Oil Gass Well Assessment in Los Angeles, CA</title>
+        <description>&lt;h3 id=&quot;oil-gas-well-distribution-in-relation-to-public-school-locations-los-angeles-ca&quot;&gt;Oil Gas Well Distribution in Relation to Public School Locations: Los Angeles, CA&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-1.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-4.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-5.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-6.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-7.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-8.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-9.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/map-10.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Public-School-Oil-Gas-Well/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Public-School-Oil-Gas-Well/</guid>
+        
+        <category>SQL &amp; Buffer Analysis</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Comprehending the Range of North Korea's Strongest Missiles</title>
+        <description>&lt;h3 id=&quot;the-varying-impact-of-north-koreas-3-strongest-missles&quot;&gt;The Varying Impact of North Korea’s 3 Strongest Missles&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Hwasong-14.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Intermediate-Ballistic.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Hwasong-16.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/North-Korea/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/North-Korea/</guid>
+        
+        <category>SQL &amp; Buffer Analysis</category>
         
         
       </item>
@@ -281,6 +474,53 @@
       </item>
     
       <item>
+        <title>Precipitation Calculations of Ski Resorts in Placer County, CA</title>
+        <description>&lt;h3 id=&quot;precipitation-values-placer-county-ca&quot;&gt;Precipitation Values: Placer County, CA&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/January-Interpolation.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/August-Interpolation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;h3 id=&quot;3d-rendering-of-path-analysis-to-ski-resorts-in-placer-county&quot;&gt;3D Rendering of Path Analysis to Ski Resorts in Placer County&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/3d-Placer.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Interpolation-Placer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Interpolation-Placer/</guid>
+        
+        <category>Interpolation</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Statewide Precipitation Averages in the Month of August: California</title>
+        <description>&lt;h3 id=&quot;a-state-on-fire-statewide-interpolation-mapping-of-california-in-august&quot;&gt;A State on Fire: Statewide Interpolation Mapping of California in August&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/California-August-Interpolation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Interpolation-CA/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Interpolation-CA/</guid>
+        
+        <category>Interpolation</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Conceptualizing the Shift from Conventional Vehicles to Electic Vehicles: Modeling a Proposed 'Feebate Program'</title>
         <description>&lt;h5 id=&quot;feebate-model&quot;&gt;Feebate Model&lt;/h5&gt;
 
@@ -333,7 +573,7 @@
 
 &lt;h5 id=&quot;conventional-vehicles-co2-emitted--sensitivity-graphing&quot;&gt;Conventional Vehicles: CO2 Emitted &amp;amp; Sensitivity Graphing&lt;/h5&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/CV-CO2-Emitted.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/CV-C02-Emitted.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
 

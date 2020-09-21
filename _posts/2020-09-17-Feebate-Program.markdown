@@ -62,7 +62,7 @@ Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan
 
 ##### Conventional Vehicles: CO2 Emitted & Sensitivity Graphing
 
-![Placeholder](/assets/images/CV-CO2-Emitted.png)
+![Placeholder](/assets/images/CV-C02-Emitted.png)
 
 Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
 
