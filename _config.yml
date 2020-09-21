@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: mattduyste9@gmail.com
-baseurl: /mapping-with-matt
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
@@ -24,7 +24,7 @@ social:
     url: https://codepen.io/thomasvaeth/
 
 # Contact settings
-contact_img: /assets/images/placeholder-28.jpg
+contact_img: 
 formcarry: https://formcarry.com/s/HkIo0nMb7
 
 # Disqus settings
