@@ -9,27 +9,26 @@ tags:
   - Remote Sensing
 ---
 
-### Unsupervised Classification: NDVI Analysis
+### NDVI Analysis
 
 ![Map GIS](/assets/images/Unsupervised-Classification-NDVI.png)
-*Here is the model shown under a map projection*
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write up
 
-
-##### Unsupervised Classification: Isodata Algorithm
+### Isodata Algorithm
 
 ![Placeholder](/assets/images/Unsupervised-2.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write up
 
 ![Placeholder](/assets/images/Unsupervised-Classification.png)
 
 stats
 
-##### Histogram & Statistics
+write up
+
+### Histogram & Statistics
 
 ![Placeholder](/assets/images/Histograms.png)
 
-Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
-
+write up

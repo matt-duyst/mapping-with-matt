@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Sep 2020 17:32:18 -0700</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2020 17:32:18 -0700</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2020 08:25:05 -0700</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2020 08:25:05 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -302,29 +302,29 @@
     
       <item>
         <title>Unsupervised Classification: Land Cover Types in Los Angeles, CA</title>
-        <description>&lt;h3 id=&quot;unsupervised-classification-ndvi-analysis&quot;&gt;Unsupervised Classification: NDVI Analysis&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;ndvi-analysis&quot;&gt;NDVI Analysis&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification-NDVI.png&quot; alt=&quot;Map GIS&quot; /&gt;
-&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification-NDVI.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
-&lt;h5 id=&quot;unsupervised-classification-isodata-algorithm&quot;&gt;Unsupervised Classification: Isodata Algorithm&lt;/h5&gt;
+&lt;h3 id=&quot;isodata-algorithm&quot;&gt;Isodata Algorithm&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;stats&lt;/p&gt;
 
-&lt;h5 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h5&gt;
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h3 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
-
+&lt;p&gt;write up&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/10/23/Unsupervised-Classification/</link>
@@ -361,54 +361,6 @@
         <guid isPermaLink="true">http://localhost:4000/2017/10/23/T-mobile-cell/</guid>
         
         <category>Raster Analysis</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Urban Applications of Supervised Classification - Landsat vs. MODIS of Los Angeles, CA</title>
-        <description>&lt;h3 id=&quot;preparing-data-for-classification---landsat&quot;&gt;Preparing Data for Classification - Landsat&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Landsat.png&quot; alt=&quot;Map GIS&quot; /&gt;
-&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
-
-&lt;h5 id=&quot;preparing-data-for-classification---modis&quot;&gt;Preparing Data for Classification - MODIS&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
-
-&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-landsat&quot;&gt;Supervised Classificaiton - Maximum Likelihood (Landsat)&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Landsat.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
-
-&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-modis&quot;&gt;Supervised Classificaiton - Maximum Likelihood (MODIS)&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;leggo my eggo&lt;/p&gt;
-
-&lt;h5 id=&quot;histograms-for-classification---landsat-vs-modis&quot;&gt;Histograms for Classification - Landsat vs. MODIS&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;leggo my eggo&lt;/p&gt;
-
-&lt;h5 id=&quot;statistics-for-classification---landsat-vs-modis&quot;&gt;Statistics for Classification - Landsat vs. MODIS&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;leggo my eggo&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/10/23/Supervised-Classification/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Supervised-Classification/</guid>
-        
-        <category>Remote Sensing</category>
         
         
       </item>
@@ -451,25 +403,24 @@
       </item>
     
       <item>
-        <title>Analysis of Topographic Data - DEM of Mt. Whitney, CA using SRTM Imagery</title>
+        <title>Analysis of Topographic Data: DEM of Mt. Whitney, CA using SRTM Imagery</title>
         <description>&lt;h5 id=&quot;analyzing-horizontal--vertical-profiles---mt-whitney-ca&quot;&gt;Analyzing Horizontal &amp;amp; Vertical Profiles - Mt. Whitney, CA&lt;/h5&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Topographic-Data-Profiles.png&quot; alt=&quot;Map GIS&quot; /&gt;
-&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Topographic-Data-Profiles.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h5 id=&quot;elevation-transect---kern-river&quot;&gt;Elevation Transect - Kern River&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/Elevation-Transect.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h5 id=&quot;considerations-for-sun-positioning---application-of-colored-hill-shade&quot;&gt;Considerations for Sun Positioning - Application of Colored Hill Shade&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/Colored-Hillshade.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/10/23/SRTM-Topographic/</link>
@@ -538,6 +489,19 @@
       </item>
     
       <item>
+        <title>Mapping the 2016 Presidential Election: A Nation Divided</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/2016-Election.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Presidential-Election/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Presidential-Election/</guid>
+        
+        <category>Cartography</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Comprehending the Range of North Korea's Strongest Missiles</title>
         <description>&lt;h3 id=&quot;the-varying-impact-of-north-koreas-3-strongest-missles&quot;&gt;The Varying Impact of North Korea’s 3 Strongest Missles&lt;/h3&gt;
 
@@ -559,45 +523,6 @@
         <guid isPermaLink="true">http://localhost:4000/2017/10/23/North-Korea/</guid>
         
         <category>SQL &amp; Buffer Analysis</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mendocino Fire Complex</title>
-        <description>&lt;h3 id=&quot;mendocino-fire-complex&quot;&gt;Mendocino Fire Complex&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Mendo-GIS.png&quot; alt=&quot;Map GIS&quot; /&gt;
-&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
-
-&lt;h5 id=&quot;ndvi-analysis---before-fire&quot;&gt;NDVI Analysis - Before Fire&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Before-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
-
-&lt;h5 id=&quot;ndvi-analysis---after-fire&quot;&gt;NDVI Analysis - After Fire&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/After-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
-
-&lt;h5 id=&quot;ndvi-analysis---total-vegetation-change&quot;&gt;NDVI Analysis - Total Vegetation Change&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Total-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;nbr-analysis&quot;&gt;NBR Analysis&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/NBR.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/10/23/Mendocino-Fire-Complex/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Mendocino-Fire-Complex/</guid>
-        
-        <category>Remote Sensing</category>
         
         
       </item>
@@ -627,19 +552,18 @@
       </item>
     
       <item>
-        <title>Water Resource Analysis - Lake Change Detection of the Tibetan Plateau</title>
+        <title>Water Resource Analysis: Lake Change Detection of the Tibetan Plateau</title>
         <description>&lt;h3 id=&quot;change-detection-mapping&quot;&gt;Change Detection Mapping&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Detection.png&quot; alt=&quot;Map GIS&quot; /&gt;
-&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Detection.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h4 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
@@ -769,6 +693,19 @@
       </item>
     
       <item>
+        <title>A Dot-Density Representation of LA's Ethnic &amp; Racial Distribution</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Racial-Dot-Density-LA.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Dot-Density/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Dot-Density/</guid>
+        
+        <category>Cartography</category>
+        
+        
+      </item>
+    
+      <item>
         <title>California Reference Mapping</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/California-Reference-mapping-1.png&quot; alt=&quot;Map GIS&quot; /&gt;
 &lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
@@ -785,18 +722,32 @@
       </item>
     
       <item>
+        <title>Re-Designing LA's Bus Routes: Big Blue Bus #44</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Bus-Route-1.png.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Bus-Route-2.png.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/Bus-Route/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Bus-Route/</guid>
+        
+        <category>Cartography</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Active Remote Sensing: Interpolation &amp; Analysis of SAR Imagery</title>
         <description>&lt;h3 id=&quot;analysis-of-sar-images--lidar-data---applications-of-a-gaussian-contrast-stretch&quot;&gt;Analysis of SAR Images &amp;amp; LiDAR Data - Applications of a Gaussian Contrast Stretch&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Gaussian-Contrast.png&quot; alt=&quot;Map GIS&quot; /&gt;
-&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Gaussian-Contrast.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/10/23/Active-Remote-Sensing/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/23/Active-Remote-Sensing/</guid>
+        <pubDate>Sun, 22 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/22/Active-Remote-Sensing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/22/Active-Remote-Sensing/</guid>
         
         <category>Remote Sensing</category>
         
@@ -804,48 +755,135 @@
       </item>
     
       <item>
-        <title>Tubbs Fire Mappings</title>
+        <title>Urban Applications of Supervised Classification: Landsat vs. MODIS of Los Angeles, CA</title>
+        <description>&lt;h3 id=&quot;preparing-data-for-classification---landsat&quot;&gt;Preparing Data for Classification - Landsat&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Landsat.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;preparing-data-for-classification---modis&quot;&gt;Preparing Data for Classification - MODIS&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-landsat&quot;&gt;Supervised Classificaiton - Maximum Likelihood (Landsat)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Landsat.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-modis&quot;&gt;Supervised Classificaiton - Maximum Likelihood (MODIS)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;histograms-for-classification---landsat-vs-modis&quot;&gt;Histograms for Classification - Landsat vs. MODIS&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;statistics-for-classification---landsat-vs-modis&quot;&gt;Statistics for Classification - Landsat vs. MODIS&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Oct 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/10/24/Supervised-Classification/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/24/Supervised-Classification/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>California's Most Destructive Wildfire: Mapping The Tubbs (2017)</title>
         <description>&lt;h3 id=&quot;landsat-thermal-imagery---october-11th-2017&quot;&gt;Landsat Thermal Imagery - October 11th 2017&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-1.png&quot; alt=&quot;Map GIS&quot; /&gt;
-&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h3 id=&quot;landsat-thermal-imagery---october-12th-2017&quot;&gt;Landsat Thermal Imagery - October 12th 2017&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h5 id=&quot;total-area-burned&quot;&gt;Total Area Burned&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h5 id=&quot;ndvi-analysis---tubbs-fire-boundary&quot;&gt;NDVI Analysis - Tubbs Fire Boundary&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-ndvi.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h5 id=&quot;income-analysis&quot;&gt;Income Analysis&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-income.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Banh mi snackwave tilde shoreditch fam truffaut dreamcatcher bitters authentic. Dreamcatcher hella +1 schlitz, fixie hexagon selvage. Live-edge listicle schlitz, squid art party gluten-free skateboard 90’s.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
 
 &lt;h5 id=&quot;population-density-analysis&quot;&gt;Population Density Analysis&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-population.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+&lt;p&gt;write up&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Oct 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/10/23/Tubbs-Fire/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/23/Tubbs-Fire/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mendocino Fire Complex: Calculating Surface Vegetation Fluctuations through Spectral Indices (NDVI &amp; NBR)</title>
+        <description>&lt;h3 id=&quot;mendocino-fire-complex&quot;&gt;Mendocino Fire Complex&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Mendo-GIS.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;ndvi-analysis---before-fire&quot;&gt;NDVI Analysis - Before Fire&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Before-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;ndvi-analysis---after-fire&quot;&gt;NDVI Analysis - After Fire&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/After-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;ndvi-analysis---total-vegetation-change&quot;&gt;NDVI Analysis - Total Vegetation Change&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Total-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;nbr-analysis&quot;&gt;NBR Analysis&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/NBR.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 22 Oct 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/10/22/Tubbs-Fire/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/22/Tubbs-Fire/</guid>
+        <pubDate>Sun, 23 Oct 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/10/23/Mendocino-Fire-Complex/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/23/Mendocino-Fire-Complex/</guid>
         
         <category>Remote Sensing</category>
         
