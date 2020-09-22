@@ -11,7 +11,7 @@ tags:
 
 ### Leilani Estates, HI - Recent Volcanic Activity
 
-![Map GIS](/assets/images/Leiliani-Estates.png)
+![Map GIS](/assets/images/Leilani-Estates.png)
 *Here is the model shown under a map projection*
 
 Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
