@@ -6,7 +6,7 @@ description:
 image: /assets/images/feebate-model.png
 author: Thomas Vaeth
 tags: 
-  - Insight Maker
+  - Insight Maker & Model Builder
 ---
 
 ##### Feebate Model

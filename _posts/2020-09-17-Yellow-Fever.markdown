@@ -6,7 +6,7 @@ description:
 image: /assets/images/Yellow-Fever-Model.png
 author: Thomas Vaeth
 tags: 
-  - Insight Maker
+  - Insight Maker & Model Builder
 ---
 
 ##### Yellow Fever Model
@@ -68,7 +68,7 @@ Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-
 
 Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
 
-![Map GIS](/assets/images/20-Day-vs-30-Day-Isolation.png)
+![Map GIS](/assets/images/20-Day-vs-30-Day-Isolation .png)
 *Here is the model shown under a map projection*
 
 Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
