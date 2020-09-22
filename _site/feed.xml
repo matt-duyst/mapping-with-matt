@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Sep 2020 16:20:58 -0700</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2020 16:20:58 -0700</lastBuildDate>
+    <pubDate>Mon, 21 Sep 2020 17:15:53 -0700</pubDate>
+    <lastBuildDate>Mon, 21 Sep 2020 17:15:53 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -71,6 +71,142 @@
         <guid isPermaLink="true">http://localhost:4000/2019/10/21/Darien-Gap/</guid>
         
         <category>DEM</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>LA County Thiessen Polygon Density Mappings: Narcotics, Grand Theft Auto, DUI, and Crimes Per Tract</title>
+        <description>&lt;h3 id=&quot;los-angeles-criminal-mapping-density-analysis-of-reported-crimes&quot;&gt;Los Angeles Criminal Mapping: Density Analysis of Reported Crimes&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Narcotics.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/GTA.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/DUI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Crime-per-tract.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Crimes-Thiessen.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/thiessen-mapping/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/thiessen-mapping/</guid>
+        
+        <category>Thematic Mapping</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Variables of Statewide Thematic Mappings</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/ed-attainment.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/employment-rate-change.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/pct-rural.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/regional-mapping.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/total-pop-per-state.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/statewide-thematic-mappings/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/statewide-thematic-mappings/</guid>
+        
+        <category>Thematic Mapping</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A New Design for Sequioa National Park: The Ideal Cartographic Relief Map</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Sequoia-National-Park.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/sequia-national-park/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/sequia-national-park/</guid>
+        
+        <category>Cartography</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Elementary School Attendance &amp; Number of Registered Voters Per School Districts: Clark County, NV</title>
+        <description>&lt;h3 id=&quot;the-correlation-between-elementary-school-attendance--registered-voters-clark-county-nv&quot;&gt;The Correlation between Elementary School Attendance &amp;amp; Registered Voters: Clark County, NV&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/school-attendance.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/registered-votes-per-school.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/school-attendance-clark-county/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/school-attendance-clark-county/</guid>
+        
+        <category>SQL &amp; Buffer Analysis</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>US Mass Shootings: Forces of Prediction, or Varying Inconsistencies?</title>
+        <description>&lt;h3 id=&quot;mapping-mass-shootings-over-time---do-state-gun-laws-matter&quot;&gt;Mapping Mass Shootings Over Time - Do State Gun Laws Matter?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/total-mass-shootings.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/School-Shootings-By-Year.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Gun-Law-vs-Shooting-Occurence.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;h3 id=&quot;geoda&quot;&gt;Geoda&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Geoda-Scatterplot.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/mass-shootings/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/mass-shootings/</guid>
+        
+        <category>Raster Analysis</category>
         
         
       </item>
@@ -183,6 +319,36 @@
         <guid isPermaLink="true">http://localhost:4000/2017/10/23/Unsupervised-Classification/</guid>
         
         <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modifications of T-Mobile Cell Towers for Accentuated Coverage Areas: Los Angeles, CA</title>
+        <description>&lt;h3 id=&quot;mapping-mass-shootings-over-time---do-state-gun-laws-matter&quot;&gt;Mapping Mass Shootings Over Time - Do State Gun Laws Matter?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/t-mobile-cell-coverage.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/3-added-towers.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/25k-to-30k.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/increased-towers-10m.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/T-mobile-cell/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/T-mobile-cell/</guid>
+        
+        <category>Raster Analysis</category>
         
         
       </item>
@@ -586,6 +752,22 @@
         <guid isPermaLink="true">http://localhost:4000/2017/10/23/Feebate-Program/</guid>
         
         <category>Insight Maker</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>California Reference Mapping</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/California-Reference-mapping-1.png&quot; alt=&quot;Map GIS&quot; /&gt;
+&lt;em&gt;Here is the model shown under a map projection&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/23/CA-Reference-mapping/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/23/CA-Reference-mapping/</guid>
+        
+        <category>Cartography</category>
         
         
       </item>
