@@ -156,7 +156,11 @@
 <loc>http://localhost:4000/tag/thematic-mapping/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/resume.pdf</loc>
-<lastmod>2020-09-21T10:04:36-07:00</lastmod>
+<loc>http://localhost:4000/Curriculum%20Vitae.pdf</loc>
+<lastmod>2020-09-22T08:27:49-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Resume.pdf</loc>
+<lastmod>2020-09-22T08:27:50-07:00</lastmod>
 </url>
 </urlset>
