@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2020 13:47:55 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2020 13:47:55 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2020 14:00:13 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2020 14:00:13 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -875,7 +875,7 @@
         <title>Active Remote Sensing: Interpolation &amp; Analysis of SAR Imagery</title>
         <description>&lt;h3 id=&quot;analysis-of-sar-images--lidar-data---applications-of-a-gaussian-contrast-stretch&quot;&gt;Analysis of SAR Images &amp;amp; LiDAR Data - Applications of a Gaussian Contrast Stretch&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Gaussian-Contrast.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/active-rs.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This project emphasizes the strength in Active Remote Sensing - satellites capable of generating their own source of energy through electromagnetic radiation. The use of interpolation and analysis of SAR (Synthetic-aperture Radar) was used to obtain latitudinal and longitudinal coordinates for the image center.&lt;/p&gt;
 
@@ -905,13 +905,13 @@
 
 &lt;h3 id=&quot;ndvi-analysis&quot;&gt;NDVI Analysis&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification-NDVI.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Uunsupervised-ndvi.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Understanding NDVI (Normalized Difference Vegetation Index) is paramount for properly interpreting an area’s vegetation cover. NDVI is calculated by subtracting the Near-Infrared Band (NIR) with the Red Band, and then dividing that total with the value obtained from adding the NIR Band with the Red Band. Brighter pixel values in the image above correspond to higher rates of photosynthesis - in essence, the brighter the pixel equates to the greater amount of ‘healthy’ vegetation.&lt;/p&gt;
 
 &lt;h3 id=&quot;isodata-algorithm&quot;&gt;Isodata Algorithm&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/isodata.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The computer automated Isodata Algorithm for Unsupervised Classification calculates class means evenly distributed in the data space. It then iteratively clusters the remaining pixels using minimum distance techniques. Each iteration recalculates the mean, and reclassifies pixels with respect to the new means. This process continues until the number of pixels in each class changes by less than the selected pixel change threshold (or until the maximum number of iterations is reached).&lt;/p&gt;
 
@@ -926,7 +926,7 @@
 
 &lt;p&gt;To understand what land cover feature each class represents, a classified image showcasing an array of colors is overlayed on top of the stacked image. Countless experiments of re-running the classification is performed until the best classification of the area is developed.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/unsupervised-class.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Red in the image (Class 1) predominately illsutrates bodies of water - lakes and oceans. The small portion of Red scattered among the Green denotes areas of extremely low net productivity.&lt;/p&gt;
 
@@ -940,7 +940,8 @@
 
 &lt;h3 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/hist-1.png&quot; alt=&quot;Placeholder&quot; /&gt;
+&lt;img src=&quot;/assets/images/hist-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Computing histograms and statistics is often the final part of the study, when the user is satisfied with the classification of the image. Histograms are efficient in showing the image’s most dominant classes (its frequency). The Y-Axis indicates this frequency by showcasing the amount of time it occurs, while the X-Axis indicates the data values (classes). The statistics shed light on the number of pixels within each class. The ‘DN’ (Digital Number) column in the image above represents each alternating class. The ‘Npts’ column illustrates the total pixels in each category (pixels per class). General statistics, like the mean and standard deviation, are also computed. The ‘Percent’ column shows the percentage of space taken up by each category.&lt;/p&gt;
 

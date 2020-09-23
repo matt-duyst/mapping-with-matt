@@ -3,7 +3,7 @@ layout: post
 title: "Active Remote Sensing: Interpolation & Analysis of SAR Imagery"
 date: 2012-09-15
 description: 
-image: /assets/images/Gaussian-Contrast.png
+image: /assets/images/active-rs.png
 author: Thomas Vaeth
 tags: 
   - Remote Sensing
@@ -11,7 +11,7 @@ tags:
 
 ### Analysis of SAR Images & LiDAR Data - Applications of a Gaussian Contrast Stretch
 
-![Map GIS](/assets/images/Gaussian-Contrast.png)
+![Map GIS](/assets/images/active-rs.png)
 
 This project emphasizes the strength in Active Remote Sensing - satellites capable of generating their own source of energy through electromagnetic radiation. The use of interpolation and analysis of SAR (Synthetic-aperture Radar) was used to obtain latitudinal and longitudinal coordinates for the image center.
 
