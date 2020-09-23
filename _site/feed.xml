@@ -6,195 +6,240 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2020 10:21:24 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2020 10:21:24 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2020 10:46:50 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2020 10:46:50 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Mendocino Fire Complex: Calculating Surface Vegetation Fluctuations through Spectral Indices (NDVI &amp; NBR)</title>
-        <description>&lt;h3 id=&quot;mendocino-fire-complex&quot;&gt;Mendocino Fire Complex&lt;/h3&gt;
+        <title>Reclassification of a Sanborn Map: Digitizing Hollywood District</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/digitizing.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Mendo-GIS.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;ndvi-analysis---before-fire&quot;&gt;NDVI Analysis - Before Fire&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Before-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;ndvi-analysis---after-fire&quot;&gt;NDVI Analysis - After Fire&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/After-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;ndvi-analysis---total-vegetation-change&quot;&gt;NDVI Analysis - Total Vegetation Change&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Total-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;nbr-analysis&quot;&gt;NBR Analysis&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/NBR.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
+&lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Sun, 20 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/20/Mendocino-Fire-Complex/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/20/Mendocino-Fire-Complex/</guid>
+        <pubDate>Tue, 25 Aug 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2020/08/25/digitizing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/08/25/digitizing/</guid>
         
-        <category>Remote Sensing</category>
+        <category>Digitizing</category>
         
         
       </item>
     
       <item>
-        <title>California's Most Destructive Wildfire: Mapping The Tubbs (2017)</title>
-        <description>&lt;h3 id=&quot;landsat-thermal-imagery---october-11th-2017&quot;&gt;Landsat Thermal Imagery - October 11th 2017&lt;/h3&gt;
+        <title>Precipitation Calculations of Ski Resorts in Placer County, CA</title>
+        <description>&lt;h3 id=&quot;precipitation-values-placer-county-ca&quot;&gt;Precipitation Values: Placer County, CA&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/January-Interpolation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;h3 id=&quot;landsat-thermal-imagery---october-12th-2017&quot;&gt;Landsat Thermal Imagery - October 12th 2017&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/August-Interpolation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;h3 id=&quot;3d-rendering-of-path-analysis-to-ski-resorts-in-placer-county&quot;&gt;3D Rendering of Path Analysis to Ski Resorts in Placer County&lt;/h3&gt;
 
-&lt;h5 id=&quot;total-area-burned&quot;&gt;Total Area Burned&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/3d-Placer.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;ndvi-analysis---tubbs-fire-boundary&quot;&gt;NDVI Analysis - Tubbs Fire Boundary&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-ndvi.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;income-analysis&quot;&gt;Income Analysis&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-income.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;population-density-analysis&quot;&gt;Population Density Analysis&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-population.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Sat, 19 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/19/Tubbs-Fire/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/19/Tubbs-Fire/</guid>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019/08/27/Interpolation-Placer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/08/27/Interpolation-Placer/</guid>
         
-        <category>Remote Sensing</category>
+        <category>Interpolation</category>
         
         
       </item>
     
       <item>
-        <title>Urban Applications of Supervised Classification: Landsat vs. MODIS of Los Angeles, CA</title>
-        <description>&lt;h3 id=&quot;preparing-data-for-classification---landsat&quot;&gt;Preparing Data for Classification - Landsat&lt;/h3&gt;
+        <title>Statewide Precipitation Averages in the Month of August: California</title>
+        <description>&lt;h3 id=&quot;a-state-on-fire-statewide-interpolation-mapping-of-california-in-august&quot;&gt;A State on Fire: Statewide Interpolation Mapping of California in August&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Landsat.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/California-August-Interpolation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;preparing-data-for-classification---modis&quot;&gt;Preparing Data for Classification - MODIS&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-landsat&quot;&gt;Supervised Classificaiton - Maximum Likelihood (Landsat)&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Landsat.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-modis&quot;&gt;Supervised Classificaiton - Maximum Likelihood (MODIS)&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;histograms-for-classification---landsat-vs-modis&quot;&gt;Histograms for Classification - Landsat vs. MODIS&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h5 id=&quot;statistics-for-classification---landsat-vs-modis&quot;&gt;Statistics for Classification - Landsat vs. MODIS&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Fri, 18 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/18/Supervised-Classification/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/18/Supervised-Classification/</guid>
+        <pubDate>Mon, 26 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019/08/26/Interpolation-CA/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/08/26/Interpolation-CA/</guid>
         
-        <category>Remote Sensing</category>
+        <category>Interpolation</category>
         
         
       </item>
     
       <item>
-        <title>Water Resource Analysis: Lake Change Detection of the Tibetan Plateau</title>
-        <description>&lt;h3 id=&quot;change-detection-mapping&quot;&gt;Change Detection Mapping&lt;/h3&gt;
+        <title>Variables of Statewide Thematic Mappings</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/ed-attainment.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Detection.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/employment-rate-change.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h4&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/pct-rural.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/regional-mapping.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/total-pop-per-state.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Thu, 17 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/17/Lake-Change-Detection/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/17/Lake-Change-Detection/</guid>
+        <pubDate>Wed, 29 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/29/statewide-thematic-mappings/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/29/statewide-thematic-mappings/</guid>
         
-        <category>Remote Sensing</category>
+        <category>Thematic Mapping</category>
         
         
       </item>
     
       <item>
-        <title>Analysis of Topographic Data: DEM of Mt. Whitney, CA using SRTM Imagery</title>
-        <description>&lt;h5 id=&quot;analyzing-horizontal--vertical-profiles---mt-whitney-ca&quot;&gt;Analyzing Horizontal &amp;amp; Vertical Profiles - Mt. Whitney, CA&lt;/h5&gt;
+        <title>LA County Thiessen Polygon Density Mappings: Narcotics, Grand Theft Auto, DUI, and Crimes Per Tract</title>
+        <description>&lt;h3 id=&quot;los-angeles-criminal-mapping-density-analysis-of-reported-crimes&quot;&gt;Los Angeles Criminal Mapping: Density Analysis of Reported Crimes&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Topographic-Data-Profiles.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Narcotics.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;h5 id=&quot;elevation-transect---kern-river&quot;&gt;Elevation Transect - Kern River&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/GTA.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Elevation-Transect.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/DUI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;considerations-for-sun-positioning---application-of-colored-hill-shade&quot;&gt;Considerations for Sun Positioning - Application of Colored Hill Shade&lt;/h5&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Colored-Hillshade.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Crime-per-tract.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up
+&lt;img src=&quot;/assets/images/Crimes-Thiessen.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Wed, 16 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/16/SRTM-Topographic/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/16/SRTM-Topographic/</guid>
+        <pubDate>Tue, 28 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/28/thiessen-mapping/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/28/thiessen-mapping/</guid>
         
-        <category>Remote Sensing</category>
+        <category>Thematic Mapping</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>US Mass Shootings: Forces of Prediction, or Varying Inconsistencies?</title>
+        <description>&lt;h3 id=&quot;mapping-mass-shootings-over-time---do-state-gun-laws-matter&quot;&gt;Mapping Mass Shootings Over Time - Do State Gun Laws Matter?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/total-mass-shootings.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/School-Shootings-By-Year.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Gun-Law-vs-Shooting-Occurence.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h3 id=&quot;geoda&quot;&gt;Geoda&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Geoda-Scatterplot.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/08/31/mass-shootings/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/31/mass-shootings/</guid>
+        
+        <category>Raster Analysis</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modifications of T-Mobile Cell Towers for Accentuated Coverage Areas: Los Angeles, CA</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/t-mobile-cell-coverage.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/3-added-towers.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/25k-to-30k.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/increased-towers-10m.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/08/30/T-mobile-cell/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/30/T-mobile-cell/</guid>
+        
+        <category>Raster Analysis</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A New Design for Sequoia National Park: The Ideal Cartographic Relief Map</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Sequoia-National-Park.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/09/06/sequia-national-park/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/06/sequia-national-park/</guid>
+        
+        <category>Cartography</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>California Reference Mapping</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/ca-ref.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/09/05/CA-Reference-mapping/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/05/CA-Reference-mapping/</guid>
+        
+        <category>Cartography</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Dot-Density Representation of LA's Ethnic &amp; Racial Distribution</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Racial-Dot-Density-LA.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/09/04/Dot-Density/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/04/Dot-Density/</guid>
+        
+        <category>Cartography</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Re-Designing LA's Bus Routes: Big Blue Bus #44</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Bus-Route-1.png.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Bus-Route-2.png.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/09/03/Bus-Route/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/03/Bus-Route/</guid>
+        
+        <category>Cartography</category>
         
         
       </item>
@@ -203,9 +248,9 @@
         <title>Mapping the 2016 Presidential Election: A Nation Divided</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/2016-Election.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 16 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/16/Presidential-Election/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/16/Presidential-Election/</guid>
+        <pubDate>Fri, 02 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2016/09/02/Presidential-Election/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/02/Presidential-Election/</guid>
         
         <category>Cartography</category>
         
@@ -213,54 +258,87 @@
       </item>
     
       <item>
-        <title>Active Remote Sensing: Interpolation &amp; Analysis of SAR Imagery</title>
-        <description>&lt;h3 id=&quot;analysis-of-sar-images--lidar-data---applications-of-a-gaussian-contrast-stretch&quot;&gt;Analysis of SAR Images &amp;amp; LiDAR Data - Applications of a Gaussian Contrast Stretch&lt;/h3&gt;
+        <title>Leilani Estates</title>
+        <description>&lt;h3 id=&quot;leilani-estates-hi---recent-volcanic-activity&quot;&gt;Leilani Estates, HI - Recent Volcanic Activity&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Gaussian-Contrast.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/Leilani-Estates.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
+&lt;h4 id=&quot;3d-rendering-of-volcanic-fissures&quot;&gt;3D Rendering of Volcanic Fissures&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/3d-leilani.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Tue, 15 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/15/Active-Remote-Sensing/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/15/Active-Remote-Sensing/</guid>
+        <pubDate>Wed, 09 Sep 2015 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2015/09/09/Leilani-Estates/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/09/Leilani-Estates/</guid>
         
-        <category>Remote Sensing</category>
+        <category>DEM</category>
         
         
       </item>
     
       <item>
-        <title>Unsupervised Classification: Land Cover Types in Los Angeles, CA</title>
-        <description>&lt;h3 id=&quot;ndvi-analysis&quot;&gt;NDVI Analysis&lt;/h3&gt;
+        <title>San Diego Elevation Mappings</title>
+        <description>&lt;h3 id=&quot;relief-mapping---the-eastern-san-diego-mountain-range&quot;&gt;Relief Mapping - The Eastern San Diego Mountain Range&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification-NDVI.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/san-diego-dem.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 
-&lt;h3 id=&quot;isodata-algorithm&quot;&gt;Isodata Algorithm&lt;/h3&gt;
+&lt;h3 id=&quot;most-suitable-camping-destinations---san-diego-ca&quot;&gt;Most Suitable Camping Destinations - San Diego, CA&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/camping-locations.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;stats&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
-
-&lt;h3 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Mon, 14 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2020/09/14/Unsupervised-Classification/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/09/14/Unsupervised-Classification/</guid>
+        <pubDate>Tue, 08 Sep 2015 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2015/09/08/San-Diego/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/08/San-Diego/</guid>
         
-        <category>Remote Sensing</category>
+        <category>DEM</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Darién Gap Mappings</title>
+        <description>&lt;h3 id=&quot;least-cost-path-analysis-crossing-the-darien-gap&quot;&gt;Least-Cost Path Analysis: Crossing the Darien Gap&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/darien-least-cost.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h4 id=&quot;3d-rendering-of-least-cost-path&quot;&gt;3D Rendering of Least-Cost Path&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/3d-darien.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Sep 2015 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2015/09/07/Darien-Gap/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/07/Darien-Gap/</guid>
+        
+        <category>DEM</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Florida Inundation DEM</title>
+        <description>&lt;h3 id=&quot;potential-inundation-sea-level-rise-in-miami-data-county-florida&quot;&gt;Potential Inundation: Sea Level Rise in Miami-Data County, Florida&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Inundation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Sep 2015 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2015/09/06/Florida-Inundation-DEM/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/06/Florida-Inundation-DEM/</guid>
+        
+        <category>DEM</category>
         
         
       </item>
@@ -281,9 +359,9 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/13/North-Korea/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/13/North-Korea/</guid>
+        <pubDate>Sat, 13 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2014/09/13/North-Korea/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/09/13/North-Korea/</guid>
         
         <category>SQL &amp; Buffer Analysis</category>
         
@@ -316,9 +394,9 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Thu, 12 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/12/Starbucks/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/12/Starbucks/</guid>
+        <pubDate>Fri, 12 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2014/09/12/Starbucks/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/09/12/Starbucks/</guid>
         
         <category>SQL &amp; Buffer Analysis</category>
         
@@ -337,9 +415,9 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/11/school-attendance-clark-county/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/11/school-attendance-clark-county/</guid>
+        <pubDate>Thu, 11 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2014/09/11/school-attendance-clark-county/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/09/11/school-attendance-clark-county/</guid>
         
         <category>SQL &amp; Buffer Analysis</category>
         
@@ -390,331 +468,11 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/10/Public-School-Oil-Gas-Well/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/10/Public-School-Oil-Gas-Well/</guid>
+        <pubDate>Wed, 10 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2014/09/10/Public-School-Oil-Gas-Well/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/09/10/Public-School-Oil-Gas-Well/</guid>
         
         <category>SQL &amp; Buffer Analysis</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Leilani Estates</title>
-        <description>&lt;h3 id=&quot;leilani-estates-hi---recent-volcanic-activity&quot;&gt;Leilani Estates, HI - Recent Volcanic Activity&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Leilani-Estates.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h4 id=&quot;3d-rendering-of-volcanic-fissures&quot;&gt;3D Rendering of Volcanic Fissures&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/3d-leilani.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2018/09/09/Leilani-Estates/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/09/Leilani-Estates/</guid>
-        
-        <category>DEM</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>San Diego Elevation Mappings</title>
-        <description>&lt;h3 id=&quot;relief-mapping---the-eastern-san-diego-mountain-range&quot;&gt;Relief Mapping - The Eastern San Diego Mountain Range&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/san-diego-dem.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h3 id=&quot;most-suitable-camping-destinations---san-diego-ca&quot;&gt;Most Suitable Camping Destinations - San Diego, CA&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/camping-locations.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2018/09/08/San-Diego/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/08/San-Diego/</guid>
-        
-        <category>DEM</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Darién Gap Mappings</title>
-        <description>&lt;h3 id=&quot;least-cost-path-analysis-crossing-the-darien-gap&quot;&gt;Least-Cost Path Analysis: Crossing the Darien Gap&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/darien-least-cost.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h4 id=&quot;3d-rendering-of-least-cost-path&quot;&gt;3D Rendering of Least-Cost Path&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/3d-darien.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Fri, 07 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2018/09/07/Darien-Gap/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/07/Darien-Gap/</guid>
-        
-        <category>DEM</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Florida Inundation DEM</title>
-        <description>&lt;h3 id=&quot;potential-inundation-sea-level-rise-in-miami-data-county-florida&quot;&gt;Potential Inundation: Sea Level Rise in Miami-Data County, Florida&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Inundation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2018/09/06/Florida-Inundation-DEM/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/09/06/Florida-Inundation-DEM/</guid>
-        
-        <category>DEM</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>A New Design for Sequoia National Park: The Ideal Cartographic Relief Map</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Sequoia-National-Park.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/09/05/sequia-national-park/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/05/sequia-national-park/</guid>
-        
-        <category>Cartography</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>California Reference Mapping</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/ca-ref.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/09/04/CA-Reference-mapping/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/04/CA-Reference-mapping/</guid>
-        
-        <category>Cartography</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Dot-Density Representation of LA's Ethnic &amp; Racial Distribution</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Racial-Dot-Density-LA.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/09/03/Dot-Density/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/03/Dot-Density/</guid>
-        
-        <category>Cartography</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Re-Designing LA's Bus Routes: Big Blue Bus #44</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/Bus-Route-1.png.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Bus-Route-2.png.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/09/02/Bus-Route/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/02/Bus-Route/</guid>
-        
-        <category>Cartography</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>US Mass Shootings: Forces of Prediction, or Varying Inconsistencies?</title>
-        <description>&lt;h3 id=&quot;mapping-mass-shootings-over-time---do-state-gun-laws-matter&quot;&gt;Mapping Mass Shootings Over Time - Do State Gun Laws Matter?&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/total-mass-shootings.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/School-Shootings-By-Year.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Gun-Law-vs-Shooting-Occurence.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h3 id=&quot;geoda&quot;&gt;Geoda&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Geoda-Scatterplot.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 Aug 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2016/08/31/mass-shootings/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/08/31/mass-shootings/</guid>
-        
-        <category>Raster Analysis</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Modifications of T-Mobile Cell Towers for Accentuated Coverage Areas: Los Angeles, CA</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/t-mobile-cell-coverage.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/3-added-towers.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/25k-to-30k.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/increased-towers-10m.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Aug 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2016/08/30/T-mobile-cell/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/08/30/T-mobile-cell/</guid>
-        
-        <category>Raster Analysis</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Variables of Statewide Thematic Mappings</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/ed-attainment.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/employment-rate-change.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/pct-rural.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/regional-mapping.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/total-pop-per-state.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2015/08/29/statewide-thematic-mappings/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/08/29/statewide-thematic-mappings/</guid>
-        
-        <category>Thematic Mapping</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>LA County Thiessen Polygon Density Mappings: Narcotics, Grand Theft Auto, DUI, and Crimes Per Tract</title>
-        <description>&lt;h3 id=&quot;los-angeles-criminal-mapping-density-analysis-of-reported-crimes&quot;&gt;Los Angeles Criminal Mapping: Density Analysis of Reported Crimes&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Narcotics.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/GTA.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/DUI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Crime-per-tract.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up
-&lt;img src=&quot;/assets/images/Crimes-Thiessen.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2015/08/28/thiessen-mapping/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/08/28/thiessen-mapping/</guid>
-        
-        <category>Thematic Mapping</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Precipitation Calculations of Ski Resorts in Placer County, CA</title>
-        <description>&lt;h3 id=&quot;precipitation-values-placer-county-ca&quot;&gt;Precipitation Values: Placer County, CA&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/January-Interpolation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/August-Interpolation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h3 id=&quot;3d-rendering-of-path-analysis-to-ski-resorts-in-placer-county&quot;&gt;3D Rendering of Path Analysis to Ski Resorts in Placer County&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/3d-Placer.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 Aug 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2014/08/27/Interpolation-Placer/</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/08/27/Interpolation-Placer/</guid>
-        
-        <category>Interpolation</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Statewide Precipitation Averages in the Month of August: California</title>
-        <description>&lt;h3 id=&quot;a-state-on-fire-statewide-interpolation-mapping-of-california-in-august&quot;&gt;A State on Fire: Statewide Interpolation Mapping of California in August&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/California-August-Interpolation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Tue, 26 Aug 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2014/08/26/Interpolation-CA/</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/08/26/Interpolation-CA/</guid>
-        
-        <category>Interpolation</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Reclassification of a Sanborn Map: Digitizing Hollywood District</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/digitizing.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2013/08/25/digitizing/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/08/25/digitizing/</guid>
-        
-        <category>Digitizing</category>
         
         
       </item>
@@ -777,9 +535,9 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Fri, 24 Aug 2012 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2012/08/24/Feebate-Program/</link>
-        <guid isPermaLink="true">http://localhost:4000/2012/08/24/Feebate-Program/</guid>
+        <pubDate>Sat, 24 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/08/24/Feebate-Program/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/24/Feebate-Program/</guid>
         
         <category>Insight Maker &amp; Model Builder</category>
         
@@ -846,11 +604,253 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Aug 2012 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2012/08/23/Yellow-Fever/</link>
-        <guid isPermaLink="true">http://localhost:4000/2012/08/23/Yellow-Fever/</guid>
+        <pubDate>Fri, 23 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/08/23/Yellow-Fever/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/23/Yellow-Fever/</guid>
         
         <category>Insight Maker &amp; Model Builder</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mendocino Fire Complex: Calculating Surface Vegetation Fluctuations through Spectral Indices (NDVI &amp; NBR)</title>
+        <description>&lt;h3 id=&quot;mendocino-fire-complex&quot;&gt;Mendocino Fire Complex&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Mendo-GIS.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;ndvi-analysis---before-fire&quot;&gt;NDVI Analysis - Before Fire&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Before-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;ndvi-analysis---after-fire&quot;&gt;NDVI Analysis - After Fire&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/After-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;ndvi-analysis---total-vegetation-change&quot;&gt;NDVI Analysis - Total Vegetation Change&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Total-NDVI.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;nbr-analysis&quot;&gt;NBR Analysis&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/NBR.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 20 Sep 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/09/20/Mendocino-Fire-Complex/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/09/20/Mendocino-Fire-Complex/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>California's Most Destructive Wildfire: Mapping The Tubbs (2017)</title>
+        <description>&lt;h3 id=&quot;landsat-thermal-imagery---october-11th-2017&quot;&gt;Landsat Thermal Imagery - October 11th 2017&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h3 id=&quot;landsat-thermal-imagery---october-12th-2017&quot;&gt;Landsat Thermal Imagery - October 12th 2017&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;total-area-burned&quot;&gt;Total Area Burned&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-map-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;ndvi-analysis---tubbs-fire-boundary&quot;&gt;NDVI Analysis - Tubbs Fire Boundary&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-ndvi.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;income-analysis&quot;&gt;Income Analysis&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-income.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;population-density-analysis&quot;&gt;Population Density Analysis&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/tubbs-population.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+</description>
+        <pubDate>Wed, 19 Sep 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/09/19/Tubbs-Fire/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/09/19/Tubbs-Fire/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Urban Applications of Supervised Classification: Landsat vs. MODIS of Los Angeles, CA</title>
+        <description>&lt;h3 id=&quot;preparing-data-for-classification---landsat&quot;&gt;Preparing Data for Classification - Landsat&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Landsat.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;preparing-data-for-classification---modis&quot;&gt;Preparing Data for Classification - MODIS&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Supervised-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-landsat&quot;&gt;Supervised Classificaiton - Maximum Likelihood (Landsat)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Landsat.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;supervised-classificaiton---maximum-likelihood-modis&quot;&gt;Supervised Classificaiton - Maximum Likelihood (MODIS)&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Maximum-Likelihood-Modis.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;histograms-for-classification---landsat-vs-modis&quot;&gt;Histograms for Classification - Landsat vs. MODIS&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;statistics-for-classification---landsat-vs-modis&quot;&gt;Statistics for Classification - Landsat vs. MODIS&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Sep 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/09/18/Supervised-Classification/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/09/18/Supervised-Classification/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Water Resource Analysis: Lake Change Detection of the Tibetan Plateau</title>
+        <description>&lt;h3 id=&quot;change-detection-mapping&quot;&gt;Change Detection Mapping&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Detection.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h4 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 17 Sep 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/09/17/Lake-Change-Detection/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/09/17/Lake-Change-Detection/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Analysis of Topographic Data: DEM of Mt. Whitney, CA using SRTM Imagery</title>
+        <description>&lt;h5 id=&quot;analyzing-horizontal--vertical-profiles---mt-whitney-ca&quot;&gt;Analyzing Horizontal &amp;amp; Vertical Profiles - Mt. Whitney, CA&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Topographic-Data-Profiles.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;elevation-transect---kern-river&quot;&gt;Elevation Transect - Kern River&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Elevation-Transect.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h5 id=&quot;considerations-for-sun-positioning---application-of-colored-hill-shade&quot;&gt;Considerations for Sun Positioning - Application of Colored Hill Shade&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Colored-Hillshade.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Sep 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/09/16/SRTM-Topographic/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/09/16/SRTM-Topographic/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Active Remote Sensing: Interpolation &amp; Analysis of SAR Imagery</title>
+        <description>&lt;h3 id=&quot;analysis-of-sar-images--lidar-data---applications-of-a-gaussian-contrast-stretch&quot;&gt;Analysis of SAR Images &amp;amp; LiDAR Data - Applications of a Gaussian Contrast Stretch&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Gaussian-Contrast.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 15 Sep 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/09/15/Active-Remote-Sensing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/09/15/Active-Remote-Sensing/</guid>
+        
+        <category>Remote Sensing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Unsupervised Classification: Land Cover Types in Los Angeles, CA</title>
+        <description>&lt;h3 id=&quot;ndvi-analysis&quot;&gt;NDVI Analysis&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification-NDVI.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h3 id=&quot;isodata-algorithm&quot;&gt;Isodata Algorithm&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Unsupervised-Classification.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;stats&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+
+&lt;h3 id=&quot;histogram--statistics&quot;&gt;Histogram &amp;amp; Statistics&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Histograms.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write up&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Sep 2012 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2012/09/14/Unsupervised-Classification/</link>
+        <guid isPermaLink="true">http://localhost:4000/2012/09/14/Unsupervised-Classification/</guid>
+        
+        <category>Remote Sensing</category>
         
         
       </item>
