@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A New Design for Sequioa National Park: The Ideal Cartographic Relief Map"
+title: "A New Design for Sequoia National Park: The Ideal Cartographic Relief Map"
 date: 2017-09-05
 description: 
 image: /assets/images/Sequoia-National-Park.png
