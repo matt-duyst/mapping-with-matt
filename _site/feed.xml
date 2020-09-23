@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2020 10:46:50 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2020 10:46:50 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2020 11:13:34 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2020 11:13:34 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -607,6 +607,75 @@
         <pubDate>Fri, 23 Aug 2013 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2013/08/23/Yellow-Fever/</link>
         <guid isPermaLink="true">http://localhost:4000/2013/08/23/Yellow-Fever/</guid>
+        
+        <category>Insight Maker &amp; Model Builder</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modeling the Oasis of the Dry Great Basin: Predicted Water Values of Mono Lake</title>
+        <description>&lt;h5 id=&quot;a-basic-understanding-of-mono-lake&quot;&gt;A Basic Understanding of Mono Lake&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/modeling-mono-lake-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/water-in-lake-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;mono-lake-model-with-gravity-added&quot;&gt;Mono Lake Model with Gravity Added&lt;/h5&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-model-gravity.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/water-in-lake-graph2.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/water-in-lake-graph3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h5 id=&quot;realistic-understanding-of-mono-lake&quot;&gt;Realistic Understanding of Mono Lake&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/realistic-model-mono-lake.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/realistic-model-graph1.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/realistic-model-graph2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h5 id=&quot;mono-lake-salinity-model&quot;&gt;Mono Lake Salinity Model&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-salinity-model.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/salinity-model-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h5 id=&quot;re-write-these-in-sublime&quot;&gt;re-write these in sublime&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/re-write-these-in-sublime.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/variables-for-mono-lake.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/08/22/mono-lake/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/22/mono-lake/</guid>
         
         <category>Insight Maker &amp; Model Builder</category>
         

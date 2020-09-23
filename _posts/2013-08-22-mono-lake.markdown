@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Modeling the Oasis of the Dry Great Basin: Predicted Water Values of Mono Lake"
+date: 2013-08-22
+description: 
+image: /assets/images/mono-lake-salinity-model.png
+author: Thomas Vaeth
+tags: 
+  - Insight Maker & Model Builder
+---
+
+##### A Basic Understanding of Mono Lake
+
+![Map GIS](/assets/images/modeling-mono-lake-1.png)
+
+write-up
+
+![Placeholder](/assets/images/water-in-lake-graph.png)
+
+##### Mono Lake Model with Gravity Added
+
+write-up
+
+![Placeholder](/assets/images/mono-lake-model-gravity.png)
+
+write-up
+
+![Map GIS](/assets/images/water-in-lake-graph2.png)
+
+write-up
+
+![Placeholder](/assets/images/water-in-lake-graph3.png)
+
+write-up
+
+##### Realistic Understanding of Mono Lake
+
+![Placeholder](/assets/images/realistic-model-mono-lake.png)
+
+write-up
+
+![Placeholder](/assets/images/realistic-model-graph1.png)
+
+write-up
+
+![Placeholder](/assets/images/realistic-model-graph2.png)
+
+write-up
+
+##### Mono Lake Salinity Model
+
+![Map GIS](/assets/images/mono-lake-salinity-model.png)
+
+write-up
+
+![Placeholder](/assets/images/salinity-model-graph.png)
+
+write-up
+
+##### re-write these in sublime
+
+![Placeholder](/assets/images/re-write-these-in-sublime.png)
+
+write-up
+
+![Map GIS](/assets/images/variables-for-mono-lake.png)
+
+write-up
