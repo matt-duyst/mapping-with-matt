@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2020 11:13:34 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2020 11:13:34 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2020 12:29:35 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2020 12:29:35 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -545,75 +545,6 @@
       </item>
     
       <item>
-        <title>Modeling Yellow Fever: Propositions for Mosquito Control Program vs. Isolation &amp; Incubation Program</title>
-        <description>&lt;h5 id=&quot;yellow-fever-model&quot;&gt;Yellow Fever Model&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Yellow-Fever-Model.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h5 id=&quot;projected-graphings-of-original-model&quot;&gt;Projected Graphings of Original Model&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Cummulative-Deaths-vs-Infectious-Mosquito.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Sick-People-Simulation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Deaths-Over-Time.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Vulnerable-People.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h5 id=&quot;understanding-the-net-negative-flow-of-the-loop-diagram&quot;&gt;Understanding the Net-Negative Flow of the Loop Diagram&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Net-Neg-Flow-Loop-Diagram.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h5 id=&quot;a-proposed-mosquito-control-program-10-day-simulations-vs-20-day-simulations&quot;&gt;A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Mosquito-Control-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/10-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;h5 id=&quot;a-proposed-incubation--isolation-program-10-day-simulation-vs-20-day-simulation-vs-30-day-simulation&quot;&gt;A Proposed Incubation &amp;amp; Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Isolation-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/10-Day-Isolation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-vs-30-Day-Isolation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2013/08/23/Yellow-Fever/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/08/23/Yellow-Fever/</guid>
-        
-        <category>Insight Maker &amp; Model Builder</category>
-        
-        
-      </item>
-    
-      <item>
         <title>Modeling the Oasis of the Dry Great Basin: Predicted Water Values of Mono Lake</title>
         <description>&lt;h5 id=&quot;a-basic-understanding-of-mono-lake&quot;&gt;A Basic Understanding of Mono Lake&lt;/h5&gt;
 
@@ -673,9 +604,78 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
+        <pubDate>Fri, 23 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/08/23/mono-lake/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/23/mono-lake/</guid>
+        
+        <category>Insight Maker &amp; Model Builder</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modeling Yellow Fever: Propositions for Mosquito Control Program vs. Isolation &amp; Incubation Program</title>
+        <description>&lt;h5 id=&quot;yellow-fever-model&quot;&gt;Yellow Fever Model&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Yellow-Fever-Model.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h5 id=&quot;projected-graphings-of-original-model&quot;&gt;Projected Graphings of Original Model&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Cummulative-Deaths-vs-Infectious-Mosquito.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Sick-People-Simulation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Deaths-Over-Time.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Vulnerable-People.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h5 id=&quot;understanding-the-net-negative-flow-of-the-loop-diagram&quot;&gt;Understanding the Net-Negative Flow of the Loop Diagram&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Net-Neg-Flow-Loop-Diagram.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h5 id=&quot;a-proposed-mosquito-control-program-10-day-simulations-vs-20-day-simulations&quot;&gt;A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Mosquito-Control-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/10-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h5 id=&quot;a-proposed-incubation--isolation-program-10-day-simulation-vs-20-day-simulation-vs-30-day-simulation&quot;&gt;A Proposed Incubation &amp;amp; Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Isolation-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/10-Day-Isolation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-vs-30-Day-Isolation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+</description>
         <pubDate>Thu, 22 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2013/08/22/mono-lake/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/08/22/mono-lake/</guid>
+        <link>http://localhost:4000/2013/08/22/Yellow-Fever/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/22/Yellow-Fever/</guid>
         
         <category>Insight Maker &amp; Model Builder</category>
         
@@ -877,7 +877,13 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/Gaussian-Contrast.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write up&lt;/p&gt;
+&lt;p&gt;This project emphasizes the strength in Active Remote Sensing - satellites capable of generating their own source of energy through electromagnetic radiation. The use of interpolation and analysis of SAR (Synthetic-aperture Radar) was used to obtain latitudinal and longitudinal coordinates for the image center.&lt;/p&gt;
+
+&lt;p&gt;The application of a ‘Gaussian Contrast Stretch’ was used on the orginal image, which adds a gray filter to make darker pixels appear brighter and show less contrast. These constrasting representations of the same image highlight the basics of interpreting satellite imagery of urban centers. Rivers appear darker because a large portion of the radar’s energy is being reflected away from the sensor - the flat surface acting like a mirror. Buildings, on the other hand, appear almost overwhelmingly bright. This common occurrence is often referred to as the “Corner Reflection Effect.” When two smooth surfaces form a 90° angle that faces the beam shot from active satellites, it’s as if twice the energy is being reflected off the object and reflected back to the sensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Gaussian-histogram.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Histograms are useful graphic representations for remotely sensed images, because they allow for the analysis of a single band. Analyzing the input and output histograms from the Gaussian Contrast image (left) to the original image (right) allows for a heightened understanding of 3 statistical variables: Range, Central Tendency, and Distribution. In the realm of remote sensing, the Range refers to frequency of pixels and is always a value between 0 and 255. The Central Tendency is represented as a single value that denotes an entire dataset by its center. In this case, the Central Tendency for the Gaussian Stretch image is 122, while the 2% Linear Stretch of the original image is 29. The Distribution of the Guassian Stretch image appears normal, while the 2% Linear Stretch of the original image is skewed to the right.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 15 Sep 2012 00:00:00 -0700</pubDate>
