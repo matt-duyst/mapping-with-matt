@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Statewide Precipitation Averages in the Month of August: California"
-date: 2017-10-23
+date: 2014-08-26
 description: 
 image: /assets/images/California-August-Interpolation.png
 author: Thomas Vaeth

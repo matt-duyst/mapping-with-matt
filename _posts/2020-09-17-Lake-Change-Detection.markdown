@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Water Resource Analysis: Lake Change Detection of the Tibetan Plateau"
-date: 2017-10-23
+date: 2020-09-17
 description: 
 image: /assets/images/Lake-Change-Detection.png
 author: Thomas Vaeth

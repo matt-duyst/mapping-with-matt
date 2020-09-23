@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reclassification of a Sanborn Map: Digitizing Hollywood District"
-date: 2017-10-23
+date: 2013-08-25
 description: 
 image: /assets/images/digitizing.png
 author: Thomas Vaeth

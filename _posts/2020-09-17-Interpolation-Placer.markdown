@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Precipitation Calculations of Ski Resorts in Placer County, CA"
-date: 2017-10-23
+date: 2014-08-27
 description: 
 image: /assets/images/January-Interpolation.png
 author: Thomas Vaeth

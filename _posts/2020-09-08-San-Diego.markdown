@@ -1,0 +1,21 @@
+---
+layout: post
+title: "San Diego Elevation Mappings"
+date: 2018-09-08
+description: 
+image: /assets/images/san-diego-dem.png
+author: Thomas Vaeth
+tags: 
+  - DEM
+---
+### Relief Mapping - The Eastern San Diego Mountain Range
+
+![Placeholder](/assets/images/san-diego-dem.png)
+
+write-up
+
+### Most Suitable Camping Destinations - San Diego, CA
+
+![Placeholder](/assets/images/camping-locations.png)
+
+write-up

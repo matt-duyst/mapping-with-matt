@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LA County Thiessen Polygon Density Mappings: Narcotics, Grand Theft Auto, DUI, and Crimes Per Tract"
-date: 2017-10-23
+date: 2015-08-28
 description: 
 image: /assets/images/Crimes-Thiessen.png
 author: Thomas Vaeth
