@@ -12,60 +12,56 @@ tags:
 ##### Feebate Model
 
 ![Map GIS](/assets/images/feebate-model.png)
-*Here is the model shown under a map projection*
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 
 ##### C02 Optimization Graph & Results
 
 ![Placeholder](/assets/images/C02-Optimization-graph.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/CO2-Optimization-results.png)
 
-Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
+write-up
 
 ##### Electric Vehicles: Monte-Carlo & Variable Equation
 
 ![Map GIS](/assets/images/EV-Monte-Carlo.png)
-*Here is the model shown under a map projection*
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/EV-Variable-Equation.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ##### Conventional Vehicles: Monte-Carlo & Variable Equation
 
 ![Placeholder](/assets/images/CV-Monte-Carlo.png)
 
-Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
+write-up
 
 ![Map GIS](/assets/images/CV-Variable-Equation.png)
-*Here is the model shown under a map projection*
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
-
+write-up
 
 ##### Electric Vehicles: CO2 Emitted & Sensitivity Graphing
 
 ![Placeholder](/assets/images/EV-CO2-Emitted.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/EV-sensitivity-graph.png)
 
-Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
+write-up
 
 ##### Conventional Vehicles: CO2 Emitted & Sensitivity Graphing
 
 ![Placeholder](/assets/images/CV-C02-Emitted.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/Total-CO2-Sensitivity.png)
 
-Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.
+write-up

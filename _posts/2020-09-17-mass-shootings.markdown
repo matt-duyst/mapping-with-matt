@@ -12,20 +12,19 @@ tags:
 ### Mapping Mass Shootings Over Time - Do State Gun Laws Matter?
 
 ![Map GIS](/assets/images/total-mass-shootings.png)
-*Here is the model shown under a map projection*
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/School-Shootings-By-Year.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/Gun-Law-vs-Shooting-Occurence.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ### Geoda
 
 ![Placeholder](/assets/images/Geoda-Scatterplot.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up

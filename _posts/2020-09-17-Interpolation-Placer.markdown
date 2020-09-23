@@ -12,16 +12,15 @@ tags:
 ### Precipitation Values: Placer County, CA
 
 ![Map GIS](/assets/images/January-Interpolation.png)
-*Here is the model shown under a map projection*
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/August-Interpolation.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ### 3D Rendering of Path Analysis to Ski Resorts in Placer County
 
 ![Placeholder](/assets/images/3d-Placer.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up

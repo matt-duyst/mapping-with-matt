@@ -12,10 +12,9 @@ tags:
 ### The Correlation between Elementary School Attendance & Registered Voters: Clark County, NV
 
 ![Map GIS](/assets/images/school-attendance.png)
-*Here is the model shown under a map projection*
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
 
 ![Placeholder](/assets/images/registered-votes-per-school.png)
 
-Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry.
+write-up
