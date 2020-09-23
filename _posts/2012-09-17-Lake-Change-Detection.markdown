@@ -3,7 +3,7 @@ layout: post
 title: "Water Resource Analysis: Lake Change Detection of the Tibetan Plateau"
 date: 2012-09-17
 description: 
-image: /assets/images/Lake-Change-Detection.png
+image: /assets/images/lake-detection.png
 author: Thomas Vaeth
 tags: 
   - Remote Sensing
@@ -36,7 +36,7 @@ A Linear Stretch was applied to the stacked image for a proper representation - 
 
 ### Change Detection Mapping
 
-![Map GIS](/assets/images/Lake-Change-Detection.png)
+![Map GIS](/assets/images/lake-detection.png)
 
 The colors illsutrated in the RGB composite image above showcase the change in the lakes' size throughout the years (1976, 1990, and 2000). The lakes' extent in the first year (1976) is denoted by the Red coloring (Landsat MSS - R:1, G:0, B:0). The lakes' extent in the second year (1990) is denoted by the Yellow coloring (Landsat TM - R:1, G:1, B:0). The lakes' extent in the final year (2000) is denoted by the White coloring (Landsat ETM+ : R:1, G:1, B:1).
 
@@ -49,7 +49,7 @@ The dark blue area denotes the furthest extent, its value being R:0, G:0, B:1. T
 
 #### Statistics
 
-![Placeholder](/assets/images/Lake-Change-Stats.png)
+![Placeholder](/assets/images/lake-stats.png)
 
 The statistics above help understand Lake Pixel Area Change over the 25 year duration. This change was calculated between the 1976 - 1990 images and between the 1990 - 2000 images. The Landsat MSS (1976) image had a Npts of 37,102. Landsat TM (1990) has a Npts of 35,887. The difference between these values allows for a total Lake Pixel Area Change of 1,215 over the course of 1976 to 1990. Subtracting Landsat TM's (1990) Npts of 35,887 with Landsat ETM+ (2000) Npts of 35,308 gave us the final Lake Pixel Area Change of 579. This lower Pixel Change makes sense, since the timeframe between the Landsat TM and Landsat ETM+ images are less than the 1976 - 1990 timeframe.
 

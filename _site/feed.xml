@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2020 15:33:47 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2020 15:33:47 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2020 15:42:51 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2020 15:42:51 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -847,7 +847,7 @@ The Estimated Threshold Breaks for the sensors were as followed:
 
 &lt;h3 id=&quot;change-detection-mapping&quot;&gt;Change Detection Mapping&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Detection.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/lake-detection.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The colors illsutrated in the RGB composite image above showcase the change in the lakes’ size throughout the years (1976, 1990, and 2000). The lakes’ extent in the first year (1976) is denoted by the Red coloring (Landsat MSS - R:1, G:0, B:0). The lakes’ extent in the second year (1990) is denoted by the Yellow coloring (Landsat TM - R:1, G:1, B:0). The lakes’ extent in the final year (2000) is denoted by the White coloring (Landsat ETM+ : R:1, G:1, B:1).&lt;/p&gt;
 
@@ -859,7 +859,7 @@ The Estimated Threshold Breaks for the sensors were as followed:
 
 &lt;h4 id=&quot;statistics&quot;&gt;Statistics&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Lake-Change-Stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/lake-stats.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The statistics above help understand Lake Pixel Area Change over the 25 year duration. This change was calculated between the 1976 - 1990 images and between the 1990 - 2000 images. The Landsat MSS (1976) image had a Npts of 37,102. Landsat TM (1990) has a Npts of 35,887. The difference between these values allows for a total Lake Pixel Area Change of 1,215 over the course of 1976 to 1990. Subtracting Landsat TM’s (1990) Npts of 35,887 with Landsat ETM+ (2000) Npts of 35,308 gave us the final Lake Pixel Area Change of 579. This lower Pixel Change makes sense, since the timeframe between the Landsat TM and Landsat ETM+ images are less than the 1976 - 1990 timeframe.&lt;/p&gt;
 
