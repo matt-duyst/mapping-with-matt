@@ -20,9 +20,9 @@ textarea {
   font-family: $font;
   font-size: $font-small;
   font-weight: 400;
-  color: $color-black;
+  color: $color-white;
   background: transparent;
-  border: 2px solid rgba($color-black, 0.6);
+  border: 2px solid rgba($color-white, 0.6);
   border-radius: 0;
   box-shadow: none;
   outline: 0;
@@ -31,7 +31,7 @@ textarea {
 
   &:hover,
   &:focus {
-    border-color: $color-black;
+    border-color: $color-white;
   }
 
   .footer & {
