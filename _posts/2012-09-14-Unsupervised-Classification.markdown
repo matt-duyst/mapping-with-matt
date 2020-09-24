@@ -17,7 +17,7 @@ Landsat 7 images were subset, recalibrated, and stacked. Spatially subsetting th
 
 ### NDVI Analysis
 
-![Map GIS](/assets/images/Uunsupervised-ndvi.png)
+![Map GIS](/assets/images/unsupervised-ndvi.png)
 
 Understanding NDVI (Normalized Difference Vegetation Index) is paramount for properly interpreting an area's vegetation cover. NDVI is calculated by subtracting the Near-Infrared Band (NIR) with the Red Band, and then dividing that total with the value obtained from adding the NIR Band with the Red Band. Brighter pixel values in the image above correspond to higher rates of photosynthesis - in essence, the brighter the pixel equates to the greater amount of 'healthy' vegetation. 
 

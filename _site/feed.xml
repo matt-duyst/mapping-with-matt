@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2020 19:31:50 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2020 19:31:50 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2020 20:04:30 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2020 20:04:30 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -940,7 +940,7 @@ The Estimated Threshold Breaks for the sensors were as followed:
 
 &lt;h3 id=&quot;ndvi-analysis&quot;&gt;NDVI Analysis&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Uunsupervised-ndvi.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/unsupervised-ndvi.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Understanding NDVI (Normalized Difference Vegetation Index) is paramount for properly interpreting an area’s vegetation cover. NDVI is calculated by subtracting the Near-Infrared Band (NIR) with the Red Band, and then dividing that total with the value obtained from adding the NIR Band with the Red Band. Brighter pixel values in the image above correspond to higher rates of photosynthesis - in essence, the brighter the pixel equates to the greater amount of ‘healthy’ vegetation.&lt;/p&gt;
 
