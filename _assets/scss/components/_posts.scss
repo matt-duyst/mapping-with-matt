@@ -63,11 +63,12 @@
     //   }
     // }
   }
+  
 
   &__link {
     display: block;
 
-    color: $color-black;
+    color: $color-white;
 
     &:hover {
       .posts__img {
