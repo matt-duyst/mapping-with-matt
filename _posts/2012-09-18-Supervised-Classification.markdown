@@ -48,14 +48,15 @@ Training ROIs were created for the images according to their band cominations - 
 Landsat achieves a much higher resolution for identifying nuanced areas, such as urban dwellings. This is why Landsat is often used for spatial objects. MODIS, on the other hand, would be preferred when analyzying temporal settings - like a daily land cover change among urban dwelling. The largest visible difference of classification between the Landsat and MODIS image was between mountain ranges. This may be because the Supervised Classification over-classified these large regions - it denoted general areas as 'mountains' that were nearby roads or urban dwellings.
 
 
-##### Histograms for Classification - Landsat vs. MODIS
+##### Histogram and Statistics for Classification - Landsat vs. MODIS
 
-![Placeholder](/assets/images/Histograms.png)
+![Placeholder](/assets/images/landsat-vs-modis-stats.png)
 
-write up
+The chart above uses statistics and histograms to showcase the two differing sensors' ability to classify land cover type for the subset ROI. Landsat 8 had a mean of 2.88, with a standard deviation of 1.16. MODIS had a mean of 3.70, with a standard deviation of 1.22. The DN associated with each land cover type is shown through the histogram breakdown of the chart. The final portion of the chart - "Total Area Change" - is calculated by subtracting the area from Landsat 8 classification with the area from MODIS classification. Negative values, like those for Golf Course, Ocean, and Sand, represent a gross overestimation of land cover type by the differing sensors.
 
-##### Statistics for Classification - Landsat vs. MODIS
 
-![Placeholder](/assets/images/Stats.png)
 
-write up
+
+
+
+
