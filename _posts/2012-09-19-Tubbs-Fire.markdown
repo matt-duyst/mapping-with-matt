@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "California's Most Destructive Wildfire: Mapping The Tubbs (2017)"
+title: "California's Most Destructive Wildfire: Mapping The Tubbs Fire (2017)"
 date: 2012-09-19
 description: 
 image: /assets/images/tubbs-map-1.png
@@ -55,13 +55,13 @@ The 'Thermal Anomalies' in the map above represent DN pixels greater than the th
 
 The 'Thermal Anomalies' in the map above represent DN pixels greater than the threshold set for the image captured on October 12, 2017 (24,750). The TOA Brightness Temperature equivalent to this threshold ranges from 289.55K - 357.52K. 
 
-##### Total Area Burned
+### Total Area Burned
 
 ![Placeholder](/assets/images/tubbs-map-3.png)
 
 The map above represents the burned area of the Tubbs Fire's extent at its apex - October 10th through October 15th. Shapefiles of the boundaries were provided from a Cal Fire Server. The polygons were then separated by date to illustrate a 5-day choropleth map.
 
-##### NDVI Analysis - Tubbs Fire Boundary
+### NDVI Analysis - Tubbs Fire Boundary
 
 ![Placeholder](/assets/images/tubbs-ndvi.png)
 
@@ -71,17 +71,17 @@ The composite of 8 maps above illustrate a side-by-side comparison of the weekly
 
 In 2016, a year before the Tubbs fire occurred, the extent showcased a slight increase in vegetation health (NDVI values). This increase in vegetation health is heavily juxtaposed by the following year’s (2017) indices. As expected, the fire catalyzed an ongoing regression of vegetation health (characterized by the prominent downward trend in NDVI values).
 
-![Placeholder](/assets/images/yearly-median-ndvi-ndvi.png)
+![Placeholder](/assets/images/yearly-median-ndvi.png)
 
 To add another facet of understanding to our analysis, a calculation of vegetation health in the years 2014 and 2015 was further examined. This analysis served as a safety precaution of sorts: if the vegetation health of the extent (multiple years prior to the Tubbs fire’s outbreak) showed an apparent decrease, there had to be other outside factors influencing these oscillations. However, these prior years followed the same trajectory of 2016 — an overall increase in vegetation health. Ergo, the clear decrease in NDVI values in the year 2017 was an outcome of the Tubbs fire’s devastation.
 
-##### Income Analysis
+### Income Analysis
 
 ![Placeholder](/assets/images/tubbs-income.png)
 
 This illustration represents the Mean Annual Income of areas impacted by the Tubbs Fire. An income analysis helps aide the recovery efforts placed in order after the Tubbs Fire was fully contained. The burned area in the figure above indicates a considerably financially stable representation of people affected. Only two of thirteen census tracts were represented as 'Red' with a mean annual income lower than $58,000. The national mean average income is approximately $51,939 so the two tracts within the lowest income range exceeds that of the national average. Five of thirteen census tracts denote incomes greater than $100,000 - which only 20% of the American population makes. Understanding the wealth in the affected area helps assume higher rates of recovery; most people within this income ranges can afford home insurance and other amenities that will likely make recovery easier. If the Tubbs Fire had occurred in an area with substantially lower annual income averages, it is probable that longer rates of recovery and rebuilding would occur.
 
-##### Population Density Analysis
+### Population Density Analysis
 
 ![Placeholder](/assets/images/tubbs-population.png)
 
