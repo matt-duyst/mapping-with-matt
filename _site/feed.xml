@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2020 12:24:23 -0700</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 12:24:23 -0700</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2020 12:49:41 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 12:49:41 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -723,6 +723,55 @@
         <pubDate>Thu, 22 Aug 2013 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2013/08/22/Yellow-Fever/</link>
         <guid isPermaLink="true">http://localhost:4000/2013/08/22/Yellow-Fever/</guid>
+        
+        <category>Insight Maker &amp; Model Builder</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>S-Shaped Growth: Modeling the Natural System of a Flowered Area</title>
+        <description>&lt;h4 id=&quot;flower-model&quot;&gt;Flower Model&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-model1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-model1-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h3 id=&quot;introduced-disturbance&quot;&gt;Introduced Disturbance&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-disturbance.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-disturbance-graph.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;h3 id=&quot;simulation-graphs&quot;&gt;Simulation Graphs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sim-5.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sim-10.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sim-15.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sim-20.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;write-up&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/08/21/s-shaped-growth/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/21/s-shaped-growth/</guid>
         
         <category>Insight Maker &amp; Model Builder</category>
         
