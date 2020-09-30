@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2020 11:58:17 -0700</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 11:58:17 -0700</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2020 12:13:03 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 12:13:03 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -556,7 +556,7 @@
 
 &lt;h3 id=&quot;modeling-mono-lake---a-simplistic-model&quot;&gt;Modeling Mono Lake - A Simplistic Model&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/modeling-mono-lake-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This model illustrates a basic understanding - a simple interpretation of the varying inputs and outputs that dictate the amount of water in Mono Lake. However, as the viewer will see with the resulting graph below, this model is far too simplistic to produce tangible results.&lt;/p&gt;
 
@@ -574,7 +574,7 @@
 
 &lt;p&gt;The Outputs inlcude: Evaporation from the lake’s surface, an ‘Export’ variable that denotes the Los Angeles Aqueduct, and an ‘Other Out’ variable for remaining possible influences.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/water-in-lake-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/graph-linear.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The simulation results from this model indicates water’s decline from Mono Lake in a linear fashion. In fact, with these parameters, water is projected to reach zero by 2030 - and continually decline below this “zero line” to -600 by the 2042.&lt;/p&gt;
 
@@ -604,7 +604,7 @@
 
 &lt;p&gt;After careful observation, it’s decided the missing factor for predicting the most accurate model is an accurate change in the rate of evaporation. Mono Lake is a saline lake, meaning the rate of evaporation is slower than fresh lakes. The slower rates of evaporation associated with saline lakes is caused by a reduction in vapor pressure difference between the surface of water and the overylying air. An accurate evaporation rate must take into consideration the large quantities of fixed solids dissolving in the lake’s shrinking volume of water.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/specific-gravity.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Evaporation studies, also called ‘Pan Studies’ as pans of water with differing salinities are exposed to evaporation, allow us to present a more realistic understanding of Mono Lake’s evaporation rate in association with gravity. The density of water in the lake is represented by ‘Specific Gravity’ - a measurement that compares the density of saline water to fresh water. For instance, a value of 1.1 indicates Mono Lake’s water is 10% heavier than fresh water. The impact of having a higher salinity for evaporation rates is represented by ‘Effect on Evaporation Rate.’ If the water in Mono Lake is 10% heavier compared to fresh water, for instance, the corresponding evaporation rate would be 92.6% of the rate for fresh water. Through this chart, we see as ‘Specific Gravity’ increases, the ‘Effect on Evaporation Rate’ decreases.&lt;/p&gt;
 
@@ -618,13 +618,13 @@
 
 &lt;p&gt;Interpolating from the chart above, we can estimate a Specific Gravity of 1.076 is an evaporation rate of about 94% of the evaporation rate for fresh water.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/realistic-model-mono-lake.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This new model of Mono Lake indicates that the added ‘Specific Gravity’ variable has a direct correlation on the evaporation rate. The “Specific Gravity Effect on Evap Rate” Converter in the model above represents this relationship. Internal variables like ‘Total Dissolved Solids’ and ‘Density of Fresh Water’ have also been added and linked to the ‘Specific Gravity’ variable.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/realistic-model-graph1.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-3-graph1.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/realistic-model-graph2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-3-graph2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The time graphs above represent 4 variables: Water in Lake, Elevation, Specific Gravity, and Surface Area. The specific gravity simulation (graph 2) begins at 1.076, mirroring our calculation above. The simulation concludes at 1.163. The pattern for elevation (graph 1) parallels the movement of our second simulation for Mono Lake - a gradual decline that eventually reaches dynamic equilibrium. At the end of the simulation, the elevation is 6,336 feet above sea level. That’s a 16 foot difference in sea level than in our previous model.&lt;/p&gt;
 
@@ -632,15 +632,15 @@
 
 &lt;p&gt;The Model below simulates an export similar to a real proposal by the Mono Lake Commitee. The goal of this simulation is to come up with a realistic range for lake elevation that guarantees the ecosytem’s safety. The difference in models is the pre-existing ‘Export’ variable has been changed to a Converter and linked with the ‘Elevation’ Converter.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-salinity-model.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-4.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/salinity-model-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-5.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If the elevation is below 6,380 feet, exports are not allowed. If the elevation is above 6,390 feet, 100 KAF/yr is allowed. If the elevation is within our realistic range - a buffer zone, of sorts - export will change in a linear manner.&lt;/p&gt;
 
 &lt;h3 id=&quot;modeling-mono-lake---a-simulated-control-board-policy&quot;&gt;Modeling Mono Lake - A Simulated Control Board Policy&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/salinity-model-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/policy-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The graph above illustrates the impact of the California Water Resources Control Board’s export policy in 1994. The intention of this policy was to allow Mono Lake to reach an elevation near 6,392 feet. This would happen over many years and throughout various stages - hence the jagged shape of the graph. The policy described is as follows:
 	- No export allowed until Mono Lake had an elevation of 6,377 feet
