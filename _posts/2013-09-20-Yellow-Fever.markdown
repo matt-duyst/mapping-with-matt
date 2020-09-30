@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modeling Yellow Fever: Propositions for Mosquito Control Program vs. Isolation & Incubation Program"
-date: 2013-08-22
+date: 2013-08-21
 description: 
 image: /assets/images/Yellow-Fever-Model.png
 author: Thomas Vaeth
