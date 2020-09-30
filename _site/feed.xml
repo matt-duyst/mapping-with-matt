@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2020 14:09:21 -0700</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 14:09:21 -0700</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2020 14:27:31 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 14:27:31 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -588,23 +588,15 @@
 
 &lt;p&gt;Geological and bathymetric surveys were conducted to calculate the areas associated with varying volumes of water in Mono Lake. Elevation of the lake with the differing volume levels is also included in the survey. From a geographic standpoint, knowing the elevation of the lake is helpful because it indicates a plethora of conditions - like increasing exports impact on the lake. Looking at the extremes, no water in the lake would indicate 6,224 feet above sea level.. and 8,000 KAF in the lake would be 6,477 feet above sea level.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-model-gravity.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This new model of Mono Lake includes the survey results listed prior. As stated above, ‘Surface Area’ needs to be an internal variable for our model. This variable, along with the newly added ‘Elevation’ variable from the survey will take the form of Converters and be directly tied with the amount of water in Mono Lake.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/water-in-lake-graph2.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As the viewer can see, this simulation varies greatly from the orinigal, linear declining graph of the first model. The gradual decline in water eventually reaches a dynamic equilibrium - and, by the end of the simulation, Mono Lake has a volume of water roughly at 1.2 million acre-feet and an elevation below 6,340 feet.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/water-in-lake-graph3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;write-up&lt;/p&gt;
 
 &lt;h3 id=&quot;modeling-mono-lake---the-final-model&quot;&gt;Modeling Mono Lake - The Final Model&lt;/h3&gt;
 
 &lt;p&gt;After careful observation, it’s decided the missing factor for predicting the most accurate model is an accurate change in the rate of evaporation. Mono Lake is a saline lake, meaning the rate of evaporation is slower than fresh lakes. The slower rates of evaporation associated with saline lakes is caused by a reduction in vapor pressure difference between the surface of water and the overylying air. An accurate evaporation rate must take into consideration the large quantities of fixed solids dissolving in the lake’s shrinking volume of water.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/specific-gravity.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Evaporation studies, also called ‘Pan Studies’ as pans of water with differing salinities are exposed to evaporation, allow us to present a more realistic understanding of Mono Lake’s evaporation rate in association with gravity. The density of water in the lake is represented by ‘Specific Gravity’ - a measurement that compares the density of saline water to fresh water. For instance, a value of 1.1 indicates Mono Lake’s water is 10% heavier than fresh water. The impact of having a higher salinity for evaporation rates is represented by ‘Effect on Evaporation Rate.’ If the water in Mono Lake is 10% heavier compared to fresh water, for instance, the corresponding evaporation rate would be 92.6% of the rate for fresh water. Through this chart, we see as ‘Specific Gravity’ increases, the ‘Effect on Evaporation Rate’ decreases.&lt;/p&gt;
 
