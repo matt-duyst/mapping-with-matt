@@ -3,7 +3,7 @@ layout: post
 title: "Modeling the Oasis of the Dry Great Basin: Predicting Water Values of Mono Lake"
 date: 2013-08-23
 description: 
-image: /assets/images/mono-lake-salinity-model.png
+image: /assets/images/mono-lake-1.png
 author: Thomas Vaeth
 tags: 
   - Insight Maker & Model Builder
