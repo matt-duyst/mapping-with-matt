@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 10:46:29 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 10:46:29 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2020 12:43:32 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2020 12:43:32 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -703,15 +703,41 @@
 
 &lt;p&gt;The parameters set for humans are a little more straightforward. A human can only contract Yellow Fever if they are bitten by a mosquito carrying the disease - it cannot be spread by another human. There are three stages to monitoring a disease: Incubation period, Contagious period, and Sick period. An infected person will enter an Incubation period (the # of days between infection and signs of symptoms) for 4.5 days. This is followed by a Contagious period of another 4.5 days, and a Sick period lasting 2.5 days. 90% of humans will recover and become immune to Yellow Fever.&lt;/p&gt;
 
-&lt;h5 id=&quot;modeling-yellow-fever-based-on-kalgrafs-predictions&quot;&gt;Modeling Yellow Fever Based on Kalgraf’s Predictions:&lt;/h5&gt;
+&lt;h3 id=&quot;modeling-yellow-fever-based-on-kalgrafs-predictions---the-human-population&quot;&gt;Modeling Yellow Fever Based on Kalgraf’s Predictions - The Human Population&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Yellow-Fever-Model.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/yellow-fever-human.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This model is a subset of Kalgraf’s original model described prior, with emhasis on the human population. The population follows Kalgraf’s study of Veracruz - out of 20,000 people, 100 are ascribed the Incubated phase leaving 19,900 vulnerable.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/vulnerable-vs-sick.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;This time series model illustrates the human population’s exposure to Yellow Fever over 280 days. During the initial stages of the epidemic, there is an exponential increase in sick people as people carrying Yellow Fever are unaware in the first 4-5 days. However, as the population starts to incubate and follow proper isolation procedures, a linear decline in vulerable people appears. The amount of sick people tapers off as the amount of vulnerable people declines.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;/assets/images/immune-vs-deaths.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This time series model denotes Kalgraf’s overarching goal - to model the number of people who survive Yellow Fever and become immune, versus the number of cumulative deaths. It parallels the 90% survival rate of the disease; 18,000 people are survive and become immune, and 2,000 people die.&lt;/p&gt;
+
+&lt;p&gt;Analyzing just the human population in Kalgraf’s model allows for a more granular understanding of the implications associated with Yellow Fever outbreak rates and human recovery rates. For instance, the model assumes the amount of bites received by infected mosquitoes per day will remain constant over time. In reality, the amount of bites per infected mosquito will oscillate; as the human population begins building immunity, the rate of infected mosquitoes will decline - and so will the bites received per day. Moreover, holding the stages of Yellow Fever (incubated, contagious, and sick) at finite increments poses issues. For example, recovery rates will differ among person to person. While using Veracruz, Mexico as a case study allowed for predicting the diaspora of Yellow Fever in urban centers, and a better understanding of human recovery rate with real data, it’s important to note the prevalence of the city’s climate for mosquito reproduction. The tropical climate with little variation from season to season is ideal for mosquitoes. Places like Veracruz with high rates of precipitation and overall higher temperatures, will experience a greater possibility of infected mosquitoes - and therefore higher rates of bites per day. Places with similar climate’s to this case study will be exposed to greater rates of Yellow Fever outbreaks.&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-yellow-fever---kalgrafs-full-model&quot;&gt;Modeling Yellow Fever - Kalgraf’s Full Model&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/yellow-fever-full.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a working model of Kalgraf’s diagram in its entirety. The parameters set for humans follows the nuanced modeling of the ‘Human Population’ segment above - initialized with 100 incubating humans, and 19,900 vulnerable humans. The emerging mosquito flow in the model represents the 27,778 mosquitoes Kalgraf predicted reach adulthood and can carry Yellow Fever. Out of the 500,000 mosquitoes, 417,000 denote ‘safe mosquitoes.’ The remaining 83,000 represent ‘new mosquitoes.’&lt;/p&gt;
+
+&lt;p&gt;The graphs below offer visual aide to Kalgraf’s model through the lens of 3 scenarios: Cumulative Deaths (humans) vs Vulnerable Population, Cumulative Death during the outbreak, and Infectious Mosquitoes vs Cumulative Deaths.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cumulative-vulnerable.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The model above showcases a simulation for cumulative deaths and vulnerable people during the Yellow Fever outbreak.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/deaths.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The model above illustrates simulated values for the number of casualities experienced during the Yellow Fever outbreak. The peak number of deaths experienced per day is 18 people, and occurs around day 140 of the 280-day outbreak.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mosquitoes-vs-death.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The model above represents the number of mosquitoes carrying Yellow Fever and the number of deaths at the peak of the outbreak.&lt;/p&gt;
 
 &lt;h5 id=&quot;projected-graphings-of-original-model&quot;&gt;Projected Graphings of Original Model&lt;/h5&gt;
 

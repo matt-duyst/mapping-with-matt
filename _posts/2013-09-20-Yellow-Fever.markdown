@@ -3,7 +3,7 @@ layout: post
 title: "Modeling Yellow Fever: Propositions for Mosquito Control Program vs. Isolation & Incubation Program"
 date: 2013-08-21
 description: 
-image: /assets/images/Yellow-Fever-Model.png
+image: /assets/images/yellow-fever-full.png
 author: Thomas Vaeth
 tags: 
   - Insight Maker & Model Builder
@@ -25,15 +25,43 @@ The parameters set for mosquitoes are as follows. 27,778 mosquitoes emerge into 
 
 The parameters set for humans are a little more straightforward. A human can only contract Yellow Fever if they are bitten by a mosquito carrying the disease - it cannot be spread by another human. There are three stages to monitoring a disease: Incubation period, Contagious period, and Sick period. An infected person will enter an Incubation period (the # of days between infection and signs of symptoms) for 4.5 days. This is followed by a Contagious period of another 4.5 days, and a Sick period lasting 2.5 days. 90% of humans will recover and become immune to Yellow Fever. 
 
-##### Modeling Yellow Fever Based on Kalgraf's Predictions:
+### Modeling Yellow Fever Based on Kalgraf's Predictions - The Human Population
 
-![Map GIS](/assets/images/Yellow-Fever-Model.png)
+![Map GIS](/assets/images/yellow-fever-human.png)
 
 This model is a subset of Kalgraf's original model described prior, with emhasis on the human population. The population follows Kalgraf's study of Veracruz - out of 20,000 people, 100 are ascribed the Incubated phase leaving 19,900 vulnerable.
 
 ![Map GIS](/assets/images/vulnerable-vs-sick.png)
 
+This time series model illustrates the human population's exposure to Yellow Fever over 280 days. During the initial stages of the epidemic, there is an exponential increase in sick people as people carrying Yellow Fever are unaware in the first 4-5 days. However, as the population starts to incubate and follow proper isolation procedures, a linear decline in vulerable people appears. The amount of sick people tapers off as the amount of vulnerable people declines.
+
 ![Map GIS](/assets/images/immune-vs-deaths.png)
+
+This time series model denotes Kalgraf's overarching goal - to model the number of people who survive Yellow Fever and become immune, versus the number of cumulative deaths. It parallels the 90% survival rate of the disease; 18,000 people are survive and become immune, and 2,000 people die.
+
+Analyzing just the human population in Kalgraf's model allows for a more granular understanding of the implications associated with Yellow Fever outbreak rates and human recovery rates. For instance, the model assumes the amount of bites received by infected mosquitoes per day will remain constant over time. In reality, the amount of bites per infected mosquito will oscillate; as the human population begins building immunity, the rate of infected mosquitoes will decline - and so will the bites received per day. Moreover, holding the stages of Yellow Fever (incubated, contagious, and sick) at finite increments poses issues. For example, recovery rates will differ among person to person. While using Veracruz, Mexico as a case study allowed for predicting the diaspora of Yellow Fever in urban centers, and a better understanding of human recovery rate with real data, it's important to note the prevalence of the city's climate for mosquito reproduction. The tropical climate with little variation from season to season is ideal for mosquitoes. Places like Veracruz with high rates of precipitation and overall higher temperatures, will experience a greater possibility of infected mosquitoes - and therefore higher rates of bites per day. Places with similar climate's to this case study will be exposed to greater rates of Yellow Fever outbreaks.
+
+### Modeling Yellow Fever - Kalgraf's Full Model
+
+![Map GIS](/assets/images/yellow-fever-full.png)
+
+This is a working model of Kalgraf's diagram in its entirety. The parameters set for humans follows the nuanced modeling of the 'Human Population' segment above - initialized with 100 incubating humans, and 19,900 vulnerable humans. The emerging mosquito flow in the model represents the 27,778 mosquitoes Kalgraf predicted reach adulthood and can carry Yellow Fever. Out of the 500,000 mosquitoes, 417,000 denote 'safe mosquitoes.' The remaining 83,000 represent 'new mosquitoes.'
+
+
+
+The graphs below offer visual aide to Kalgraf's model through the lens of 3 scenarios: Cumulative Deaths (humans) vs Vulnerable Population, Cumulative Death during the outbreak, and Infectious Mosquitoes vs Cumulative Deaths.
+
+![Map GIS](/assets/images/cumulative-vulnerable.png)
+
+The model above showcases a simulation for cumulative deaths and vulnerable people during the Yellow Fever outbreak.
+
+![Map GIS](/assets/images/deaths.png)
+
+The model above illustrates simulated values for the number of casualities experienced during the Yellow Fever outbreak. The peak number of deaths experienced per day is 18 people, and occurs around day 140 of the 280-day outbreak.
+
+![Map GIS](/assets/images/mosquitoes-vs-death.png)
+
+The model above represents the number of mosquitoes carrying Yellow Fever and the number of deaths at the peak of the outbreak.
 
 ##### Projected Graphings of Original Model
 
