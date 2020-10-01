@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 16:53:12 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 16:53:12 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2020 16:53:45 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2020 16:53:45 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -478,8 +478,20 @@
       </item>
     
       <item>
-        <title>Conceptualizing the Shift from Conventional Vehicles to Electic Vehicles: Modeling a Proposed 'Feebate Program'</title>
-        <description>&lt;h5 id=&quot;feebate-model&quot;&gt;Feebate Model&lt;/h5&gt;
+        <title>Feebate Program</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: “Conceptualizing the Shift from Conventional Vehicles to Electic Vehicles: Modeling a Proposed ‘Feebate Program’”
+date: 2013-08-24
+description: 
+image: /assets/images/feebate-model.png
+author: Thomas Vaeth
+tags:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Insight Maker&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;feebate-model&quot;&gt;Feebate Model&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/feebate-model.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
 
@@ -535,11 +547,9 @@
 
 &lt;p&gt;write-up&lt;/p&gt;
 </description>
-        <pubDate>Sat, 24 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2013/08/24/Feebate-Program/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/08/24/Feebate-Program/</guid>
-        
-        <category>Insight Maker &amp; Model Builder</category>
+        <pubDate>Fri, 20 Sep 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/09/20/Feebate-Program/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/09/20/Feebate-Program/</guid>
         
         
       </item>
@@ -661,7 +671,7 @@
         <link>http://localhost:4000/2013/08/23/Yellow-Fever/</link>
         <guid isPermaLink="true">http://localhost:4000/2013/08/23/Yellow-Fever/</guid>
         
-        <category>Insight Maker &amp; Model Builder</category>
+        <category>Insight Maker</category>
         
         
       </item>
@@ -769,7 +779,7 @@
         <link>http://localhost:4000/2013/08/22/mono-lake/</link>
         <guid isPermaLink="true">http://localhost:4000/2013/08/22/mono-lake/</guid>
         
-        <category>Insight Maker &amp; Model Builder</category>
+        <category>Insight Maker</category>
         
         
       </item>
@@ -802,7 +812,7 @@
         <link>http://localhost:4000/2013/08/21/s-shaped-growth/</link>
         <guid isPermaLink="true">http://localhost:4000/2013/08/21/s-shaped-growth/</guid>
         
-        <category>Insight Maker &amp; Model Builder</category>
+        <category>Insight Maker</category>
         
         
       </item>
