@@ -52,7 +52,7 @@ In reality, Mono Lake's surface area should shrink as the volume of water in the
 
 Geological and bathymetric surveys were conducted to calculate the areas associated with varying volumes of water in Mono Lake. Elevation of the lake with the differing volume levels is also included in the survey. From a geographic standpoint, knowing the elevation of the lake is helpful because it indicates a plethora of conditions - like increasing exports impact on the lake. Looking at the extremes, no water in the lake would indicate 6,224 feet above sea level.. and 8,000 KAF in the lake would be 6,477 feet above sea level.
 
-![Placeholder](/assets/images/model-2-and-3.png)
+![Placeholder](/assets/images/mono-lake-model-2.png)
 
 This new model of Mono Lake includes the survey results listed prior. As stated above, 'Surface Area' needs to be an internal variable for our model. This variable, along with the newly added 'Elevation' variable from the survey will take the form of Converters and be directly tied with the amount of water in Mono Lake.
 
