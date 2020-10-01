@@ -41,7 +41,7 @@ write-up
 
 ##### A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations
 
-![Placeholder](/assets/images/Mosquito-Control-Model.png)
+![Placeholder](/assets/images/larvacide.png)
 
 write-up
 
@@ -55,7 +55,7 @@ write-up
 
 ##### A Proposed Incubation & Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation
 
-![Placeholder](/assets/images/Isolation-Model.png)
+![Placeholder](/assets/images/isolated-model.png)
 
 write-up
 

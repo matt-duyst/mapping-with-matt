@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2020 17:19:48 -0700</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 17:19:48 -0700</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2020 18:12:02 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 18:12:02 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -719,7 +719,7 @@
 
 &lt;h5 id=&quot;a-proposed-mosquito-control-program-10-day-simulations-vs-20-day-simulations&quot;&gt;A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations&lt;/h5&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Mosquito-Control-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/larvacide.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;write-up&lt;/p&gt;
 
@@ -733,7 +733,7 @@
 
 &lt;h5 id=&quot;a-proposed-incubation--isolation-program-10-day-simulation-vs-20-day-simulation-vs-30-day-simulation&quot;&gt;A Proposed Incubation &amp;amp; Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation&lt;/h5&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/Isolation-Model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/isolated-model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;write-up&lt;/p&gt;
 
