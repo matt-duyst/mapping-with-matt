@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Modeling Yellow Fever: Propositions for Mosquito Control Program vs. Isolation & Incubation Program"
+title: "Simulating an Epidemic: Yellow Fever Modeling in Veracruz, Mexico"
 date: 2013-08-21
 description: 
 image: /assets/images/yellow-fever-full.png
@@ -103,18 +103,34 @@ Regardless of the intensity of effectiveness set for the Larvacide Program, the 
 
 The 20-day graph above tells the viewer how vital the intial start time of the Larvacide Program is. Although the intensity of effectiveness for the three scenarios remained the same - 70%, 80%, and 90% - the 20-day hiatus caused a failure in one of the scenarios. If 20 days pass, and a 70% effective Larvacide Program were applied to the 'Emerging Mosquitoes,' 550 people would become sick. This does not meet the standards required for the Program's success. Both an 80% and 90% effective Larvacide Program keep the sick population under 500 people.
 
-##### A Proposed Incubation & Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation
+### A Proposed Isolation Program: The Importance of Cooperation in a 10-Day Simulation
 
-This hypothetical Isolation Program assumes two possibilities: it's possible to detect Yellow Fever during the 4.5 day Incubation Period, and it's possible to isolate all infected individuals before they become contagious. 
+This hypothetical Isolation Program assumes two possibilities: it's possible to detect Yellow Fever during the 4.5 day Incubation Period, and it's possible to isolate all infected individuals before they become contagious. The success of this Isolation Program follows the same criteria as the Larvacide Program: The number of people impacted by Yellow Fever must be 500 or less. The effectiveness of the Isolation Program will range from 40% - 60% (parameters I thought seemed realistic, considering the mixed cooperation among people ordered to stay inside during an epidemic).
 
-![Placeholder](/assets/images/isolation.png)
+![Placeholder](/assets/images/isolation.png) 
 
-write-up
+Kalgraf's original model has been modified to include this hypothetical Isolation Program. A newly created 'Isolaton' flow links the pre-existing 'Incubating People' Stock to a newly created 'Isolated People' Stock. The 'Percentage Isolated' Converter allows for the modification of effectiveness among the three Isolation Program scenarios.
+
 
 ![Placeholder](/assets/images/10-Day-Isolation.png)
 
-write-up
+Regardless the magnitude of the Isolation Program effectiveness, all scenarios successfully limited the number of impacted people under 500. A 60% effectiveness of the Isolation Program had a peak number of sick people at 300. A decline in 10% cooperation at the 50% simulation allowed for 100 more people to be impacted by Yellow Fever. The highest margin of people impacted by the disease was when less than 50% of the populated cooperated with the Isolation Program.
 
-![Map GIS](/assets/images/20-Day-vs-30-Day-Isolation.png)
+### Epidemic Control Programs - Larvacide vs Isolation
 
-write-up
+The Isolation Program offered a safer solution to reducing the number of the people impacted by Yellow Fever, but it relied on the contigency that people would adhere to the mandated stay-at-home order. For the Larvacide Program to be successful, the insecticide needed to be extremely potent - and high rates of the chemical could potentially harm the human population. The safest protocol would be the Isolation Program, which exemplified a quicker recovery rate (80 days) than any of the simulations for the Larvacide Program.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
