@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Simulating an Epidemic: Yellow Fever Modeling in Veracruz, Mexico"
-date: 2013-08-21
+date: 2013-08-23
 description: 
 image: /assets/images/yellow-fever-full.png
 author: Thomas Vaeth

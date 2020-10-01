@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "S-Shaped Growth: Modeling the Natural System of a Flowered Area"
-date: 2013-08-22
+date: 2013-08-21
 description: 
 image: /assets/images/flower-model1.png
 author: Thomas Vaeth

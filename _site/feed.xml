@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 16:51:09 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 16:51:09 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2020 16:53:12 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2020 16:53:12 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -545,147 +545,6 @@
       </item>
     
       <item>
-        <title>Modeling the Oasis of the Dry Great Basin: Predicting Water Values of Mono Lake</title>
-        <description>&lt;h3 id=&quot;a-basic-understanding-of-mono-lake&quot;&gt;A Basic Understanding of Mono Lake&lt;/h3&gt;
-
-&lt;p&gt;Los Angeles began diverting water from Mono Lake in 1941. The goal of this predictive model is to examine the effect of different export policies on the elevation of Mono Lake. The differing models will project future sizes of the lake given different assumptions about the amount of water exported to Los Angeles. Through this analysis, the viewer will be able to ascertain how the lake level responds to changes in export policies - as well as derive a sustainable level of export. This viable tradeoff between lake level oscillations and tradeoff policies will be realized when the Mono Lake model indicates a stable equilibrium.&lt;/p&gt;
-
-&lt;p&gt;The figure below depicts historical elevations of Mono Lake.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-elevation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;modeling-mono-lake---a-simplistic-model&quot;&gt;Modeling Mono Lake - A Simplistic Model&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This model illustrates a basic understanding - a simple interpretation of the varying inputs and outputs that dictate the amount of water in Mono Lake. However, as the viewer will see with the resulting graph below, this model is far too simplistic to produce tangible results.&lt;/p&gt;
-
-&lt;p&gt;The parameter values for the model are as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/parameter-values.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The volume of water in Mono Lake is measured in thousands of acre-feet (KAF). The model is run by years, so the units for the flows in the model will be KAF/year. Precipiation and Evaportaion parameters will be measured by feet/year. Precipitation is calculated by multiplying the surface area by the precipitation rate. Evaporation is calculated in the same manner - surface area * evaporation rate. The surface area is set to 39,000 acres (39K acres), the same as it appeared in 1990.&lt;/p&gt;
-
-&lt;p&gt;The flow of water in Mono Lake is achieved by subtracting ‘Export’ from the Lake’s main flow of water - the runoff from the Sierra Nevada.&lt;/p&gt;
-
-&lt;p&gt;The Stock of the model is the amount of water in the Mono Lake.&lt;/p&gt;
-
-&lt;p&gt;The Inputs inlcude: Runoff from Sierra Nevada, Precipitation onto the lake, and an ‘Other Out’ variable that includes ungauged runoff and municipal flows.&lt;/p&gt;
-
-&lt;p&gt;The Outputs inlcude: Evaporation from the lake’s surface, an ‘Export’ variable that denotes the Los Angeles Aqueduct, and an ‘Other Out’ variable for remaining possible influences.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/graph-linear.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The simulation results from this model indicates water’s decline from Mono Lake in a linear fashion. In fact, with these parameters, water is projected to reach zero by 2030 - and continually decline below this “zero line” to -600 by the 2042.&lt;/p&gt;
-
-&lt;p&gt;Given the fact that the water in Mono Lake would likely never be in the negative, we can conclude this model is too simplistic. A strictly linear decline does not make for a reliable simulation; the stock-and-flow diagram will need to be expanded to alter its structure and deliver reliable results.&lt;/p&gt;
-
-&lt;h3 id=&quot;modeling-mono-lake---a-more-realistic-model&quot;&gt;Modeling Mono Lake - A More Realistic Model&lt;/h3&gt;
-
-&lt;p&gt;In reality, Mono Lake’s surface area should shrink as the volume of water in the lake declines. This model takes a more realistic approach by altering Surface Area into an internal variable - one that will parallel a decline in water volume.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/survey.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Geological and bathymetric surveys were conducted to calculate the areas associated with varying volumes of water in Mono Lake. Elevation of the lake with the differing volume levels is also included in the survey. From a geographic standpoint, knowing the elevation of the lake is helpful because it indicates a plethora of conditions - like increasing exports impact on the lake. Looking at the extremes, no water in the lake would indicate 6,224 feet above sea level.. and 8,000 KAF in the lake would be 6,477 feet above sea level.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This new model of Mono Lake includes the survey results listed prior. As stated above, ‘Surface Area’ needs to be an internal variable for our model. This variable, along with the newly added ‘Elevation’ variable from the survey will take the form of Converters and be directly tied with the amount of water in Mono Lake.&lt;/p&gt;
-
-&lt;h3 id=&quot;modeling-mono-lake---the-final-model&quot;&gt;Modeling Mono Lake - The Final Model&lt;/h3&gt;
-
-&lt;p&gt;After careful observation, it’s decided the missing factor for predicting the most accurate model is an accurate change in the rate of evaporation. Mono Lake is a saline lake, meaning the rate of evaporation is slower than fresh lakes. The slower rates of evaporation associated with saline lakes is caused by a reduction in vapor pressure difference between the surface of water and the overylying air. An accurate evaporation rate must take into consideration the large quantities of fixed solids dissolving in the lake’s shrinking volume of water.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/specific-gravity.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Evaporation studies, also called ‘Pan Studies’ as pans of water with differing salinities are exposed to evaporation, allow us to present a more realistic understanding of Mono Lake’s evaporation rate in association with gravity. The density of water in the lake is represented by ‘Specific Gravity’ - a measurement that compares the density of saline water to fresh water. For instance, a value of 1.1 indicates Mono Lake’s water is 10% heavier than fresh water. The impact of having a higher salinity for evaporation rates is represented by ‘Effect on Evaporation Rate.’ If the water in Mono Lake is 10% heavier compared to fresh water, for instance, the corresponding evaporation rate would be 92.6% of the rate for fresh water. Through this chart, we see as ‘Specific Gravity’ increases, the ‘Effect on Evaporation Rate’ decreases.&lt;/p&gt;
-
-&lt;p&gt;“Specific Gravity” is calculated through the following formula:
-	(Water in Lake * Density of Fresh Water + Total Dissolved Solids) / Water in Lake * Density of Fresh Water&lt;/p&gt;
-
-&lt;p&gt;The simulation begins with 2,228 KAF of water in the lake. The density of fresh water is 1.359 million tons per KAF, and the total dissolved solids is 230 million tons.&lt;/p&gt;
-
-&lt;p&gt;Specific Gravity = 2,228 KAF * 1.359 Million Tons per KAF + 230 Million Tons / 2,228 KAF * 1.359 Million Tons per KAF
-				 = 1.076&lt;/p&gt;
-
-&lt;p&gt;Interpolating from the chart above, we can estimate a Specific Gravity of 1.076 is an evaporation rate of about 94% of the evaporation rate for fresh water.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This new model of Mono Lake indicates that the added ‘Specific Gravity’ variable has a direct correlation on the evaporation rate. The “Specific Gravity Effect on Evap Rate” Converter in the model above represents this relationship. Internal variables like ‘Total Dissolved Solids’ and ‘Density of Fresh Water’ have also been added and linked to the ‘Specific Gravity’ variable.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/model-3-graph1.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/model-3-graph2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The time graphs above represent 4 variables: Water in Lake, Elevation, Specific Gravity, and Surface Area. The specific gravity simulation (graph 2) begins at 1.076, mirroring our calculation above. The simulation concludes at 1.163. The pattern for elevation (graph 1) parallels the movement of our second simulation for Mono Lake - a gradual decline that eventually reaches dynamic equilibrium. At the end of the simulation, the elevation is 6,336 feet above sea level. That’s a 16 foot difference in sea level than in our previous model.&lt;/p&gt;
-
-&lt;h3 id=&quot;modeling-mono-lake---a-simulated-buffer-policy-enacted&quot;&gt;Modeling Mono Lake - A Simulated Buffer Policy Enacted&lt;/h3&gt;
-
-&lt;p&gt;The Model below simulates an export similar to a real proposal by the Mono Lake Commitee. The goal of this simulation is to come up with a realistic range for lake elevation that guarantees the ecosytem’s safety. The difference in models is the pre-existing ‘Export’ variable has been changed to a Converter and linked with the ‘Elevation’ Converter.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/model-4.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/model-5.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If the elevation is below 6,380 feet, exports are not allowed. If the elevation is above 6,390 feet, 100 KAF/yr is allowed. If the elevation is within our realistic range - a buffer zone, of sorts - export will change in a linear manner.&lt;/p&gt;
-
-&lt;h3 id=&quot;modeling-mono-lake---a-simulated-control-board-policy&quot;&gt;Modeling Mono Lake - A Simulated Control Board Policy&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/policy-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The graph above illustrates the impact of the California Water Resources Control Board’s export policy in 1994. The intention of this policy was to allow Mono Lake to reach an elevation near 6,392 feet. This would happen over many years and throughout various stages - hence the jagged shape of the graph. The policy described is as follows:
-	- No export allowed until Mono Lake had an elevation of 6,377 feet
-	- Once at 6,377 feet, exports allowed at 4.5 KAF/yr until elevation reaches 6,390 feet
-	- Exports allowed at 16 KAF/yr until elevation reaches 6,391 feet
-	- Exports allowed at 30.8 KAF/yr if elevation exceeds 6,391 feet&lt;/p&gt;
-
-&lt;p&gt;The simulation of this Export Policy is the graph above. Through its progression over a sufficiently long period of time, 100 years, we can deduce the future success of Control Board Policy. If the parameters set for exports of a given elevation level are maintained, the lake will reach dynamic equilibrium.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 23 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2013/08/23/mono-lake/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/08/23/mono-lake/</guid>
-        
-        <category>Insight Maker &amp; Model Builder</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>S-Shaped Growth: Modeling the Natural System of a Flowered Area</title>
-        <description>&lt;h4 id=&quot;flower-model---intrinsic-growth-vs-actual-growth-rate&quot;&gt;Flower Model - Intrinsic Growth vs. Actual Growth Rate&lt;/h4&gt;
-
-&lt;p&gt;This model explores one of the six types of dynamic patterns: S-Shaped Growth graphings. S-Shaped graphs are crucial for describing patterns in natural systems. This project simulates the spread of flowers across a 1,000-acre landscape.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/flower-model1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are two stocks in the model above: “Flowered Area” and “Empty Area.” The initial value for the “Flowered Area” is 10 acres; the “Empty Area” is 990 acres. With 10 acres purely of flowers, there will be minimal limitations hindering their spread - the seeds will have open space to grow in all directions. The variable “Decay Rate” is set to 20% per year, and is the product of the “Flowered Area” and rate of decay. The growth of the “Flowered Area” is dictated by the “Growth Rate” variable (a product of the Growth Rate and Flowered Area).&lt;/p&gt;
-
-&lt;p&gt;If the model above only took the stated variables for simulation, the flowered area would expand by 80% per year. With no resource limitations, the model would assume an Intrinsic Growth Rate. To develop a more realistic model of the natural spread of flowers, an “Actual Growth Rate” variable will be introduced to the simulation. The “Actual Growth Rate” will be less than the Intrinsic Growth Rate of our first scenario - as the flowers spread across the landscape, the amount of “Empty Area” available will decrease and the flowers’ possibility to germinate will be increasingly harder.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/flower-model1-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The graph above illustrates a remarkably quick spread of the “Flowered Area” within the first 10 years, but a dynamic equilibrium at 800 acres - not the full 1,000 acres available in the landscape. The “Flowered Area” starts with 10 acres, and within 6 years is covering 50 times its original breadth at a whopping 500 acres. This 6th year on the graph indicates the highest rate of growth in the “Flowered Area” as the growth exceeds the decay by the biggest margin. After this, the increasing trends starts to stabilize and eventually tapers off - an inverse of the first 6 years with a new decline in growth and increase in decay. Dynamic Equilibrium is met around the 12th year, 4/5th of the landscape completely covered in flowers. The flowers will never cover the entire landscape, because the “Decay Rate” is fixed at 20% throughout the simulation.&lt;/p&gt;
-
-&lt;h3 id=&quot;introducing-a-disturbance---the-implications-of-equilibrium&quot;&gt;Introducing a Disturbance - The Implications of Equilibrium&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/flower-disturbance.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/flower-disturbance-graph.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This model allows for a disturbance to remove 20% of the flowers. The “Disturbance” Converter is linked with a newly added “Disturbance Flow” that will enact on the 15th year of the simulation. The “Total Area” internal variable has been changed to a Stock in the model. The model was set for a duration of 20 years to indicate if equilibrium would be reached, but the added “Disturbance” only reduced the “Flowered Area” for the year it was enacted. The flowers gradually reached back to their apex of 800 acres 5 years after the “Disturbance” occurred.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2013/08/22/s-shaped-growth/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/08/22/s-shaped-growth/</guid>
-        
-        <category>Insight Maker &amp; Model Builder</category>
-        
-        
-      </item>
-    
-      <item>
         <title>Simulating an Epidemic: Yellow Fever Modeling in Veracruz, Mexico</title>
         <description>&lt;h3 id=&quot;introduction&quot;&gt;Introduction:&lt;/h3&gt;
 
@@ -798,9 +657,150 @@
 &lt;p&gt;The Isolation Program offered a safer solution to reducing the number of the people impacted by Yellow Fever, but it relied on the contigency that people would adhere to the mandated stay-at-home order. For the Larvacide Program to be successful, the insecticide needed to be extremely potent - and high rates of the chemical could potentially harm the human population. The safest protocol would be the Isolation Program, which exemplified a quicker recovery rate (80 days) than any of the simulations for the Larvacide Program.&lt;/p&gt;
 
 </description>
+        <pubDate>Fri, 23 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/08/23/Yellow-Fever/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/23/Yellow-Fever/</guid>
+        
+        <category>Insight Maker &amp; Model Builder</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modeling the Oasis of the Dry Great Basin: Predicting Water Values of Mono Lake</title>
+        <description>&lt;h3 id=&quot;a-basic-understanding-of-mono-lake&quot;&gt;A Basic Understanding of Mono Lake&lt;/h3&gt;
+
+&lt;p&gt;Los Angeles began diverting water from Mono Lake in 1941. The goal of this predictive model is to examine the effect of different export policies on the elevation of Mono Lake. The differing models will project future sizes of the lake given different assumptions about the amount of water exported to Los Angeles. Through this analysis, the viewer will be able to ascertain how the lake level responds to changes in export policies - as well as derive a sustainable level of export. This viable tradeoff between lake level oscillations and tradeoff policies will be realized when the Mono Lake model indicates a stable equilibrium.&lt;/p&gt;
+
+&lt;p&gt;The figure below depicts historical elevations of Mono Lake.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-elevation.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-mono-lake---a-simplistic-model&quot;&gt;Modeling Mono Lake - A Simplistic Model&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mono-lake-1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This model illustrates a basic understanding - a simple interpretation of the varying inputs and outputs that dictate the amount of water in Mono Lake. However, as the viewer will see with the resulting graph below, this model is far too simplistic to produce tangible results.&lt;/p&gt;
+
+&lt;p&gt;The parameter values for the model are as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/parameter-values.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The volume of water in Mono Lake is measured in thousands of acre-feet (KAF). The model is run by years, so the units for the flows in the model will be KAF/year. Precipiation and Evaportaion parameters will be measured by feet/year. Precipitation is calculated by multiplying the surface area by the precipitation rate. Evaporation is calculated in the same manner - surface area * evaporation rate. The surface area is set to 39,000 acres (39K acres), the same as it appeared in 1990.&lt;/p&gt;
+
+&lt;p&gt;The flow of water in Mono Lake is achieved by subtracting ‘Export’ from the Lake’s main flow of water - the runoff from the Sierra Nevada.&lt;/p&gt;
+
+&lt;p&gt;The Stock of the model is the amount of water in the Mono Lake.&lt;/p&gt;
+
+&lt;p&gt;The Inputs inlcude: Runoff from Sierra Nevada, Precipitation onto the lake, and an ‘Other Out’ variable that includes ungauged runoff and municipal flows.&lt;/p&gt;
+
+&lt;p&gt;The Outputs inlcude: Evaporation from the lake’s surface, an ‘Export’ variable that denotes the Los Angeles Aqueduct, and an ‘Other Out’ variable for remaining possible influences.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/graph-linear.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The simulation results from this model indicates water’s decline from Mono Lake in a linear fashion. In fact, with these parameters, water is projected to reach zero by 2030 - and continually decline below this “zero line” to -600 by the 2042.&lt;/p&gt;
+
+&lt;p&gt;Given the fact that the water in Mono Lake would likely never be in the negative, we can conclude this model is too simplistic. A strictly linear decline does not make for a reliable simulation; the stock-and-flow diagram will need to be expanded to alter its structure and deliver reliable results.&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-mono-lake---a-more-realistic-model&quot;&gt;Modeling Mono Lake - A More Realistic Model&lt;/h3&gt;
+
+&lt;p&gt;In reality, Mono Lake’s surface area should shrink as the volume of water in the lake declines. This model takes a more realistic approach by altering Surface Area into an internal variable - one that will parallel a decline in water volume.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/survey.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Geological and bathymetric surveys were conducted to calculate the areas associated with varying volumes of water in Mono Lake. Elevation of the lake with the differing volume levels is also included in the survey. From a geographic standpoint, knowing the elevation of the lake is helpful because it indicates a plethora of conditions - like increasing exports impact on the lake. Looking at the extremes, no water in the lake would indicate 6,224 feet above sea level.. and 8,000 KAF in the lake would be 6,477 feet above sea level.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This new model of Mono Lake includes the survey results listed prior. As stated above, ‘Surface Area’ needs to be an internal variable for our model. This variable, along with the newly added ‘Elevation’ variable from the survey will take the form of Converters and be directly tied with the amount of water in Mono Lake.&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-mono-lake---the-final-model&quot;&gt;Modeling Mono Lake - The Final Model&lt;/h3&gt;
+
+&lt;p&gt;After careful observation, it’s decided the missing factor for predicting the most accurate model is an accurate change in the rate of evaporation. Mono Lake is a saline lake, meaning the rate of evaporation is slower than fresh lakes. The slower rates of evaporation associated with saline lakes is caused by a reduction in vapor pressure difference between the surface of water and the overylying air. An accurate evaporation rate must take into consideration the large quantities of fixed solids dissolving in the lake’s shrinking volume of water.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/specific-gravity.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Evaporation studies, also called ‘Pan Studies’ as pans of water with differing salinities are exposed to evaporation, allow us to present a more realistic understanding of Mono Lake’s evaporation rate in association with gravity. The density of water in the lake is represented by ‘Specific Gravity’ - a measurement that compares the density of saline water to fresh water. For instance, a value of 1.1 indicates Mono Lake’s water is 10% heavier than fresh water. The impact of having a higher salinity for evaporation rates is represented by ‘Effect on Evaporation Rate.’ If the water in Mono Lake is 10% heavier compared to fresh water, for instance, the corresponding evaporation rate would be 92.6% of the rate for fresh water. Through this chart, we see as ‘Specific Gravity’ increases, the ‘Effect on Evaporation Rate’ decreases.&lt;/p&gt;
+
+&lt;p&gt;“Specific Gravity” is calculated through the following formula:
+	(Water in Lake * Density of Fresh Water + Total Dissolved Solids) / Water in Lake * Density of Fresh Water&lt;/p&gt;
+
+&lt;p&gt;The simulation begins with 2,228 KAF of water in the lake. The density of fresh water is 1.359 million tons per KAF, and the total dissolved solids is 230 million tons.&lt;/p&gt;
+
+&lt;p&gt;Specific Gravity = 2,228 KAF * 1.359 Million Tons per KAF + 230 Million Tons / 2,228 KAF * 1.359 Million Tons per KAF
+				 = 1.076&lt;/p&gt;
+
+&lt;p&gt;Interpolating from the chart above, we can estimate a Specific Gravity of 1.076 is an evaporation rate of about 94% of the evaporation rate for fresh water.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-2-and-3.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This new model of Mono Lake indicates that the added ‘Specific Gravity’ variable has a direct correlation on the evaporation rate. The “Specific Gravity Effect on Evap Rate” Converter in the model above represents this relationship. Internal variables like ‘Total Dissolved Solids’ and ‘Density of Fresh Water’ have also been added and linked to the ‘Specific Gravity’ variable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-3-graph1.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-3-graph2.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The time graphs above represent 4 variables: Water in Lake, Elevation, Specific Gravity, and Surface Area. The specific gravity simulation (graph 2) begins at 1.076, mirroring our calculation above. The simulation concludes at 1.163. The pattern for elevation (graph 1) parallels the movement of our second simulation for Mono Lake - a gradual decline that eventually reaches dynamic equilibrium. At the end of the simulation, the elevation is 6,336 feet above sea level. That’s a 16 foot difference in sea level than in our previous model.&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-mono-lake---a-simulated-buffer-policy-enacted&quot;&gt;Modeling Mono Lake - A Simulated Buffer Policy Enacted&lt;/h3&gt;
+
+&lt;p&gt;The Model below simulates an export similar to a real proposal by the Mono Lake Commitee. The goal of this simulation is to come up with a realistic range for lake elevation that guarantees the ecosytem’s safety. The difference in models is the pre-existing ‘Export’ variable has been changed to a Converter and linked with the ‘Elevation’ Converter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-4.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/model-5.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If the elevation is below 6,380 feet, exports are not allowed. If the elevation is above 6,390 feet, 100 KAF/yr is allowed. If the elevation is within our realistic range - a buffer zone, of sorts - export will change in a linear manner.&lt;/p&gt;
+
+&lt;h3 id=&quot;modeling-mono-lake---a-simulated-control-board-policy&quot;&gt;Modeling Mono Lake - A Simulated Control Board Policy&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/policy-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The graph above illustrates the impact of the California Water Resources Control Board’s export policy in 1994. The intention of this policy was to allow Mono Lake to reach an elevation near 6,392 feet. This would happen over many years and throughout various stages - hence the jagged shape of the graph. The policy described is as follows:
+	- No export allowed until Mono Lake had an elevation of 6,377 feet
+	- Once at 6,377 feet, exports allowed at 4.5 KAF/yr until elevation reaches 6,390 feet
+	- Exports allowed at 16 KAF/yr until elevation reaches 6,391 feet
+	- Exports allowed at 30.8 KAF/yr if elevation exceeds 6,391 feet&lt;/p&gt;
+
+&lt;p&gt;The simulation of this Export Policy is the graph above. Through its progression over a sufficiently long period of time, 100 years, we can deduce the future success of Control Board Policy. If the parameters set for exports of a given elevation level are maintained, the lake will reach dynamic equilibrium.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2013/08/22/mono-lake/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/22/mono-lake/</guid>
+        
+        <category>Insight Maker &amp; Model Builder</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>S-Shaped Growth: Modeling the Natural System of a Flowered Area</title>
+        <description>&lt;h4 id=&quot;flower-model---intrinsic-growth-vs-actual-growth-rate&quot;&gt;Flower Model - Intrinsic Growth vs. Actual Growth Rate&lt;/h4&gt;
+
+&lt;p&gt;This model explores one of the six types of dynamic patterns: S-Shaped Growth graphings. S-Shaped graphs are crucial for describing patterns in natural systems. This project simulates the spread of flowers across a 1,000-acre landscape.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-model1.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are two stocks in the model above: “Flowered Area” and “Empty Area.” The initial value for the “Flowered Area” is 10 acres; the “Empty Area” is 990 acres. With 10 acres purely of flowers, there will be minimal limitations hindering their spread - the seeds will have open space to grow in all directions. The variable “Decay Rate” is set to 20% per year, and is the product of the “Flowered Area” and rate of decay. The growth of the “Flowered Area” is dictated by the “Growth Rate” variable (a product of the Growth Rate and Flowered Area).&lt;/p&gt;
+
+&lt;p&gt;If the model above only took the stated variables for simulation, the flowered area would expand by 80% per year. With no resource limitations, the model would assume an Intrinsic Growth Rate. To develop a more realistic model of the natural spread of flowers, an “Actual Growth Rate” variable will be introduced to the simulation. The “Actual Growth Rate” will be less than the Intrinsic Growth Rate of our first scenario - as the flowers spread across the landscape, the amount of “Empty Area” available will decrease and the flowers’ possibility to germinate will be increasingly harder.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-model1-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The graph above illustrates a remarkably quick spread of the “Flowered Area” within the first 10 years, but a dynamic equilibrium at 800 acres - not the full 1,000 acres available in the landscape. The “Flowered Area” starts with 10 acres, and within 6 years is covering 50 times its original breadth at a whopping 500 acres. This 6th year on the graph indicates the highest rate of growth in the “Flowered Area” as the growth exceeds the decay by the biggest margin. After this, the increasing trends starts to stabilize and eventually tapers off - an inverse of the first 6 years with a new decline in growth and increase in decay. Dynamic Equilibrium is met around the 12th year, 4/5th of the landscape completely covered in flowers. The flowers will never cover the entire landscape, because the “Decay Rate” is fixed at 20% throughout the simulation.&lt;/p&gt;
+
+&lt;h3 id=&quot;introducing-a-disturbance---the-implications-of-equilibrium&quot;&gt;Introducing a Disturbance - The Implications of Equilibrium&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-disturbance.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/flower-disturbance-graph.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This model allows for a disturbance to remove 20% of the flowers. The “Disturbance” Converter is linked with a newly added “Disturbance Flow” that will enact on the 15th year of the simulation. The “Total Area” internal variable has been changed to a Stock in the model. The model was set for a duration of 20 years to indicate if equilibrium would be reached, but the added “Disturbance” only reduced the “Flowered Area” for the year it was enacted. The flowers gradually reached back to their apex of 800 acres 5 years after the “Disturbance” occurred.&lt;/p&gt;
+</description>
         <pubDate>Wed, 21 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2013/08/21/Yellow-Fever/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/08/21/Yellow-Fever/</guid>
+        <link>http://localhost:4000/2013/08/21/s-shaped-growth/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/08/21/s-shaped-growth/</guid>
         
         <category>Insight Maker &amp; Model Builder</category>
         
