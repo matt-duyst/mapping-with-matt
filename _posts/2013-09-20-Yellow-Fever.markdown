@@ -17,6 +17,8 @@ The models below simulate the proliferation of Yellow Fever through varying scen
 
 These simulations are adaptations of a Dynamo model for Yellow Fever outbreaks by Kjell Kalgraf. The figure below is the blueprint for this project's modified simulations.
 
+## Kalgraf's Model
+
 ![Map GIS](/assets/images/kalgraf-model.png)
 
 Kalgraf's model is based on a real outbreak of Yellow Fever in Veracruz, Mexico (1899). The  population of Veracruz was nearly 20,000 people at the time. As the viral disease swept through the urban center, many casualties were suffered - 460 people died every month at the peak of the epidemic. The model predicts the mosquito population to be roughly 500,000. Kalgraf uses this outbreak as a hypothesis of sorts; he garners data based on population sizes, lifecycle of mosquitoes, estimated bites per day, and the rates of contraction and recovery, to model the severity of Yellow Fever. Ultimately, this is shown through the comparison of cumulative number of deaths and the surviving, immune population.
@@ -41,13 +43,13 @@ This time series model denotes Kalgraf's overarching goal - to model the number 
 
 Analyzing just the human population in Kalgraf's model allows for a more granular understanding of the implications associated with Yellow Fever outbreak rates and human recovery rates. For instance, the model assumes the amount of bites received by infected mosquitoes per day will remain constant over time. In reality, the amount of bites per infected mosquito will oscillate; as the human population begins building immunity, the rate of infected mosquitoes will decline - and so will the bites received per day. Moreover, holding the stages of Yellow Fever (incubated, contagious, and sick) at finite increments poses issues. For example, recovery rates will differ among person to person. While using Veracruz, Mexico as a case study allowed for predicting the diaspora of Yellow Fever in urban centers, and a better understanding of human recovery rate with real data, it's important to note the prevalence of the city's climate for mosquito reproduction. The tropical climate with little variation from season to season is ideal for mosquitoes. Places like Veracruz with high rates of precipitation and overall higher temperatures, will experience a greater possibility of infected mosquitoes - and therefore higher rates of bites per day. Places with similar climate's to this case study will be exposed to greater rates of Yellow Fever outbreaks.
 
-### Modeling Yellow Fever - A Breakdown of Kalgraf's Full Model
+### Modeling Yellow Fever - Simulating Kalgraf's Full Model
 
 ![Map GIS](/assets/images/yellow-fever-full.png)
 
-This is a working model of Kalgraf's diagram in its entirety. The parameters set for humans follows the nuanced modeling of the 'Human Population' segment above - initialized with 100 incubating humans, and 19,900 vulnerable humans. The emerging mosquito flow in the model represents the 27,778 mosquitoes Kalgraf predicted reach adulthood and can carry Yellow Fever. Out of the 500,000 mosquitoes, 417,000 denote 'safe mosquitoes.' The remaining 83,000 represent 'new mosquitoes.'
+This is a working model of Kalgraf's diagram in its entirety. The parameters set for humans follows the nuanced modeling of the 'Human Population' segment above - initialized with 100 incubating humans, and 19,900 vulnerable humans. The emerging mosquito flow in the model represents the 27,778 mosquitoes Kalgraf predicted reach adulthood and can carry Yellow Fever. Out of the 500,000 mosquitoes, 417,000 denote 'safe mosquitoes.' The remaining 83,000 represent 'new mosquitoes.' These numbers are estimates for easier understanding - they are not the specific numbers Kalgraf recorded in Veracruz, Mexico. Those nuanced statistics are stated below.
 
-To better understand Kalgraf's model, a walk-through of formulas dervived through the analysis of Veracruz's Yellow Fever outbreak is provided below.
+To better understand Kalgraf's model, a walk-through of formulas dervived through the analysis of Veracruz's Yellow Fever outbreak is provided below. The numbers in this breakdown refer to the first model introduced in the project.
 
 -781 people are in the Incubation Stage, 803 people are in the Contagious Stage, and 450 people are sick. The peak of the Yellow Fever outbreak occurs around day 140, with nearly 450 people becoming sick. The highest volume of deaths per day is 18 people.
 -83,000 mosquitoes are characterized as 'new mosquitoes' and have the potential of carrying Yellow Fever if they come into contact with an infected human. These mosquitoes bite 0.2 people every day - a total reaching over 16,000 per day. Kalgraf predicted 4.2% of these mosquitoes will come into contact with an infected individual, making nearly 700 of these 'new mosquitoes' carriers of Yellow Fever per day.
@@ -55,7 +57,7 @@ To better understand Kalgraf's model, a walk-through of formulas dervived throug
 -8,103 humans are categorized as 'vulernable' for the outbreak. To calculate the number of people contracting Yellow Fever, the following formula was used:
  # of Contagious Mosquitoes * Bites/Day * Percent of Vulnerable Human Population -> 1,945 * 0.2 * 42.6 = 166 persons per day.
 
-The graphs below offer visual aide to Kalgraf's model through the lens of 3 scenarios: Cumulative Deaths (humans) vs Vulnerable Population, Cumulative Death during the outbreak, and Infectious Mosquitoes vs Cumulative Deaths.
+The graphs below offer visual aide to Kalgraf's model through the lens of 3 scenarios: Cumulative Deaths (humans) vs Vulnerable Population, Cumulative Death during the outbreak, and Infectious Mosquitoes vs Cumulative Deaths. They serve as visual representations for the statistics recorded above.
 
 ![Map GIS](/assets/images/cumulative-vulnerable.png)
 
@@ -67,31 +69,23 @@ The model above illustrates simulated values for the number of casualities exper
 
 ![Map GIS](/assets/images/mosquitoes-vs-death.png)
 
-The model above represents the number of mosquitoes carrying Yellow Fever and the number of deaths at the peak of the outbreak.
+The model above represents the number of mosquitoes carrying Yellow Fever and the number of deaths at the peak of the outbreak. At the peak of the outbreak, 1,945 mosquitoes are infected.
 
-##### Projected Graphings of Original Model
+### Sensitivity Analysis - Alterations in Bites Per Day
+
+![Placeholder](/assets/images/sens-analysis-sick-people.png)
+
+Sensitivity Analysis graphing allows the viewer to inspect the impact of various bites per day per mosquito. The values used oscillate between 0.1, 0.2, 0.3, 0.4, and 0.5. The graph produced illustrates the change in number of sick people, as the number of mosquito bites occuring per day changes.
+
+![Placeholder](/assets/images/sens-analysis-sick-people.png)
+
+The relationship between bites per day and number of infected people mirror one another. When the initial value of bites per day increases, the amount of sick people increase.
+
+### Sensitivity Analysis - Alterations in the Initial # of Incubating Humans
 
 ![Placeholder](/assets/images/Cummulative-Deaths-vs-Infectious-Mosquito.png)
 
-write-up
-
-![Placeholder](/assets/images/Sick-People-Simulation.png)
-
-write-up
-
-![Map GIS](/assets/images/Deaths-Over-Time.png)
-
-write-up
-
-![Placeholder](/assets/images/Vulnerable-People.png)
-
-write-up
-
-##### Understanding the Net-Negative Flow of the Loop Diagram
-
-![Placeholder](/assets/images/Net-Neg-Flow-Loop-Diagram.png)
-
-write-up
+The two charts below test the sensitivity in changing the initial value of people in the Incubating Period. There are four representations of this alteration in initial number of incubating humans: 10 people, 20 people, 50 people, and 100 people. Changing the initial value of people in the Incubating Period allows the viewer to understand how incubating impacts the timing and intensity of an epidemic. 
 
 ##### A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations
 
