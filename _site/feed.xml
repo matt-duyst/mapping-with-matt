@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 14:11:10 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 14:11:10 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2020 15:52:29 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2020 15:52:29 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -705,6 +705,12 @@
 
 &lt;p&gt;The parameters set for humans are a little more straightforward. A human can only contract Yellow Fever if they are bitten by a mosquito carrying the disease - it cannot be spread by another human. There are three stages to monitoring a disease: Incubation period, Contagious period, and Sick period. An infected person will enter an Incubation period (the # of days between infection and signs of symptoms) for 4.5 days. This is followed by a Contagious period of another 4.5 days, and a Sick period lasting 2.5 days. 90% of humans will recover and become immune to Yellow Fever.&lt;/p&gt;
 
+&lt;h3 id=&quot;the-feedback-loops-in-an-epidemic-model&quot;&gt;The Feedback Loops in an Epidemic Model&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/feedback-loop.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are two feedback loops in the Yellow Fever model, both of which are Net Negative. The smaller loop on the far right alters the dyanmics of the model by adding a fraction of people who are vulnerable to Yellow Fever. The larger loop to the left takes the mosquito population as a whole into account - the mosquitoes that newly emerge into adulthood, and the infection rates among humans as a result. Both an increase in vulnerable people and an increase in mosquitoes will have a negative result on the model.&lt;/p&gt;
+
 &lt;h3 id=&quot;modeling-yellow-fever-based-on-kalgrafs-predictions---the-human-population&quot;&gt;Modeling Yellow Fever Based on Kalgraf’s Predictions - The Human Population&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/yellow-fever-human.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
@@ -753,35 +759,33 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/sens-analysis-sick-people.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Sensitivity Analysis graphing allows the viewer to inspect the impact of various bites per day per mosquito. The values used oscillate between 0.1, 0.2, 0.3, 0.4, and 0.5. The graph produced illustrates the change in number of sick people, as the number of mosquito bites occuring per day changes.&lt;/p&gt;
+&lt;p&gt;Sensitivity Analysis graphing allows the viewer to inspect the impact of various bites per day per mosquito. The values used oscillate between 0.1, 0.2, 0.3, 0.4, and 0.5. The graph produced illustrates the change in number of sick people, as the number of mosquito bites occuring per day changes. The relationship between bites per day and number of infected people mirror one another. When the initial value of bites per day increases, the amount of sick people increases.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/sens-analysis-sick-people.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;reducing-the-mosquito-population---implementing-a-larvacide-program&quot;&gt;Reducing the Mosquito Population - Implementing a Larvacide Program&lt;/h3&gt;
 
-&lt;p&gt;The relationship between bites per day and number of infected people mirror one another. When the initial value of bites per day increases, the amount of sick people increase.&lt;/p&gt;
-
-&lt;h3 id=&quot;sensitivity-analysis---alterations-in-the-initial--of-incubating-humans&quot;&gt;Sensitivity Analysis - Alterations in the Initial # of Incubating Humans&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Cummulative-Deaths-vs-Infectious-Mosquito.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The two charts below test the sensitivity in changing the initial value of people in the Incubating Period. There are four representations of this alteration in initial number of incubating humans: 10 people, 20 people, 50 people, and 100 people. Changing the initial value of people in the Incubating Period allows the viewer to understand how incubating impacts the timing and intensity of an epidemic.&lt;/p&gt;
-
-&lt;h5 id=&quot;a-proposed-mosquito-control-program-10-day-simulations-vs-20-day-simulations&quot;&gt;A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations&lt;/h5&gt;
+&lt;p&gt;The application of a Larvacide Program assumes a reduction in the number of emerging mosquitoes. It does not reduce the number of pre-existing adult mosquitoes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/larvacide.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write-up&lt;/p&gt;
+&lt;p&gt;The Larvacide Program is represented as a Converter in the diagram above. It is directly associated with the ‘Emerging Mosquitoes’ flow. 27,778 represents the ‘Emerging Mosquitoes’ population Kalgraf discovered in Veracruz. To visualize the implications of a possible Larvacide Program on this population, the equation for the original flow needs to be changed. The equation for this flow now represents: 27,778 - (27,778 * [Larvacide Program]). The flow equation was then altered to 27,778 – (27,778 * [Mosquito Control Program]). Pause intervals and sliders were set for 10 days and 20 days, allowing a buffer for the days without a mosquito control program to be imagined.&lt;/p&gt;
+
+&lt;p&gt;The graphs below illustrate the importance of timing when implementing the Larvacide Program. The success of the Larvacide Program was defined as limiting the number of people impacted by Yellow Fever as 500 or less. The first graph represents a 10-day hiatus on the population, and second graph represents a 20-day hiatus. Both simulations alter the effectiveness of the Larvacide Program on the same scale: 70%, 80%, and 90%. It’s implied that a 100% effective Larvacide Program would eliminate all ‘Emerging Mosquitoes.’&lt;/p&gt;
+
+&lt;h4 id=&quot;a-proposed-mosquito-control-program-10-day-simulations-vs-20-day-simulations&quot;&gt;A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/10-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write-up&lt;/p&gt;
+&lt;p&gt;Regardless of the intensity of effectiveness set for the Larvacide Program, the ranges 70% - 90% passed the 500 people or less becoming infected by Yellow Fever success rate of the Program. As one would imply, the higher the magnitude of effectivess, the less people there were becoming sick. 10 days served as effective parameter to set for the enactment of the Larvacide Program, giving realistic measurements for its hypothetical implementation.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Map GIS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20-Day-Sim-Mosquito-Program.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;write-up&lt;/p&gt;
+&lt;p&gt;The 20-day graph above tells the viewer how vital the intial start time of the Larvacide Program is. Although the intensity of effectiveness for the three scenarios remained the same - 70%, 80%, and 90% - the 20-day hiatus caused a failure in one of the scenarios. If 20 days pass, and a 70% effective Larvacide Program were applied to the ‘Emerging Mosquitoes,’ 550 people would become sick. This does not meet the standards required for the Program’s success. Both an 80% and 90% effective Larvacide Program keep the sick population under 500 people.&lt;/p&gt;
 
 &lt;h5 id=&quot;a-proposed-incubation--isolation-program-10-day-simulation-vs-20-day-simulation-vs-30-day-simulation&quot;&gt;A Proposed Incubation &amp;amp; Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation&lt;/h5&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/isolated-model.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This hypothetical Isolation Program assumes two possibilities: it’s possible to detect Yellow Fever during the 4.5 day Incubation Period, and it’s possible to isolate all infected individuals before they become contagious.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/isolation.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;write-up&lt;/p&gt;
 

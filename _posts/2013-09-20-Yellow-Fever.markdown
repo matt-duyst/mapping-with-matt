@@ -25,7 +25,13 @@ Kalgraf's model is based on a real outbreak of Yellow Fever in Veracruz, Mexico 
 
 The parameters set for mosquitoes are as follows. 27,778 mosquitoes emerge into adulthood per day. At the height of the epidemic, there are a total of 500,000 mosquitoes. The lifespan of a mosquito is 18 days; 4 'blood feeds' are needed throughout their lifetime. Ergo, the average mosquito feeds off 0.2 persons per day - leaving roughly 100,000 bites happening per day. It's discovered that if mosquitoes don't bite humans who are infected within their first three days, they are incapable of carrying Yellow Fever for the remainder of their lifetime. However, if mosquitoes feed off an infected person within the first 3 days (the initial period) of contracting Yellow Fever, they will carry the disease.
 
-The parameters set for humans are a little more straightforward. A human can only contract Yellow Fever if they are bitten by a mosquito carrying the disease - it cannot be spread by another human. There are three stages to monitoring a disease: Incubation period, Contagious period, and Sick period. An infected person will enter an Incubation period (the # of days between infection and signs of symptoms) for 4.5 days. This is followed by a Contagious period of another 4.5 days, and a Sick period lasting 2.5 days. 90% of humans will recover and become immune to Yellow Fever. 
+The parameters set for humans are a little more straightforward. A human can only contract Yellow Fever if they are bitten by a mosquito carrying the disease - it cannot be spread by another human. There are three stages to monitoring a disease: Incubation period, Contagious period, and Sick period. An infected person will enter an Incubation period (the # of days between infection and signs of symptoms) for 4.5 days. This is followed by a Contagious period of another 4.5 days, and a Sick period lasting 2.5 days. 90% of humans will recover and become immune to Yellow Fever.
+
+### The Feedback Loops in an Epidemic Model
+
+![Map GIS](/assets/images/feedback-loop.png)
+
+There are two feedback loops in the Yellow Fever model, both of which are Net Negative. The smaller loop on the far right alters the dyanmics of the model by adding a fraction of people who are vulnerable to Yellow Fever. The larger loop to the left takes the mosquito population as a whole into account - the mosquitoes that newly emerge into adulthood, and the infection rates among humans as a result. Both an increase in vulnerable people and an increase in mosquitoes will have a negative result on the model.
 
 ### Modeling Yellow Fever Based on Kalgraf's Predictions - The Human Population
 
@@ -75,35 +81,33 @@ The model above represents the number of mosquitoes carrying Yellow Fever and th
 
 ![Placeholder](/assets/images/sens-analysis-sick-people.png)
 
-Sensitivity Analysis graphing allows the viewer to inspect the impact of various bites per day per mosquito. The values used oscillate between 0.1, 0.2, 0.3, 0.4, and 0.5. The graph produced illustrates the change in number of sick people, as the number of mosquito bites occuring per day changes.
+Sensitivity Analysis graphing allows the viewer to inspect the impact of various bites per day per mosquito. The values used oscillate between 0.1, 0.2, 0.3, 0.4, and 0.5. The graph produced illustrates the change in number of sick people, as the number of mosquito bites occuring per day changes. The relationship between bites per day and number of infected people mirror one another. When the initial value of bites per day increases, the amount of sick people increases.
 
-![Placeholder](/assets/images/sens-analysis-sick-people.png)
+### Reducing the Mosquito Population - Implementing a Larvacide Program
 
-The relationship between bites per day and number of infected people mirror one another. When the initial value of bites per day increases, the amount of sick people increase.
-
-### Sensitivity Analysis - Alterations in the Initial # of Incubating Humans
-
-![Placeholder](/assets/images/Cummulative-Deaths-vs-Infectious-Mosquito.png)
-
-The two charts below test the sensitivity in changing the initial value of people in the Incubating Period. There are four representations of this alteration in initial number of incubating humans: 10 people, 20 people, 50 people, and 100 people. Changing the initial value of people in the Incubating Period allows the viewer to understand how incubating impacts the timing and intensity of an epidemic. 
-
-##### A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations
+The application of a Larvacide Program assumes a reduction in the number of emerging mosquitoes. It does not reduce the number of pre-existing adult mosquitoes.
 
 ![Placeholder](/assets/images/larvacide.png)
 
-write-up
+The Larvacide Program is represented as a Converter in the diagram above. It is directly associated with the 'Emerging Mosquitoes' flow. 27,778 represents the 'Emerging Mosquitoes' population Kalgraf discovered in Veracruz. To visualize the implications of a possible Larvacide Program on this population, the equation for the original flow needs to be changed. The equation for this flow now represents: 27,778 - (27,778 * [Larvacide Program]). The flow equation was then altered to 27,778 – (27,778 * [Mosquito Control Program]). Pause intervals and sliders were set for 10 days and 20 days, allowing a buffer for the days without a mosquito control program to be imagined.
+
+The graphs below illustrate the importance of timing when implementing the Larvacide Program. The success of the Larvacide Program was defined as limiting the number of people impacted by Yellow Fever as 500 or less. The first graph represents a 10-day hiatus on the population, and second graph represents a 20-day hiatus. Both simulations alter the effectiveness of the Larvacide Program on the same scale: 70%, 80%, and 90%. It's implied that a 100% effective Larvacide Program would eliminate all 'Emerging Mosquitoes.'
+
+#### A Proposed Mosquito Control Program: 10-Day Simulations vs. 20-Day Simulations
 
 ![Placeholder](/assets/images/10-Day-Sim-Mosquito-Program.png)
 
-write-up
+Regardless of the intensity of effectiveness set for the Larvacide Program, the ranges 70% - 90% passed the 500 people or less becoming infected by Yellow Fever success rate of the Program. As one would imply, the higher the magnitude of effectivess, the less people there were becoming sick. 10 days served as effective parameter to set for the enactment of the Larvacide Program, giving realistic measurements for its hypothetical implementation.
 
-![Map GIS](/assets/images/20-Day-Sim-Mosquito-Program.png)
+![Placeholder](/assets/images/20-Day-Sim-Mosquito-Program.png)
 
-write-up
+The 20-day graph above tells the viewer how vital the intial start time of the Larvacide Program is. Although the intensity of effectiveness for the three scenarios remained the same - 70%, 80%, and 90% - the 20-day hiatus caused a failure in one of the scenarios. If 20 days pass, and a 70% effective Larvacide Program were applied to the 'Emerging Mosquitoes,' 550 people would become sick. This does not meet the standards required for the Program's success. Both an 80% and 90% effective Larvacide Program keep the sick population under 500 people.
 
 ##### A Proposed Incubation & Isolation Program: 10-Day Simulation vs 20-Day Simulation vs 30-Day Simulation
 
-![Placeholder](/assets/images/isolated-model.png)
+This hypothetical Isolation Program assumes two possibilities: it's possible to detect Yellow Fever during the 4.5 day Incubation Period, and it's possible to isolate all infected individuals before they become contagious. 
+
+![Placeholder](/assets/images/isolation.png)
 
 write-up
 
