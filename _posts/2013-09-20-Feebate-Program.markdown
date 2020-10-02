@@ -48,7 +48,7 @@ The variables ‘Lifetime of Conventional Vehicle’ and ‘Lifetime of Electric
 
 The remaining three variables are at the core of this model’s discovery: the influence of conventional vehicles and electric vehicles on the total carbon dioxide content in the atmosphere. The ‘Amount of CO2 Emitted Per Conventional Vehicle’ variable is set at 5.19 Tonnes of CO2. This amount is more than five times that of the ‘Amount of CO2 Emitted Per Electric Vehicle,’ a trivial 0.98 Tonnes of CO2.
 
-These two variables, along with the ‘Number of Conventional Vehicles’ stock and ‘Number of Electric Vehicles’ stock, determine the final variable: ‘Total Carbon Dioxide Content.’ The ‘Total Carbon Dioxide’ variable was estimated by multiplying the ‘Number of Conventional Vehicles stock with the ‘Amount of Carbon Dioxide Emitted per Conventional Vehicle,’ plus the result of multiplying the ‘Number of Electric Vehicles’ stock with the ‘Amount of Carbon Dioxide Emitted Per Electric Vehicle’ variable. **Total Carbon Dioxide = ([Number of CV] * [Amount of CO2 Emitted Per CV]) + ([Number of EV] * [Amount of CO2 Emitted Per EV]).** This variable records the amount of carbon dioxide produced by both conventional and electrical vehicles.
+These two variables, along with the ‘Number of Conventional Vehicles’ stock and ‘Number of Electric Vehicles’ stock, determine the final variable: ‘Total Carbon Dioxide Content.’ The ‘Total Carbon Dioxide’ variable was estimated through the following formula: **Total Carbon Dioxide = ([Number of CV] * [Amount of CO2 Emitted Per CV]) + ([Number of EV] * [Amount of CO2 Emitted Per EV]).** This variable records the amount of carbon dioxide produced by both conventional and electrical vehicles.
 
 **Converters:**
 
