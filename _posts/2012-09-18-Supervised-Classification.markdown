@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Urban Applications of Supervised Classification: Landsat vs. MODIS of Los Angeles, CA"
-date: 2012-09-18
+title: "Urban Applications of Supervised Classification: Landsat vs. MODIS"
 description: 
 image: /assets/images/Supervised-Landsat.png
 author: Thomas Vaeth
