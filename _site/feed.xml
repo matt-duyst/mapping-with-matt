@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 21:31:23 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 21:31:23 -0700</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2020 08:49:31 -0700</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2020 08:49:31 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -594,11 +594,13 @@
 
 &lt;p&gt;To better understand Kalgraf’s model, a walk-through of formulas dervived through the analysis of Veracruz’s Yellow Fever outbreak is provided below. The numbers in this breakdown refer to the first model introduced in the project.&lt;/p&gt;
 
-&lt;p&gt;-781 people are in the Incubation Stage, 803 people are in the Contagious Stage, and 450 people are sick. The peak of the Yellow Fever outbreak occurs around day 140, with nearly 450 people becoming sick. The highest volume of deaths per day is 18 people.
--83,000 mosquitos are characterized as ‘new mosquitos’ and have the potential of carrying Yellow Fever if they come into contact with an infected human. These mosquitos bite 0.2 people every day - a total reaching over 16,000 per day. Kalgraf predicted 4.2% of these mosquitos will come into contact with an infected individual, making nearly 700 of these ‘new mosquitos’ carriers of Yellow Fever per day.
--7,909 mosquitos are set to the incubation stage; 1,945 are in the infectious stage. Theese 1,945 infectious mosquitos are the catalyst for the peak in Yellow Fever outbreak on day 140.
--8,103 humans are categorized as ‘vulernable’ for the outbreak. To calculate the number of people contracting Yellow Fever, the following formula was used:
- # of Contagious Mosquitoes * Bites/Day * Percent of Vulnerable Human Population -&amp;gt; 1,945 * 0.2 * 42.6 = 166 persons per day.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;781 people are in the Incubation Stage, 803 people are in the Contagious Stage, and 450 people are sick. The peak of the Yellow Fever outbreak occurs around day 140, with nearly 450 people becoming sick. The highest volume of deaths per day is 18 people.&lt;/li&gt;
+  &lt;li&gt;83,000 mosquitos are characterized as ‘new mosquitos’ and have the potential of carrying Yellow Fever if they come into contact with an infected human. These mosquitos bite 0.2 people every day - a total reaching over 16,000 per day. Kalgraf predicted 4.2% of these mosquitos will come into contact with an infected individual, making nearly 700 of these ‘new mosquitos’ carriers of Yellow Fever per day.&lt;/li&gt;
+  &lt;li&gt;7,909 mosquitos are set to the incubation stage; 1,945 are in the infectious stage. Theese 1,945 infectious mosquitos are the catalyst for the peak in Yellow Fever outbreak on day 140.&lt;/li&gt;
+  &lt;li&gt;8,103 humans are categorized as ‘vulernable’ for the outbreak. To calculate the number of people contracting Yellow Fever, the following formula was used:
+ # of Contagious Mosquitoes * Bites/Day * Percent of Vulnerable Human Population -&amp;gt; 1,945 * 0.2 * 42.6 = 166 persons per day.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The graphs below offer visual aide to Kalgraf’s model through the lens of 3 scenarios: Cumulative Deaths (humans) vs Vulnerable Population, Cumulative Death during the outbreak, and Infectious Mosquitoes vs Cumulative Deaths. They serve as visual representations for the statistics recorded above.&lt;/p&gt;
 
@@ -722,12 +724,12 @@
 
 &lt;p&gt;Evaporation studies, also called ‘Pan Studies’ as pans of water with differing salinities are exposed to evaporation, allow us to present a more realistic understanding of Mono Lake’s evaporation rate in association with gravity. The density of water in the lake is represented by ‘Specific Gravity’ - a measurement that compares the density of saline water to fresh water. For instance, a value of 1.1 indicates Mono Lake’s water is 10% heavier than fresh water. The impact of having a higher salinity for evaporation rates is represented by ‘Effect on Evaporation Rate.’ If the water in Mono Lake is 10% heavier compared to fresh water, for instance, the corresponding evaporation rate would be 92.6% of the rate for fresh water. Through this chart, we see as ‘Specific Gravity’ increases, the ‘Effect on Evaporation Rate’ decreases.&lt;/p&gt;
 
-&lt;p&gt;“Specific Gravity” is calculated through the following formula:
+&lt;p&gt;‘Specific Gravity’ is calculated through the following formula:
 	(Water in Lake * Density of Fresh Water + Total Dissolved Solids) / Water in Lake * Density of Fresh Water&lt;/p&gt;
 
 &lt;p&gt;The simulation begins with 2,228 KAF of water in the lake. The density of fresh water is 1.359 million tons per KAF, and the total dissolved solids is 230 million tons.&lt;/p&gt;
 
-&lt;p&gt;Specific Gravity = 2,228 KAF * 1.359 Million Tons per KAF + 230 Million Tons / 2,228 KAF * 1.359 Million Tons per KAF
+&lt;p&gt;‘Specific Gravity’ = 2,228 KAF * 1.359 Million Tons per KAF + 230 Million Tons / 2,228 KAF * 1.359 Million Tons per KAF
 				 = 1.076&lt;/p&gt;
 
 &lt;p&gt;Interpolating from the chart above, we can estimate a Specific Gravity of 1.076 is an evaporation rate of about 94% of the evaporation rate for fresh water.&lt;/p&gt;
@@ -756,11 +758,13 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/policy-graph.png&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The graph above illustrates the impact of the California Water Resources Control Board’s export policy in 1994. The intention of this policy was to allow Mono Lake to reach an elevation near 6,392 feet. This would happen over many years and throughout various stages - hence the jagged shape of the graph. The policy described is as follows:
-	- No export allowed until Mono Lake had an elevation of 6,377 feet
-	- Once at 6,377 feet, exports allowed at 4.5 KAF/yr until elevation reaches 6,390 feet
-	- Exports allowed at 16 KAF/yr until elevation reaches 6,391 feet
-	- Exports allowed at 30.8 KAF/yr if elevation exceeds 6,391 feet&lt;/p&gt;
+&lt;p&gt;The graph above illustrates the impact of the California Water Resources Control Board’s export policy in 1994. The intention of this policy was to allow Mono Lake to reach an elevation near 6,392 feet. This would happen over many years and throughout various stages - hence the jagged shape of the graph. The policy described is as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No export allowed until Mono Lake had an elevation of 6,377 feet&lt;/li&gt;
+  &lt;li&gt;Once at 6,377 feet, exports allowed at 4.5 KAF/yr until elevation reaches 6,390 feet&lt;/li&gt;
+  &lt;li&gt;Exports allowed at 16 KAF/yr until elevation reaches 6,391 feet&lt;/li&gt;
+  &lt;li&gt;Exports allowed at 30.8 KAF/yr if elevation exceeds 6,391 feet&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The simulation of this Export Policy is the graph above. Through its progression over a sufficiently long period of time, 100 years, we can deduce the future success of Control Board Policy. If the parameters set for exports of a given elevation level are maintained, the lake will reach dynamic equilibrium.&lt;/p&gt;
 
@@ -1043,17 +1047,21 @@ on October 30th, 2018. These values are derived from Landsat 8 imagery provided 
 &lt;p&gt;Because these varying sensors offer different perspectives of the ROI, adjustments in band ratios need to be performed. For instance, both Landsat MSS and Landsat ETM+ images showcase the Northern 1/3rd of the satellite lake very light in color. This is due to the sensors picking up high amounts of salt sediment on the bottom of the lake. The Landset ETM+ image, on the other hand, shows little of this salty bottom. Band Ratio Adjusment is performed to reduce this bottom effect using the following formula: (b1x100/(b2+1)). The variable b1 in the formula is defined as Band 4, and b2 is ascribed to Band 3. This readjustment was performed for all Landsat sensors.&lt;/p&gt;
 
 &lt;p&gt;At the heart of this Lake Change Detection project was defining the Spectral Threshold for water. The lakes from the surrounding land mass in the ratio image were extracted, and histograms were created for the ratio Landsat TM, MSS, and ETM+ images. These histograms helped define the data value threshold break between water and land for the images.
-The Estimated Threshold Breaks for the sensors were as followed:
-	Landsat TM: 61
-	Landsat MSS: 54
-	Landsat ETM+: 64&lt;/p&gt;
+The Estimated Threshold Breaks for the sensors were as followed:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Landsat TM: 61&lt;/li&gt;
+  &lt;li&gt;Landsat MSS: 54&lt;/li&gt;
+  &lt;li&gt;Landsat ETM+: 64&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Change Detection is visually represented through a classification scheme - operations achieved through ‘Color Mapping’ and ‘Density Slicing.’ The original range was deleted, and new ranges were added that span from 0 to the Threshold Value of the image. Post-Classification Corrections were also performed on the image, due to lake area’s containing isolated pixels (‘speckle’). These were removed.&lt;/p&gt;
 
-&lt;p&gt;Once the images were corrected, they were combined together into one composite RGB image. This allows for an easy visualization of the change detection between each image.
-	Landsat MSS image was set to ‘R’
-	Landsat TM image was set to ‘G’
-	Landsat ETM+ image was set to ‘B’&lt;/p&gt;
+&lt;p&gt;Once the images were corrected, they were combined together into one composite RGB image. This allows for an easy visualization of the change detection between each image.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Landsat MSS image was set to ‘R’&lt;/li&gt;
+  &lt;li&gt;Landsat TM image was set to ‘G’&lt;/li&gt;
+  &lt;li&gt;Landsat ETM+ image was set to ‘B’&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;A Linear Stretch was applied to the stacked image for a proper representation - at first the image displays as black. Statistics and Histograms are calculated for each of the three final classifications.&lt;/p&gt;
 
@@ -1172,14 +1180,16 @@ The Estimated Threshold Breaks for the sensors were as followed:
 
 &lt;p&gt;The computer automated Isodata Algorithm for Unsupervised Classification calculates class means evenly distributed in the data space. It then iteratively clusters the remaining pixels using minimum distance techniques. Each iteration recalculates the mean, and reclassifies pixels with respect to the new means. This process continues until the number of pixels in each class changes by less than the selected pixel change threshold (or until the maximum number of iterations is reached).&lt;/p&gt;
 
-&lt;p&gt;Our stacked, subset image was set to the following parameters:
- 	A minimum class value of 4 and maximum class value of 6.
- 	Maximum number of iterations set to 6.
- 	Threshold set to 5.
- 	Minimum number of pixels per class set to 1,000.
- 	Standard Deviation set to 1.
- 	Minimum class distance set to 6.
- 	Max number of merge pairs set to 2.&lt;/p&gt;
+&lt;p&gt;Our stacked, subset image was set to the following parameters:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A minimum class value of 4 and maximum class value of 6.&lt;/li&gt;
+  &lt;li&gt;Maximum number of iterations set to 6.&lt;/li&gt;
+  &lt;li&gt;Threshold set to 5.&lt;/li&gt;
+  &lt;li&gt;Minimum number of pixels per class set to 1,000.&lt;/li&gt;
+  &lt;li&gt;Standard Deviation set to 1.&lt;/li&gt;
+  &lt;li&gt;Minimum class distance set to 6.&lt;/li&gt;
+  &lt;li&gt;Max number of merge pairs set to 2.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;To understand what land cover feature each class represents, a classified image showcasing an array of colors is overlayed on top of the stacked image. Countless experiments of re-running the classification is performed until the best classification of the area is developed.&lt;/p&gt;
 

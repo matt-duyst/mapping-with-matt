@@ -28,13 +28,13 @@ Understanding NDVI (Normalized Difference Vegetation Index) is paramount for pro
 The computer automated Isodata Algorithm for Unsupervised Classification calculates class means evenly distributed in the data space. It then iteratively clusters the remaining pixels using minimum distance techniques. Each iteration recalculates the mean, and reclassifies pixels with respect to the new means. This process continues until the number of pixels in each class changes by less than the selected pixel change threshold (or until the maximum number of iterations is reached).
 
 Our stacked, subset image was set to the following parameters:
- 	A minimum class value of 4 and maximum class value of 6.
- 	Maximum number of iterations set to 6.
- 	Threshold set to 5.
- 	Minimum number of pixels per class set to 1,000.
- 	Standard Deviation set to 1.
- 	Minimum class distance set to 6.
- 	Max number of merge pairs set to 2.
+ - A minimum class value of 4 and maximum class value of 6.
+ - Maximum number of iterations set to 6.
+ - Threshold set to 5.
+ - Minimum number of pixels per class set to 1,000.
+ - Standard Deviation set to 1.
+ - Minimum class distance set to 6.
+ - Max number of merge pairs set to 2.
 
  To understand what land cover feature each class represents, a classified image showcasing an array of colors is overlayed on top of the stacked image. Countless experiments of re-running the classification is performed until the best classification of the area is developed.
 

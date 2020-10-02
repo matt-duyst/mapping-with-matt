@@ -57,10 +57,10 @@ This is a working model of Kalgraf's diagram in its entirety. The parameters set
 
 To better understand Kalgraf's model, a walk-through of formulas dervived through the analysis of Veracruz's Yellow Fever outbreak is provided below. The numbers in this breakdown refer to the first model introduced in the project.
 
--781 people are in the Incubation Stage, 803 people are in the Contagious Stage, and 450 people are sick. The peak of the Yellow Fever outbreak occurs around day 140, with nearly 450 people becoming sick. The highest volume of deaths per day is 18 people.
--83,000 mosquitos are characterized as 'new mosquitos' and have the potential of carrying Yellow Fever if they come into contact with an infected human. These mosquitos bite 0.2 people every day - a total reaching over 16,000 per day. Kalgraf predicted 4.2% of these mosquitos will come into contact with an infected individual, making nearly 700 of these 'new mosquitos' carriers of Yellow Fever per day.
--7,909 mosquitos are set to the incubation stage; 1,945 are in the infectious stage. Theese 1,945 infectious mosquitos are the catalyst for the peak in Yellow Fever outbreak on day 140.
--8,103 humans are categorized as 'vulernable' for the outbreak. To calculate the number of people contracting Yellow Fever, the following formula was used:
+- 781 people are in the Incubation Stage, 803 people are in the Contagious Stage, and 450 people are sick. The peak of the Yellow Fever outbreak occurs around day 140, with nearly 450 people becoming sick. The highest volume of deaths per day is 18 people.
+- 83,000 mosquitos are characterized as 'new mosquitos' and have the potential of carrying Yellow Fever if they come into contact with an infected human. These mosquitos bite 0.2 people every day - a total reaching over 16,000 per day. Kalgraf predicted 4.2% of these mosquitos will come into contact with an infected individual, making nearly 700 of these 'new mosquitos' carriers of Yellow Fever per day.
+- 7,909 mosquitos are set to the incubation stage; 1,945 are in the infectious stage. Theese 1,945 infectious mosquitos are the catalyst for the peak in Yellow Fever outbreak on day 140.
+- 8,103 humans are categorized as 'vulernable' for the outbreak. To calculate the number of people contracting Yellow Fever, the following formula was used:
  # of Contagious Mosquitoes * Bites/Day * Percent of Vulnerable Human Population -> 1,945 * 0.2 * 42.6 = 166 persons per day.
 
 The graphs below offer visual aide to Kalgraf's model through the lens of 3 scenarios: Cumulative Deaths (humans) vs Vulnerable Population, Cumulative Death during the outbreak, and Infectious Mosquitoes vs Cumulative Deaths. They serve as visual representations for the statistics recorded above.

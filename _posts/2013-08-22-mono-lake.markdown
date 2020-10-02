@@ -64,12 +64,12 @@ After careful observation, it's decided the missing factor for predicting the mo
 
 Evaporation studies, also called 'Pan Studies' as pans of water with differing salinities are exposed to evaporation, allow us to present a more realistic understanding of Mono Lake's evaporation rate in association with gravity. The density of water in the lake is represented by 'Specific Gravity' - a measurement that compares the density of saline water to fresh water. For instance, a value of 1.1 indicates Mono Lake's water is 10% heavier than fresh water. The impact of having a higher salinity for evaporation rates is represented by 'Effect on Evaporation Rate.' If the water in Mono Lake is 10% heavier compared to fresh water, for instance, the corresponding evaporation rate would be 92.6% of the rate for fresh water. Through this chart, we see as 'Specific Gravity' increases, the 'Effect on Evaporation Rate' decreases.
 
-"Specific Gravity" is calculated through the following formula:
+'Specific Gravity' is calculated through the following formula:
 	(Water in Lake * Density of Fresh Water + Total Dissolved Solids) / Water in Lake * Density of Fresh Water
 
 The simulation begins with 2,228 KAF of water in the lake. The density of fresh water is 1.359 million tons per KAF, and the total dissolved solids is 230 million tons.
 
-Specific Gravity = 2,228 KAF * 1.359 Million Tons per KAF + 230 Million Tons / 2,228 KAF * 1.359 Million Tons per KAF
+'Specific Gravity' = 2,228 KAF * 1.359 Million Tons per KAF + 230 Million Tons / 2,228 KAF * 1.359 Million Tons per KAF
 				 = 1.076
 
 Interpolating from the chart above, we can estimate a Specific Gravity of 1.076 is an evaporation rate of about 94% of the evaporation rate for fresh water.
@@ -100,10 +100,10 @@ If the elevation is below 6,380 feet, exports are not allowed. If the elevation 
 ![Placeholder](/assets/images/policy-graph.png)
 
 The graph above illustrates the impact of the California Water Resources Control Board's export policy in 1994. The intention of this policy was to allow Mono Lake to reach an elevation near 6,392 feet. This would happen over many years and throughout various stages - hence the jagged shape of the graph. The policy described is as follows:
-	- No export allowed until Mono Lake had an elevation of 6,377 feet
-	- Once at 6,377 feet, exports allowed at 4.5 KAF/yr until elevation reaches 6,390 feet
-	- Exports allowed at 16 KAF/yr until elevation reaches 6,391 feet
-	- Exports allowed at 30.8 KAF/yr if elevation exceeds 6,391 feet
+- No export allowed until Mono Lake had an elevation of 6,377 feet
+- Once at 6,377 feet, exports allowed at 4.5 KAF/yr until elevation reaches 6,390 feet
+- Exports allowed at 16 KAF/yr until elevation reaches 6,391 feet
+- Exports allowed at 30.8 KAF/yr if elevation exceeds 6,391 feet
 
 The simulation of this Export Policy is the graph above. Through its progression over a sufficiently long period of time, 100 years, we can deduce the future success of Control Board Policy. If the parameters set for exports of a given elevation level are maintained, the lake will reach dynamic equilibrium.
 

@@ -21,16 +21,16 @@ Because these varying sensors offer different perspectives of the ROI, adjustmen
 
 At the heart of this Lake Change Detection project was defining the Spectral Threshold for water. The lakes from the surrounding land mass in the ratio image were extracted, and histograms were created for the ratio Landsat TM, MSS, and ETM+ images. These histograms helped define the data value threshold break between water and land for the images.
 The Estimated Threshold Breaks for the sensors were as followed:
-	Landsat TM: 61
-	Landsat MSS: 54
-	Landsat ETM+: 64
+- Landsat TM: 61
+- Landsat MSS: 54
+- Landsat ETM+: 64
 
 Change Detection is visually represented through a classification scheme - operations achieved through 'Color Mapping' and 'Density Slicing.' The original range was deleted, and new ranges were added that span from 0 to the Threshold Value of the image. Post-Classification Corrections were also performed on the image, due to lake area's containing isolated pixels ('speckle'). These were removed.
 
 Once the images were corrected, they were combined together into one composite RGB image. This allows for an easy visualization of the change detection between each image.
-	Landsat MSS image was set to 'R'
-	Landsat TM image was set to 'G'
-	Landsat ETM+ image was set to 'B'
+- Landsat MSS image was set to 'R'
+- Landsat TM image was set to 'G'
+- Landsat ETM+ image was set to 'B'
 
 A Linear Stretch was applied to the stacked image for a proper representation - at first the image displays as black. Statistics and Histograms are calculated for each of the three final classifications. 
 
