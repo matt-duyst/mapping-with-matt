@@ -52,7 +52,7 @@ These two variables, along with the ‘Number of Conventional Vehicles’ stock 
 
 **Converters:**
 
-The model’s two converters, ‘Buyer Response to Conventional Vehicle Fees’ and ‘Buyer Response to Electric Vehicle Rebates,’ is symbolic of the force driving the entire model: The Feebate Program. The higher the fee imposed per conventional vehicle, the more likely the buyer response will to shift towards the purchase of electric vehicles. Likewise, the higher the rebate offered for electric vehicles, the more likely the buyer response will shift away from conventional vehicles and towards electric vehicles. The buyers’ response is the key to reducing the total amount of carbon dioxide in the model.
+The model’s two converters, ‘Buyer Response to Conventional Vehicle Fees’ and ‘Buyer Response to Electric Vehicle Rebates,’ are symbolic of the force driving the entire model: The Feebate Program. The higher the fee imposed per conventional vehicle, the more likely the buyer response will to shift towards the purchase of electric vehicles. Likewise, the higher the rebate offered for electric vehicles, the more likely the buyer response will shift away from conventional vehicles and towards electric vehicles. The buyers’ response is the key to reducing the total amount of carbon dioxide in the model.
 
 
 ### Confidence Building & Sensitivity Analysis Testing:
