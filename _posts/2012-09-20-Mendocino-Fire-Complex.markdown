@@ -79,19 +79,44 @@ Multispectral sensors like Landsat 8 have a near-infrared band between 0.76nm - 
 
 To produce spectral index images like NBR, the image must be calibrated for top-of-atmosphere (TOA) reflectance.  Pixel values will oscillate between 0 to 1, or 0 to 100. The Radiometric Calibration was calculated, with ‘Reflectance’ set as the Calibration type. The 'Normalized Burn Ratio–Thermal' was further investigated and calibrated to brightness temperatures. The Thermal Band 1 was set to a Radiometric Calibration, with ‘Brightness Temperature’ set as the Calibration type. A Layer-Stacked image was created through the combination of the newly created Post-Fire Reflectance layer and Post-Fire Calibrated Brightness Temperature layer. 
 
-The Differenced Normalized Burn Ratio (change in NBR) was calculated to find the true change in NBR values before and after the Mendocino Fire Complex. The Differenced Normalized Burn Ratio was estimated by subtracting the post-fire NBR image (October 11) from the pre-fire NBR image (July 23). ENVI’s ‘Band Math’ tool allowed for this calculation. The expression **Float(b2 - b1)** was entered, with ‘b2’ representing the Normalized Burn Ratio of the post-fire, and ‘b1’ representing the Normalizd Burn Ratio of the pre-fire.
+The Differenced Normalized Burn Ratio (change in NBR) was calculated to find the true change in NBR values before and after the Mendocino Fire Complex. The Differenced Normalized Burn Ratio was estimated by subtracting the post-fire NBR image (October 11) from the pre-fire NBR image (July 23). ENVI’s ‘Band Math’ tool allowed for this calculation. The expression **Float(b2 - b1)** was entered, with ‘b2’ representing the Normalized Burn Ratio of the post-fire, and ‘b1’ representing the Normalizd Burn Ratio of the pre-fire. A Differenced Normalized Burn Ratio with values less than -0.25 indicate high post-fire regrowth; values between -0.1 and 0.1 indicate unburned areas and low severity; values between 0.27 and 0.43 indicate moderate-low severity burning; values between 0.44 and 0.65 indicate moderate-high severity burning; and values greater than 0.66 indicate high-severity burning.  
 
-The data values for produced through this simulation, albeit steps correct - did not result in a classification as accurate as UN-SPIDER.
+The data values produced through this simulation - albeit steps correct - did not result in a classification as accurate as Google Earth Engine (UN-SPIDER) classification for burn severity. For this reason, the results obtained through Google Earth Engine were selected as representation for the Differenced Normalized Burn Ratio.
 
-A Differenced Normalized Burn Ratio with values less than -0.25 indicate high post-fire regrowth; values between -0.1 and 0.1 indicate unburned areas and low severity; values between 0.27 and 0.43 indicate moderate-low severity burning; values between 0.44 and 0.65 indicate moderate-high severity burning; and values greater than 0.66 indicate high-severity burning.  
-
-
+- **Google Earth Engine (UN-SPIDER)**
 
 
 
 
 
 
+### Results:
+
+
+**NDVI Analysis - Before Fire**
+
+![Placeholder](/assets/images/Before-NDVI.png)
+
+This map illustrates the Normalized Difference Vegetation Index (NDVI) values across the (future) burned areas of the Mendocino Complex on July 10th, 2018. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
+
+**NDVI Analysis - After Fire**
+
+![Placeholder](/assets/images/After-NDVI.png)
+
+This map illustrates the Normalized Difference Vegetation Index (NDVI) values after the Mendocino Complex
+on October 30th, 2018. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
+
+**NDVI Analysis - Total Vegetation Change**
+
+![Placeholder](/assets/images/Total-NDVI.png)
+
+This map illustrates the calculated change in Normalized Difference Vegetation Index (NDVI) values across the burned areas after the Mendocino Complex’s dissipation. It was calculated by finding the difference of post-fire NDVI values and pre-fire NDVI values. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
+
+**Differenced NBR Analysis**
+
+![Placeholder](/assets/images/NBR.png)
+
+This map illustrates the calculated change in Normalized Difference Vegetation Index (NDVI) values across the burned areas after the Mendocino Complex’s dissipation. It was calculated by finding the difference of post-fire NDVI values and pre-fire NDVI values. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
 
 
 
@@ -132,6 +157,12 @@ Illustrated above are the two fires that account for the Mendocino Fire Complex 
 
 This map illustrates the Normalized Difference Vegetation Index (NDVI) values across the (future) burned areas of the Mendocino Complex on July 10th, 2018. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
 
+![Placeholder](/assets/images/before-fire-hist.png)
+
+![Placeholder](/assets/images/before-fire-stats.png)
+
+NDVI values measured before the Mendocino Fire Complex on July 10th, 2018 were discovered to be of moderately high values on the NDVI scale, revealing levels of high vegetation. Aforementioned in the introduction portion of this study, is the influence of California’s Mediterranean climate. The lack of precipitation values in the year 2018, coupled with the intensified temperature values in the state’s dry summer season, will not allow for NDVI values to be extremely high to begin with—for instance, like the NDVI values associated with vegetation in tropical climates like Puerto Rico. During this satellite image, the mean NDVI value was reported at 0.3288; the minimum was reported at -0.0700; and the maximum was reported 0.6639.
+
 ##### NDVI Analysis - After Fire
 
 ![Placeholder](/assets/images/After-NDVI.png)
@@ -139,17 +170,31 @@ This map illustrates the Normalized Difference Vegetation Index (NDVI) values ac
 This map illustrates the Normalized Difference Vegetation Index (NDVI) values after the Mendocino Complex
 on October 30th, 2018. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
 
+The impact of the Mendocino Fire Complex on NDVI values was a complete vegetation loss across areas directly impacted by the Complex, especially areas of the Mendocino National Forest and Mendocino County. During the date of this satellite image post-fire, October 11th, the mean NDVI value was reported at 0.0893; the minimum NDVI value was reported at -0.1442; and the maximum NDVI value was reported at 0.4487.
+
+![Placeholder](/assets/images/after-fire-hist.png)
+
+![Placeholder](/assets/images/after-fire-stats.png)
+
 ##### NDVI Analysis - Total Vegetation Change
 
 ![Placeholder](/assets/images/Total-NDVI.png)
 
 This map illustrates the calculated change in Normalized Difference Vegetation Index (NDVI) values across the burned areas after the Mendocino Complex’s dissipation. It was calculated by finding the difference of post-fire NDVI values and pre-fire NDVI values. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
 
+![Placeholder](/assets/images/change-ndvi-hist.png)
+
+![Placeholder](/assets/images/change-ndvi-stats.png)
+
+The total impact of the Mendocino Fire Complex on NDVI values was a general decrease in vegetation levels loss across areas directly impacted by the Complex, especially among the areas concentrated in the Mendocino National Forest and Mendocino County. The total change in the mean NDVI value was reported at -0.2395; the minimum change in total NDVI value was reported at -0.5641; and the maximum change in total NDVI value was reported at 0.2679.
+
 ##### NBR Analysis
 
 ![Placeholder](/assets/images/NBR.png)
 
 This map illustrates the calculated change in Normalized Difference Vegetation Index (NDVI) values across the burned areas after the Mendocino Complex’s dissipation. It was calculated by finding the difference of post-fire NDVI values and pre-fire NDVI values. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
+
+![Placeholder](/assets/images/Before-NDVI.png)
 
 ### Discussion:
 
