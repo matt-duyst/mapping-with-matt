@@ -66,55 +66,45 @@ Similarly, the minimum value for ‘Rebate Given Per Electric Vehicle’ variabl
 
 ![Placeholder](/assets/images/C02-Optimization-graph.png)
 
-**Sensitivity Analysis:**
+**Monte-Carlo Sensitivity Analysis:**
 
+The sensitivity of this model was tested on the premise of four variables: ‘Lifetime of Elective Vehicles,’ ‘Lifetime of Conventional Vehicles,’ ‘Amount of CO2 Emitted per Electric Vehicle,’ and ‘Amount of CO2 Emitted per Conventional Vehicle.’ The fix function was used in all four of the Monte-Carlo sensitivity analysis tests. The employment of the fix function was to provide a simulation without randomness over time. The output of the model is fully determined by the parameters and initial conditions. Although the values used for the variables ‘Lifetime of Electric Vehicle,’ ‘Lifetime of Conventional Vehicle,’ ‘Amount of CO2 Emitted per Electric Vehicle,’ and ‘Amount of CO2 Emitted per Conventional Vehicle,’ have slightly differing values for the given parameter, it is with certainty that these values do not change over time.
 
-### C02 Optimization Graph & Results
+Realistic values for each of the variables were chosen in order to see how sensitive the model is to small, yet still plausibly effective, changes in the input value for the variable. Using the fix function, the parameter value changes randomly between simulations — and each simulation that is ran is a deterministic solution. For the variable ‘Lifetime of Electric Vehicle,’ the equation of **Fix(Rand(10,12))** was used to create a Monte-Carlo sensitivity analysis test. The values of 10 and 12 were chosen for the minimum and maximum range, in an attempt to observe the model’s true sensitivity to other potentially valid values for the variables.
 
-![Placeholder](/assets/images/C02-Optimization-graph.png)
-
-write-up
-
-![Placeholder](/assets/images/CO2-Optimization-results.png)
-
-write-up
-
-### Electric Vehicles: Monte-Carlo & Variable Equation
-
-![Map GIS](/assets/images/EV-Monte-Carlo.png)
-
-write-up
+The results below illustrate that changing the value for the variable ‘Lifetime of Electric Vehicles’ does not have a large effect on the total amount of carbon dioxide produced, measured by the variable ‘Total Carbon Dioxide.’
 
 ![Placeholder](/assets/images/EV-Variable-Equation.png)
 
-write-up
+![Map GIS](/assets/images/EV-Monte-Carlo.png)
 
-### Conventional Vehicles: Monte-Carlo & Variable Equation
+For the 'Lifetime of Convential Vehicles' variable, a Monte-Carlo sensitivity analysis test was created using the equation **Fix(Rand(3,5)).** A value of 3 was chosen for the minimum and the value of 5 was chosen for the maximum. These minimum and maximum values were determined by the knowledge provided by the American Automobile Association, which expressed an average short battery lifetime of conventional cars of 3 years, and average long battery lifetime of conventional cars at 5 years.
 
-![Placeholder](/assets/images/CV-Monte-Carlo.png)
-
-write-up
+The results below illustrate that changing the value for the variable ‘Lifetime of Conventional Vehicles’ causes a larger variation in the total amount of carbon dioxide, much more than changing the value for the variable ‘Lifetime of Electric Vehicles.’
 
 ![Map GIS](/assets/images/CV-Variable-Equation.png)
 
-write-up
+![Placeholder](/assets/images/CV-Monte-Carlo.png)
 
-### Electric Vehicles: CO2 Emitted & Sensitivity Graphing
+For the ‘Amount of CO2 Emitted per Electric Vehicle’ variable, the fix function was once again used. The equation **Fix(Rand(0,2))** was employed to simulate how sensitive the model is to changes in the amount of the variable itself (CO2). The minimum value was set to 0 - it's possible no carbon dioxide may be emitted from the electric vehicle. The maximum value was set to 2, assuming a small portion of carbon dioxide may be emitted over the course of the vehicle's lifetime. Similar to the sensitivity analysis for the variable ‘Lifetime of Electric Vehicles,’ changing the values for the amount of carbon dioxide emitted per electric vehicle does not have a large effect of the total amount of carbon dioxide produced in the atmosphere.
+
+The results below represent the changes in carbon dioxide emitted per electric vehicle, based on the parameters described above.
 
 ![Placeholder](/assets/images/EV-CO2-Emitted.png)
 
-write-up
-
 ![Placeholder](/assets/images/EV-sensitivity-graph.png)
 
-write-up
-
-### Conventional Vehicles: CO2 Emitted & Sensitivity Graphing
+The final sensitivity analysis test was conducted for the 'Carbon Dioxide Emitted per Conventional Vehicle' variable. For this simulation, the equation **Fix(Rand(5,10))** was used. This minimum value was estimated based on the maximum value ascribed for the variable ‘Carbon Dioxide Emitted per Electric Vehicle,’ holding true that conventional vehicles emit more carbon dioxide than their counterpart. The maximum value of 10 was selected to test sensitivity for the model, taking into account the notion of older model cars producing more carbon dioxide than newer model cars.
 
 ![Placeholder](/assets/images/CV-C02-Emitted.png)
 
-write-up
-
 ![Placeholder](/assets/images/Total-CO2-Sensitivity.png)
 
-write-up
+Similar to the to the sensitivity analysis for the variable ‘Lifetime of Conventional Vehicles,’ changing the values for the variable ‘Carbon Dioxide Emitted per Conventional Vehicle’ creates a large variation in the effect of the total amount of carbon dioxide produced. Through this discovery, it is determined the Feebate Model is most sensitive to changing the values for the variables related to conventional vehicles - ‘Lifetime of Conventional Vehicle’ and ‘Carbon Dioxide Emitted per Conventional Vehicle - rather than the variables related to electric vehicles - ‘Lifetime of Electric Vehicle’ and ‘Carbon Dioxide Emitted per Electric Vehicle.’
+
+### Feebate Model Incites Policy Change:
+
+Through the implementation of sliders in the Feebate Model on the variables 'Fees Imposed Per Conventional Vehicle' and 'Rebates Given Per Electric Vehicle,' a proposed bill can be introduced to enact policy change. In theory, a government bill emblemizing this Feebate Model would drastically alter the amount of carbon dioxide emitted into the atmosphere every year. This bill would dictate the amount of fees imposed when purchasing conventional vehicles, and the amount of rebates given when purchasing electric vehicles.
+
+The heart of this policy change is demonstrated in the palpable results derived from the Sensitivity Testing and Optimization graphs. Increasing rebate amounts given for electric vehicles from $7,000 dollars (the base model) to $8,500 dollars (optimization model), coupled with an increased fee for conventional vehicles from zero dollars (current) to $3,250 dollars (optimization model), would drastically reduce the amount of carbon dioxide produced from 340,000,000 Tonnes to 25,000,000 Tonnes. A 92.65% decrease.
+
