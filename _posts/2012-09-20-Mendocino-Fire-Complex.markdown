@@ -92,66 +92,7 @@ The data values produced through this simulation - albeit steps correct - did no
 
 ### Results:
 
-
 **NDVI Analysis - Before Fire**
-
-![Placeholder](/assets/images/Before-NDVI.png)
-
-This map illustrates the Normalized Difference Vegetation Index (NDVI) values across the (future) burned areas of the Mendocino Complex on July 10th, 2018. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
-
-**NDVI Analysis - After Fire**
-
-![Placeholder](/assets/images/After-NDVI.png)
-
-This map illustrates the Normalized Difference Vegetation Index (NDVI) values after the Mendocino Complex
-on October 30th, 2018. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
-
-**NDVI Analysis - Total Vegetation Change**
-
-![Placeholder](/assets/images/Total-NDVI.png)
-
-This map illustrates the calculated change in Normalized Difference Vegetation Index (NDVI) values across the burned areas after the Mendocino Complex’s dissipation. It was calculated by finding the difference of post-fire NDVI values and pre-fire NDVI values. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
-
-**Differenced NBR Analysis**
-
-![Placeholder](/assets/images/NBR.png)
-
-This map illustrates the calculated change in Normalized Difference Vegetation Index (NDVI) values across the burned areas after the Mendocino Complex’s dissipation. It was calculated by finding the difference of post-fire NDVI values and pre-fire NDVI values. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
-
-
-
-Healthy vegetation shows a very high reflectance in the NIR, and low reflectance in the SWIR portion of the spectrum (Figure 2) - the opposite of what is seen in areas devastated by fire. Recently burnt areas demonstrate low reflectance in the NIR and high reflectance in the SWIR, i.e. the difference between the spectral responses of healthy vegetation and burnt areas reach their peak in the NIR and the SWIR regions of the spectrum.
-A high NBR value indicates healthy vegetation while a low value indicates bare ground and recently burnt areas. Non-burnt areas are normally attributed to values close to zero.
-The difference between the pre-fire and post-fire NBR obtained from the images is used to calculate the delta NBR (dNBR or ∆NBR), which then can be used to estimate the burn severity. A higher value of dNBR indicates more severe damage, while areas with negative dNBR values may indicate regrowth following a fire. The formula used to calculate dNBR is illustrated below:
-dNBR values can vary from case to case, and so, if possible, interpretation in specific instances should also be carried out through field assessment; in order to obtain the best results. However, the United States Geological Survey (USGS) proposed a classification table to interpret the burn severity, which can be seen below (Table 1).
-
-
-
-
-
-
-
-
-
-
-
-
-
-Two Landsat TM images were obtained before the Complex emerged, and after it was contained (Path 45 Row 33: July 10; Path 45 Row 32: July 10; Path 45 Row 32: October 30; Path 45 Row 33: October 30).
-
-Normalized Differenced Vegetation Index (NDVI) was utilized for its accentuation on regions of chlorophyll that exhibit the highest rates of reflectance and absorption. NDVI is calculated by the following formula: (NIR-RED)/(NIR+RED). The resulting change in NDVI values was obtained from subtracting the post-fire values with the before-fire values.
-
-Normalized Burn Ratio (NBR) estimates burn severity and highlights burned regions. NBR is calculated by the following formula: (NIR-SWIR)/(NIR+SWIR). By subtracting the post-fire image with the pre-fire image, the dNBR image is obtained. The images were calibrated to the top-of- atmosphere (TOA) reflectance, and radiometrically calibrated to account for brightness temperature. This allowed for clouds and shadows to be removed from the images.
-
-### Results:
-
-### Mendocino Fire Complex
-
-![Map GIS](/assets/images/Mendo-GIS.png)
-
-Illustrated above are the two fires that account for the Mendocino Fire Complex (The Ranch Fire and the River Fire), as well as the boundaries of the Mendocino National Forest and Mendocino County. Major roads and rivers are also represented.
-
-##### NDVI Analysis - Before Fire
 
 ![Placeholder](/assets/images/Before-NDVI.png)
 
@@ -163,7 +104,7 @@ This map illustrates the Normalized Difference Vegetation Index (NDVI) values ac
 
 NDVI values measured before the Mendocino Fire Complex on July 10th, 2018 were discovered to be of moderately high values on the NDVI scale, revealing levels of high vegetation. Aforementioned in the introduction portion of this study, is the influence of California’s Mediterranean climate. The lack of precipitation values in the year 2018, coupled with the intensified temperature values in the state’s dry summer season, will not allow for NDVI values to be extremely high to begin with—for instance, like the NDVI values associated with vegetation in tropical climates like Puerto Rico. During this satellite image, the mean NDVI value was reported at 0.3288; the minimum was reported at -0.0700; and the maximum was reported 0.6639.
 
-##### NDVI Analysis - After Fire
+**NDVI Analysis - After Fire**
 
 ![Placeholder](/assets/images/After-NDVI.png)
 
@@ -176,7 +117,7 @@ The impact of the Mendocino Fire Complex on NDVI values was a complete vegetatio
 
 ![Placeholder](/assets/images/after-fire-stats.png)
 
-##### NDVI Analysis - Total Vegetation Change
+**NDVI Analysis - Total Vegetation Change**
 
 ![Placeholder](/assets/images/Total-NDVI.png)
 
@@ -188,20 +129,25 @@ This map illustrates the calculated change in Normalized Difference Vegetation I
 
 The total impact of the Mendocino Fire Complex on NDVI values was a general decrease in vegetation levels loss across areas directly impacted by the Complex, especially among the areas concentrated in the Mendocino National Forest and Mendocino County. The total change in the mean NDVI value was reported at -0.2395; the minimum change in total NDVI value was reported at -0.5641; and the maximum change in total NDVI value was reported at 0.2679.
 
-##### NBR Analysis
+**Differenced NBR Analysis**
 
 ![Placeholder](/assets/images/NBR.png)
 
-This map illustrates the calculated change in Normalized Difference Vegetation Index (NDVI) values across the burned areas after the Mendocino Complex’s dissipation. It was calculated by finding the difference of post-fire NDVI values and pre-fire NDVI values. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer.
+This map illustrates the Differenced Normalized Burn Ratio (dNBR) values after the Complex's emergence. dNBR is calculated for images before the fire (pre-fire NBR) and for images after the fire (post-fire NBR). The post-fire image is subtracted from the pre-fire image to create the dNBR image. These values are derived from Landsat 8 imagery provided by USGS Earth Explorer, with a classification provided by USGS UN-SPIDER.
 
-![Placeholder](/assets/images/Before-NDVI.png)
+
+Healthy vegetation shows a very high reflectance in the NIR, and low reflectance in the SWIR portion of the spectrum (Figure 2) - the opposite of what is seen in areas devastated by fire. Recently burnt areas demonstrate low reflectance in the NIR and high reflectance in the SWIR, i.e. the difference between the spectral responses of healthy vegetation and burnt areas reach their peak in the NIR and the SWIR regions of the spectrum.
+A high NBR value indicates healthy vegetation while a low value indicates bare ground and recently burnt areas. Non-burnt areas are normally attributed to values close to zero.
+The difference between the pre-fire and post-fire NBR obtained from the images is used to calculate the delta NBR (dNBR or ∆NBR), which then can be used to estimate the burn severity. A higher value of dNBR indicates more severe damage, while areas with negative dNBR values may indicate regrowth following a fire. The formula used to calculate dNBR is illustrated below:
+dNBR values can vary from case to case, and so, if possible, interpretation in specific instances should also be carried out through field assessment; in order to obtain the best results. However, the United States Geological Survey (USGS) proposed a classification table to interpret the burn severity, which can be seen below (Table 1).
 
 ### Discussion:
 
-As predicted, Mendocino County experienced high NDVI values prior to the Complex, and a substantial decrease in NDVI values after the Complex. NDVI values prior to the Complex on July 10th were moderately high, taking into account the effect of California’s mediterranean climate. The lack of precipitation in the year 2018, coupled with intensified temperature values during the dry summer season, explain for the pre-complex mean NDVI value of 0.33, post-complex mean NDVI value of 0.08, and total change mean NDVI value of -0.24.
+The objective of this research was to unveil the changes in vegetation cover over the Mendocino National Forest and surrounding areas in Mendocino County, after the emergence of California’s largest wildfire in state history, the Mendocino Fire Complex (2018). Moreover, its goal was to analyze the difference in calculating vegetation cover change through the comparison of Normalized Difference Vegetation Index (NDVI) values and the spectral indices of Normalized Burn Ratio (NBR). Overall, this goal was succeeded as both variables experienced a drastic decrease in areas where vegetation intersected the breadth of the Complex’s expanse. These conclusions are consistent with previously hypothesized outcomes of a forest disturbance's influence on NDVI and NBR.
 
-The goal of this research was to unveil the changes in vegetation cover over the Mendocino National Forest and surrounding areas in Mendocino County, after the surfacing of California’s largest wildfire in state history: The Mendocino Fire Complex. This was achieved through analyzing the difference in vegetation cover change by comparing NDVI values with the spectral indices of NBR. Pre-fire vegetation experiences high NIR reflectance and low SWIR reflectance, while post-fire vegetation experiences low NIR reflectance and a high SWIR response. The region’s overall high dNBR values illustrate an intense burning, with seldom areas experiencing negative values and the associated increase in vegetation regrowth. Seasonal variations were outside the scope of this research, due to the relatively small change in spectral signatures during California’s dry period (from July to August).
+Pre-fire vegetation experiences high NIR reflectance and low SWIR reflectance, while post-fire vegetation experiences low NIR reflectance and a high SWIR response. The region’s overall high dNBR values illustrate an intense burning, with seldom areas experiencing negative values and the associated increase in vegetation regrowth. Seasonal variations were outside the scope of this research, due to the relatively small change in spectral signatures during California’s dry period (from July to August). As predicted, Mendocino County experienced high NDVI values prior to the Complex, and a substantial decrease in NDVI values after the Complex. NDVI values prior to the Complex on July 10th were moderately high, taking into account the effect of California’s mediterranean climate. The lack of precipitation in the year 2018, coupled with intensified temperature values during the dry summer season, explain for the pre-complex mean NDVI value of 0.33, post-complex mean NDVI value of 0.08, and total change mean NDVI value of -0.24.
 
+This research is imperative for understanding vegetation change as a result of fire disturbances in a Mediterranean climate. With an almost guarantee of increased global carbon dioxide levels (and ergo global temperature values) from global warming, the emergence of fire disturbances like wildfires will ensue and increase. Because of this realization, the intensified studying of NDVI changes to such phenomena will ensure more careful monitoring towards vegetation in the years to come. Likewise, the development of an enhanced burn severity index other than NBR may be needed. In essence, this newly developed burn severity index would study the possibility of ambiguities in reflectance data during the data preprocessing stage of remote sensing techniques.
 
 ### Acknowledgements:
 
