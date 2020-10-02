@@ -6,7 +6,7 @@ description:
 image: /assets/images/yellow-fever-full.png
 author: Thomas Vaeth
 tags: 
-  - Insight Maker
+  - Predictive Modeling
 ---
 
 ### Introduction:

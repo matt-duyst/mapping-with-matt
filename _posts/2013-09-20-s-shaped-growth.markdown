@@ -6,7 +6,7 @@ description:
 image: /assets/images/flower-model1.png
 author: Thomas Vaeth
 tags: 
-  - Insight Maker
+  - Predictive Modeling
 ---
 
 #### Flower Model - Intrinsic Growth vs. Actual Growth Rate

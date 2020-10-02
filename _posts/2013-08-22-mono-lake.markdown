@@ -6,7 +6,7 @@ description:
 image: /assets/images/mono-lake-1.png
 author: Thomas Vaeth
 tags: 
-  - Insight Maker
+  - Predictive Modeling
 ---
 
 ### A Basic Understanding of Mono Lake
