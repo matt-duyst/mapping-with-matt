@@ -7,6 +7,7 @@ image: /assets/images/feebate-model.png
 author: Thomas Vaeth
 tags: 
   - Insight Maker
+ ---
 
 ##### Feebate Model
 
