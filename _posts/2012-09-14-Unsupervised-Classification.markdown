@@ -3,7 +3,7 @@ layout: post
 title: "Unsupervised Classification: Land Cover Types in Los Angeles, CA"
 date: 2012-09-14
 description: 
-image: /assets/images/unsupervised-ndvi.png
+image: /assets/images/unsupervised-ndvi-2.png
 author: Thomas Vaeth
 tags: 
   - Remote Sensing
