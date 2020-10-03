@@ -22,6 +22,10 @@ social:
     url: https://github.com/samesies
   - name: codepen
     url: https://codepen.io/thomasvaeth/
+    
+    
+sass:
+  sass_dir: _assets/scss
 
 # Contact settings
 contact_img: 

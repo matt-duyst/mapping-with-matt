@@ -29,6 +29,7 @@
     margin: {
       right: -1em;
       left: -1em;
+      bottom: 2em;
     }
 
     &[data-columns]:before {
@@ -37,7 +38,7 @@
       }
 
       @media screen and (min-width: $mq-med) and (max-width: $mq-xlarge) {
-        content: '2 .column.posts-half';
+        content: '3 .column.posts-third';
       }
 
       @media screen and (min-width: $mq-xlarge) {
@@ -54,8 +55,15 @@
   }
 
   &__post {
-    padding: 2em 1em;
+    padding: 1.5em;
+    background-color: #f5f5f5;
+    margin: 1em;
+    transition: transform 200ms ease-in;
 
+    &:hover {
+            transform: translate3d(0, -10px, 0);
+        }
+        
     // @media (min-width: $mq-small) {
     //   padding: {
     //     top: 4em;
@@ -68,13 +76,9 @@
   &__link {
     display: block;
 
-    color: $color-white;
+    color: $color-black;
 
-    &:hover {
-      .posts__img {
-        transform: translate3d(0, -10px, 0);
-      }
-    }
+
   }
 
   &__img {
@@ -89,8 +93,8 @@
   }
 
   &__text {
-    @extend %font-size;
-
+    // @extend %font-size;
+    font-size: 97%;
     font-weight: 400;
   }
 
