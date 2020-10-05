@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LA County Criminal Mappings: Heat Mapping & Thiessen Polygons of Reported Crimes"
-date: 2018-08-28
+date: 2019-08-28
 description: 
 image: /assets/images/Crimes-Thiessen.png
 author: Thomas Vaeth

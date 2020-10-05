@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Statewide Precipitation Averages: California"
-date: 2019-08-26
+date: 2018-08-26
 description: 
 image: /assets/images/California-August-Interpolation.png
 author: Thomas Vaeth

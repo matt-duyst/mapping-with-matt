@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Spatial Dynamics of Presidential Elections: An Autocorrelation Analysis of Voter Behavior in 2012 & 2016"
-date: 2019-09-16
+date: 2018-09-16
 description: 
 image: /assets/images/change-in-pres.png
 author: Thomas Vaeth
