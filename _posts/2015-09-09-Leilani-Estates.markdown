@@ -19,10 +19,6 @@ a static map to accentuate the 3D rendered mappings. generate maps of natural di
 
 ![Map GIS](/assets/images/Leilani-Estates.png)
 
-write-up
-
 #### 3D Rendering of Volcanic Fissures
 
 ![Placeholder](/assets/images/3d-leilani.png)
-
-write-up
