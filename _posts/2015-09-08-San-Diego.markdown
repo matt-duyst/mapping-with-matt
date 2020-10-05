@@ -3,7 +3,7 @@ layout: post
 title: "Site Suitability Analysis: San Diego Elevation Mappings for a Summer Campground"
 date: 2017-08-30
 description: 
-image: /assets/images/san-diego-dem.png
+image: /assets/images/camping-locations.png
 author: Thomas Vaeth
 tags: 
   - Raster Analysis

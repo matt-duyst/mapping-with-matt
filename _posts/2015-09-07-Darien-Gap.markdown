@@ -17,7 +17,7 @@ This study illustates a cost-distance analysis potential to calculate the shorte
 
 The first map embodies the summation of this entire process: an illustration of the least cost path from an origin point (Yaviza) to two counter destination points (Chigorodo and Apartado), with consideration towards elevation terrain slope, bodies of water, and the flow accumulation of that water. The country’s border between Panama, as well as the most important road networks, are further accentuated in the map. A conglomerate of Digital Elevation Maps (4) were downloaded for the state of Colombia, and then combined into a single TIFF. A slope calculation was then run on the combined TIFF. To calculate the presence/influence of water in Colombia, a raster calculation was performed with a score of less than or equal to 0; this ultimately highlighted what was water (a score of 1) and what wasn’t water (a score of 0). The slope was then reclassified between two values — ‘Old’ (with a range of 0 to 60), and ‘New’ (with a range of 1 to 512). It is as follows below:
 
-Old Values           New Values
+**Old Values**      **New Values**
 0-1                      1
 1-2                      2 
 2-4                      3
