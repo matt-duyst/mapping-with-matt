@@ -6,7 +6,7 @@ description:
 image: /assets/images/Crimes-Thiessen.png
 author: Thomas Vaeth
 tags: 
-  - Thematic Mapping
+  - Density Mapping
 ---
 
 ### Abstact:
