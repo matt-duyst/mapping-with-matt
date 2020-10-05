@@ -26,39 +26,21 @@ The choropleth map included illustrates the spatial correlation of Median-Househ
 
 ![Placeholder](/assets/images/map-2.png)
 
-write-up
-
 ![Placeholder](/assets/images/map-3.png)
-
-write-up
 
 ![Map GIS](/assets/images/map-4.png)
 
-write-up
-
 ![Placeholder](/assets/images/map-5.png)
-
-write-up
 
 ![Map GIS](/assets/images/map-6.png)
 
-write-up
-
 ![Placeholder](/assets/images/map-7.png)
-
-write-up
 
 ![Placeholder](/assets/images/map-8.png)
 
-write-up
-
 ![Map GIS](/assets/images/map-9.png)
 
-write-up
-
 ![Placeholder](/assets/images/map-10.png)
-
-write-up
 
 ### Conclusion:
 Because of the massive quantity of oil gas wells in LA County, it makes sense that there would be an overlap in place location — many oil gas wells being placed less than one-mile from one another. However, the severity of having so many public schools fall within this extent has grave implications. The most extensive hazard would be the likelihood of a gas leak, allowing harmful toxins to cause life-long health problems for Los Angeles County’s youth population. Deadly chemicals can quickly spread these short distances from public schools to oil gas well locations, and may not be initially caught by the public eye. This, coupled with the fact that emission rates in oil gas wells are intensified, will harm the adolescents who are closest to the site (256 schools within such a short proximity as 1,000 feet).
