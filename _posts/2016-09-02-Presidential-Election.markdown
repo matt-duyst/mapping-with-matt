@@ -7,6 +7,6 @@ image: /assets/images/2016-Election.png
 author: Thomas Vaeth
 tags: 
   - Cartography
----
+--- 
 
 ![Map GIS](/assets/images/2016-Election.png)

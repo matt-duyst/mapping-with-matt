@@ -8,6 +8,13 @@ author: Thomas Vaeth
 tags: 
   - DEM
 ---
+
+### Intro:
+
+Map 2 indicates the most suitable areas for camping within the San Diego mountain range (illustrated by yellow shading). The best camping areas are within an elevation range equal to or greater than 4,000 feet above sea level. Moreover, these areas appear to be best where the terrain slope is relatively diminished or flat, within two-miles of an existing road, and where the vegetation type is a coniferous forest, oak woodland, or mixed forest. These areas are concentrated within the central Mt. Laguna range. I would recommend having more camping areas near Cottonwood Creek, to avoid clustering.
+
+Improvements could be made on exporting the map - elevation legend is hard to read. Different colors could be used for camp site selection.
+
 ### Relief Mapping - The Eastern San Diego Mountain Range
 
 ![Placeholder](/assets/images/san-diego-dem.png)
