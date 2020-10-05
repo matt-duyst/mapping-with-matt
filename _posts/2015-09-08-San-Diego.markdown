@@ -1,28 +1,47 @@
 ---
 layout: post
-title: "San Diego Elevation Mappings"
-date: 2015-09-08
+title: "Site Suitability Analysis: San Diego Elevation Mappings for a Summer Campground"
+date: 2017-08-30
 description: 
 image: /assets/images/san-diego-dem.png
 author: Thomas Vaeth
 tags: 
-  - DEM
+  - Raster Analysis
 ---
 
-### Intro:
+### Abstract:
 
-Map 2 indicates the most suitable areas for camping within the San Diego mountain range (illustrated by yellow shading). The best camping areas are within an elevation range equal to or greater than 4,000 feet above sea level. Moreover, these areas appear to be best where the terrain slope is relatively diminished or flat, within two-miles of an existing road, and where the vegetation type is a coniferous forest, oak woodland, or mixed forest. These areas are concentrated within the central Mt. Laguna range. I would recommend having more camping areas near Cottonwood Creek, to avoid clustering.
+This project delves into the complexities of site suitability analyses, through the acquisition of a DEM (10m resolution) and ground cover vegetation for the highest mountain range in Eastern San Diego County - Laguna and Cuyamaca Mountains. Several rasters were used to systematically identify the most optimal camping locations, and then reclassified using map algebra tools to meet the requested requirements for campsite locations (listed below). The process of selecting a campground site was facilitated through the development of a terrain-based scoring index (out of 10 points), wherein locations receiving higher scores are better suited for use as development areas of campgrounds.
 
-Improvements could be made on exporting the map - elevation legend is hard to read. Different colors could be used for camp site selection.
+Improvements on the produced maps could be made on representation of the legend - the resolution of the export process compromises the understanding of elevation in the first map. The legend for the second map (San Diego Camping Locations) only needs to include a single symbol representing all camping locations that meet the required parameters.
 
-### Relief Mapping - The Eastern San Diego Mountain Range
+### Methods:
+
+The parameters set for requested campsite locations were:
+
+- An elevation equal or greater than 4,000 feet above sea level to ensure summer temperatures will be cool enough for comfortable camping.
+- Within two miles of an existing road.
+- Vegetation cover with one of the following classifications: Coniferous Forest, Oak Woodlands, or Mixed Forests.
+
+Rasters were reclassified using the following point values:
+
+**Terrain Elevation**
+Below 4000 feet: 0 points
+4000 ft to 4500 ft: 1 point
+4500 ft to 5000 ft: 2 points
+5000 ft to 5500 ft: 3 points
+5500 ft to 6000 ft: 4 points
+6000 ft and above: 5 points
+
+**Terrain Slope** 
+0 degrees to 1 degree: 5 points
+1 degree to 3 degrees: 4 points
+3 degrees to 5 degrees: 3 points
+5 degrees to 10 degrees: 1 point
+Higher than 10 degrees:  0 points
+
+### Results:
 
 ![Placeholder](/assets/images/san-diego-dem.png)
 
-write-up
-
-### Most Suitable Camping Destinations - San Diego, CA
-
 ![Placeholder](/assets/images/camping-locations.png)
-
-write-up

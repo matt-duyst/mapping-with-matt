@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Three-Dimensional Mapping of Natural Disaster Scenarios: Leilani Estates, HI"
+title: "Three-Dimensional Mapping of Natural Disaster Scenarios: Leilani Estates, HI (2018)"
 date: 2015-09-09
 description: 
 image: /assets/images/Leilani.png
@@ -9,11 +9,13 @@ tags:
   - DEM
 ---
 
-### Intro:
+### Abstract:
 
-Hawaii's mainland appears to be a newly reoccurring hotspot for recent lava flow activity. The maps below illustrate the buildings at harm in Keilani Estates, as well as the currently active lava flow fissures. The issue of surmounting lava flows in Hawaii has forced roughly 2,000 people in Hawaii to evacuate or relocate, and turned a place of palm trees and paradise into fear and hot rock. These lava flows have also taken out entire communities and buildings such as those around Keilani Estates. In total, nearly 40 structures have been taken out by the lava.
+The Hawaii islands were contrued by volcanic activity, both past and present. In 2018, lava began flowing from steaming ground cracks in Leilani Estates on the Big Island. The maps produced below showcase this volcanic crisis - a tranquil place of palm trees transformed into hostility and hot rock. The three month-long eruption of the Kilauea Volcano formed 24 volcanic fissure vents, destroyed 200 homes, and wreaked havoc on communities that forced the diaspora of roughly 2,000 people.
 
-a static map to accentuate the 3D rendered mappings. generate maps of natural disaster scenarios using a plugin for QGIS (called qgis2web) that is capable of generating interactive three-dimensional maps based on QGIS map projects
+The static map below illustrates the buildings at harm in Keilani Estates, along with the 24 volcancic fissures created from the Kilauea eruption. Areas previously affected by volcanic activity are also highlighted.
+
+A three-dimensional rendered mapping of the event was generated through a QGIS plugin called 'qgis2web.' An interactive map helps reinforce the severity of a natural disaster scenario like that of Leilani Estates in 2018.
 
 ### Leilani Estates, HI - Recent Volcanic Activity
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LA County Thiessen Polygon Density Mappings: Narcotics, Grand Theft Auto, DUI, and Crimes Per Tract"
+title: "LA County Criminal Mappings: Heat Mapping & Thiessen Polygons of Reported Crimes"
 date: 2018-08-28
 description: 
 image: /assets/images/Crimes-Thiessen.png
@@ -9,15 +9,19 @@ tags:
   - Thematic Mapping
 ---
 
-### Intro:
+### Abstact:
 
-To solve questions or ambiguities around proximity and predictive policing, this unit focuses on various methods such as density maps and heat maps. The first three heat maps illustrate 3 types of crime within Los Angeles County: Grand Theft Auto, Possession of Narcotics, and Driving Under the Influence. To find data for these crimes, I downloaded Part I and Part II data within the past month in Los Angeles County, courtesy of the Sheriff’s department. I imported this data (a CSV) into Arcmap as X,Y data to place the crime points on the map. The CA State Plane V layer was utilized to place the points in the correct manner. Lastly, the density tool in ArcToolbox was used to compute a kernel density .tif for each crime, and then overlaid on top of the unobtrusive light-grey canvas basemap. This process was done 3 times for each crime.
+To solve questions or ambiguities around proximity and predictive policing, various methods such as density maps and heat mappings are curated for distribution and anlysis purposes. This project uses heat maps to illustrate crimes of the highest magnitude in Los Angeles County: Grand Theft Auto, Possession of Narcotics, and Driving Under the Influence. Maps that accentuate the need for predictive policing were curated through the addition of Thiessen Polygons - an analysis that focuses on proximity of crimes around police stations in Los Angeles County.
 
-The last two maps were made palpable through a different method. These maps focus on predictive policing. Both maps contain the same crime data as the previous three (Grand Theft Auto, Possession of Narcotics, and Driving Under the Influence). A shapefile containing the amount of police stations/sheriff stations within Los Angeles County was then downloaded. Theissen polygons were produced (using the analysis proximity tool in ArcToolbox) around each police station; this allowed for an illustration of which zones were within closest proximity for the given police station’s response. I performed a spatial join with the crimes and the Thiessen polygons to assess the total amount of crimes within each polygon. This allowed for an analysis of which police station could use aided help/more resources to reduce crime. The polygons were color schemed by lowest to highest density of crimes. For the last map, the same overlay process was used—this time regarding Los Angeles Census Tracts, instead of Thiessen polygons around each station. The census tracts have a color scheme denoting which tracts have the highest concentration of crime, and ergo should require a larger concentration of officers patrolling.
+### Methods:
 
-Improvements could be made to make the legends more informative - like labeling htem 'low,'  'moderate,' 'high' etc.
+Data for crime rates (and classification of crimes) was provided by the Los Angeles County Sheriff's department. This data was imported as a CSV into Arcmap as X,Y data and took the form of 'crime points' on the maps. These points were re-projected using 'CA State Plane V' for an correct placement. ArcToolbox's density tool allowed for the computation of kernel density .tif's for each crime. These were overlaid on an unobtrusive, light-grey basemap. This process was done for each crime under investigation.
+ 
+The last two maps contain the same crime data - Grand Theft Auto, Possession of Narcotics, and Driving Under the Influence - but focus on predictive policing. A shapefile containing the amount of police stations within Los Angeles County was downloaded. Thiessen polygons around each police station were produced using the 'Analysis Proximity' feature in ArcToolbox. This creation allowed for an illustration of which zones were within closest proximity for the given police station’s response. Spatially joining the crimes with Thiessen polygons assessed the total number of crimes within each polygon. Through this, an analysis of which police station could use aided help or more resources available to reduce crime. The polygons were color schemed by lowest to highest density of crimes. The level of scale differentiates these two maps; the first map exemplifies Thiessen polygons around each station, while the last map illustrates the number of crimes per census tract in LA County. The census tracts have a color scheme denoting which tracts have the highest concentration of crime, alluding to which areas require a larger concentration of officers patrolling.
 
-### Los Angeles Criminal Mapping: Density Analysis of Reported Crimes
+Areas of improvement on the maps below can be seen in the count breakdown portion of the Legend. Instead of using numbers for the first three mappings - the heat maps representing specific crimes - a more informative breakdown should be presented (like 'Low,' 'Moderate,' and 'High'). The 'Count' breakdown for the last two maps should be something more symbolic: like 'Number of Crimes Committed.'
+
+### Results:
 
 ![Map GIS](/assets/images/Narcotics.png)
 
@@ -25,6 +29,6 @@ Improvements could be made to make the legends more informative - like labeling 
 
 ![Placeholder](/assets/images/DUI.png)
 
-![Placeholder](/assets/images/Crime-per-tract.png)
-
 ![Placeholder](/assets/images/Crimes-Thiessen.png)
+
+![Placeholder](/assets/images/Crime-per-tract.png)

@@ -15,7 +15,7 @@ This map was realized through the natural breaks classification method, coupled 
 
 ![Placeholder](/assets/images/employment-rate-change.png)
 
-This map was created using a graduated color scheme and a natural break classification method. This method of classification was employed because the dataset illustrated in the histogram was essentially unimodal—a majority of data falling in-between the middle range. I chose to use primary colors that are not too distracting for the viewer, and yet simultaneously catch the viewer’s gaze to the contrasting colors of lowest and highest alterations in unemployment rates. Ergo, the modest and none obtrusive colors accentuated for the middle range class is a dual-attempt to further the attention towards the two extremes.
+This map was created using a graduated color scheme and a natural break classification method. This method of classification was employed because the dataset illustrated in the histogram was essentially unimodal — a majority of data falling in-between the middle range. I chose to use primary colors that are not too distracting for the viewer, and yet simultaneously catch the viewer’s gaze to the contrasting colors of lowest and highest alterations in unemployment rates. Ergo, the modest and none obtrusive colors accentuated for the middle range class is a dual-attempt to further the attention towards the two extremes.
 
 ![Placeholder](/assets/images/pct-rural.png)
 
@@ -23,7 +23,7 @@ Mapping the percentage of rural areas in the US was a culmination of graduated c
 
 ![Placeholder](/assets/images/regional-mapping.png)
 
-This map was achieved differently than the previous two; it was created using a text field, unlike the previous numerical classification categories. These single values were then classified into six differing classes—Middle Atlantic, Midwest, New England, South, Southwest, and West. The color schemes purposely clash with each other, in an attempt to illustrate the contrasting regions of each conglomerated region of states on the map. The masked, white outline further allows for outlining of state abbreviations, and likewise doesn’t distract the viewer but rather accentuates an easy interpretation of the United States by state regions.
+This map was achieved differently than the previous two; it was created using a text field, unlike the previous numerical classification categories. These single values were then classified into six differing classes — Middle Atlantic, Midwest, New England, South, Southwest, and West. The color schemes purposely clash with each other, in an attempt to illustrate the contrasting regions of each conglomerated region of states on the map. The masked, white outline further allows for outlining of state abbreviations, and likewise doesn’t distract the viewer but rather accentuates an easy interpretation of the United States by state regions.
 
 ![Placeholder](/assets/images/total-pop-per-state.png)
 
