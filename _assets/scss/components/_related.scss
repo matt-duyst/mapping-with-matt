@@ -17,6 +17,7 @@
   }
 
   &__post {
+    
     @media (max-width: $mq-small) {
       padding: {
         top: 2em;
@@ -26,6 +27,7 @@
 
     @media (min-width: $mq-med) {
       padding-bottom: 0;
+
     }
 
     &:last-child {

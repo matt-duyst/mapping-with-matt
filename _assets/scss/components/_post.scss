@@ -186,6 +186,7 @@
   }
 
   p {
+    text-align: justify;
     margin-bottom: 1.5rem;
 
     font-size: 1.1em;
@@ -230,6 +231,9 @@
   img {
     display: block;
     margin-bottom: 1.5rem;
+    
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img[src$="#full"] {
