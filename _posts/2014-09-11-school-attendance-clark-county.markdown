@@ -11,9 +11,9 @@ tags:
 
 ### Abstract:
 
-The premise of this analysis is to illustrate the relationship between elementary school attendance and number of registered voters in Clark County, NV (District C). This school district holds the highest amount of students in the county, making complaints of cramped classrooms and lack of available transportation provided by the school a common occurrence.
+The premise of this analysis is to illustrate the relationship between elementary school attendance and number of registered voters in Clark County, NV (District C). This school district holds the highest number of students in the county, making complaints of cramped classrooms and lack of available transportation provided by the school a common occurrence.
 
-The idea behind this spatial overlay and geoprocessing process is to create maps that indicate a need for school attendance areas (elementary schools within county-level boundaries) to minimize their class sizes. It also reinforces student safety protocols - the underlying base map accentuates available bus routes, or lackthereof for many students who live more than one-mile form the nearest school.
+The idea behind this spatial overlay and geoprocessing process is to create maps that indicate a need for school attendance areas (elementary schools within county-level boundaries) to minimize their class sizes. It also reinforces student safety protocols - the underlying base map accentuates available bus routes, or lack thereof for many students who live more than one-mile from the nearest school.
 
 ### The Correlation between Elementary School Attendance & Registered Voters: Clark County, NV
 

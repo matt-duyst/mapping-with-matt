@@ -15,13 +15,13 @@ This study centers around a network analysis method of market-based locations - 
 
 The remaining 3 maps showcase the drive time buffer joined to census block data in Riverside County, allowing for an analysis of the summation of blocks that intersect within these stores with 3 main variables: Total population density (Map 3), a targeted age demographic between the ages of 25-34 (Map 4), and the blocks’ median household income (Map 5).
 
-Improvements could be made to Map 2 by making the 'Drive-Time' more readable; less decimals of rounded estimates and the inclusion of 'Minutes' would allow the viwer to easily understand the time it takes to drive to the proposed elimination of the Target Arlington Starbucks.
+Improvements could be made to Map 2 by making the 'Drive-Time' more readable; less decimals of rounded estimates and the inclusion of 'Minutes' would allow the viewer to easily understand the time it takes to drive to the proposed elimination of the Target Arlington Starbucks.
 
 ### The Importance of Drive-Time: Starbucks Store Locations in Riverside County, CA
 
 ![Map GIS](/assets/images/3-Minute-Drive-Time-Buffers.png)
 
-This static map illustrates a 3-minute drive time service area between each Starbucks coffee shop. However, one store was purposely covered by the legend in each map (Vons Starbucks), due to its outside placement on the border of Riverside near San Bernadino. In full, a little over 70% of Riverside’s population (472,087 people out of 593,012) fall within a 3-minute radius (drive time) of any given Starbucks coffee shop. Moreover, the highways in Riverside are depicted in red, a bright observation that allows for an interesting parallel to be made: Starbucks coffee shops are generally found off the highways, most likely as pit-stops for drivers.
+This static map illustrates a 3-minute drive time service area between each Starbucks coffee shop. However, one store was purposely covered by the legend in each map (Vons Starbucks), due to its outside placement on the border of Riverside near San Bernardino. In full, a little over 70% of Riverside’s population (472,087 people out of 593,012) fall within a 3-minute radius (drive time) of any given Starbucks coffee shop. Moreover, the highways in Riverside are depicted in red, a bright observation that allows for an interesting parallel to be made: Starbucks coffee shops are generally found off the highways, most likely as pit-stops for drivers.
 
 ![Placeholder](/assets/images/Eliminated-store-based-on-drive-time.png)
 
@@ -35,7 +35,7 @@ The map above illustrates a nuanced range of age groups (years 25 to 34 in age),
 
 ![Map GIS](/assets/images/Median-Income.png)
 
-This map denotes the median household income for the residents of Riverside County, coupled with the same 3-minute drive time, the Starbucks coffee shops locations, and the outlined highways. The range is between a low of $36,042 and a high of $188,077. Although the map shows a somewhat scattered representation of the median income block data, it can be roughly stated that the Southern region of Riverside County lies within the range of $70,000 and higher, while the central and Northern region of Riverside is between $36,000 to $70,000. The service area for each given Starbucks (joined with the census block data for total population size), allows for an interesting analysis of store placement: the largest bulk of Starbucks’ buyers fall within an income of less than roughly $75,000. This map mirrors the age group generalization — blocks with larger quantities of individuals aged 25-39 are also the blocks with higher incomes, and are likewise closer to a Starbucks coffee shop.
+This map denotes the median household income for the residents of Riverside County, coupled with the same 3-minute drive time, the Starbucks coffee shops locations, and the outlined highways. The range is between a low of $36,042 and a high of $188,077. Although the map shows a somewhat scattered representation of the median income block data, it can be roughly stated that the Southern region of Riverside County lies within the range of $70,000 and higher, while the central and Northern region of Riverside is between $36,000 to $70,000. The service area for each given Starbucks (joined with the census block data for total population size), allows for an interesting analysis of store placement: the largest bulk of Starbucks’ buyers fall within an income of less than roughly $75,000. This map mirrors the age group generalization — blocks with larger quantities of individuals aged 25-39 are also the blocks with higher incomes and are likewise closer to a Starbucks coffee shop.
 
 ![Placeholder](/assets/images/Pop-Density.png)
 

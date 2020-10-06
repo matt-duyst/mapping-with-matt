@@ -21,7 +21,7 @@ This project exemplifies an advanced method of interpolation mapping, through th
 
 ![Placeholder](/assets/images/Moran-2012.png)
 
-This clustered illustration of global county votes underscores a strong spatial autocorrelation (0.617) between voting patterns in the United States. This value was produced vis-à-vis the software GeoDa, and was held by a 'First Order Queen Contiguity' basis. When comparing this value to the below chart of 2016 (0.602), a slight decrease in the spatial clustering of voting characteristics in the United States is realized.
+This clustered illustration of global county votes underscores a strong spatial autocorrelation (0.617) between voting patterns in the United States. This value was produced vis-à-vis the software GeoDa and was held by a 'First Order Queen Contiguity' basis. When comparing this value to the below chart of 2016 (0.602), a slight decrease in the spatial clustering of voting characteristics in the United States is realized.
 
 **Voter Behaviors (2016):**
 

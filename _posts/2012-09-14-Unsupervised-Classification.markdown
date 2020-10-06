@@ -11,9 +11,9 @@ tags:
 
 This project highlights the importance of using an Unsupervised Classification when dealing with vegetation. In particular, performing and interpreting Unsupervised Classification of differing land cover types in Los Angeles through Landsat 7 images. Unsupervised Classification is computer automated, with the user dictating the number of Classes represented, as well as Maximum Iterations (how many times the algorithm runs) and the Change Threshold Percentage (when the algorithm stops for the next classification to emerge). These classes represent the number of pixels for each band represented in the image. Clustering algorithms group the pixels together based on spectral similarities. When the classification is finalized, coloring is added to the image. This makes interpreting the classification easier for the viewer.
 
-### Preparing The Images:
+### Preparing the Images:
 
-Landsat 7 images were subset, recalibrated, and stacked. Spatially subsetting the image allows for a specific portion to be analyzed at a more granular level. Landsat 7 images allow for the RGB combination (bands 4,3,2) to come to the forefront of our analysis. There is heavy empahsis on band 4 (red) in the Landsat image, as we will be taking a closer look at Vegetation Indices (NDVI). Recalibrating the image is crucial for minimizing the path radiance for particular bands. Statistic paramenters are computed by running simple statistics on the original bands and subset bands. Each of these newly recalibrated bands are then 'stacked' together with the subset image bands into a single image. 
+Landsat 7 images were subset, recalibrated, and stacked. Spatially subsetting the image allows for a specific portion to be analyzed at a more granular level. Landsat 7 images allow for the RGB combination (bands 4,3,2) to come to the forefront of our analysis. There is heavy emphasis on band 4 (red) in the Landsat image, as we will be taking a closer look at Vegetation Indices (NDVI). Recalibrating the image is crucial for minimizing the path radiance for particular bands. Statistic parameters are computed by running simple statistics on the original bands and subset bands. Each of these newly recalibrated bands are then 'stacked' together with the subset image bands into a single image. 
 
 ### NDVI Analysis
 
@@ -25,7 +25,7 @@ Understanding NDVI (Normalized Difference Vegetation Index) is paramount for pro
 
 ![Placeholder](/assets/images/isodata.png)
 
-The computer automated Isodata Algorithm for Unsupervised Classification calculates class means evenly distributed in the data space. It then iteratively clusters the remaining pixels using minimum distance techniques. Each iteration recalculates the mean, and reclassifies pixels with respect to the new means. This process continues until the number of pixels in each class changes by less than the selected pixel change threshold (or until the maximum number of iterations is reached).
+The computer automated Isodata Algorithm for Unsupervised Classification calculates class means evenly distributed in the data space. It then iteratively clusters the remaining pixels using minimum distance techniques. Each iteration recalculates the mean and reclassifies pixels with respect to the new means. This process continues until the number of pixels in each class changes by less than the selected pixel change threshold (or until the maximum number of iterations is reached).
 
 Our stacked, subset image was set to the following parameters:
  - A minimum class value of 4 and maximum class value of 6.
@@ -40,7 +40,7 @@ Our stacked, subset image was set to the following parameters:
 
 ![Placeholder](/assets/images/unsupervised-class.png)
 
-The Red in the image (Class 1) predominately illsutrates bodies of water - lakes and oceans. The small portion of Red scattered among the Green denotes areas of extremely low net productivity.
+The Red in the image (Class 1) predominately illustrates bodies of water - lakes and oceans. The small portion of Red scattered among the Green denotes areas of extremely low net productivity.
 
 The Green in the image (Class 2) showcases areas of extremely high vegetation. These are most likely wilderness areas and areas with high productivity such as the Santa Monica Mountains and those near Santa Clarita.
 

@@ -11,11 +11,11 @@ tags:
 
 #### Flower Model - Intrinsic Growth vs. Actual Growth Rate
 
-This model explores one of the six types of dynamic patterns: S-Shaped Growth graphings. S-Shaped graphs are crucial for describing patterns in natural systems. This project simulates the spread of flowers across a 1,000-acre landscape.
+This model explores one of the six types of dynamic patterns: S-Shaped Growth graphing. S-Shaped graphs are crucial for describing patterns in natural systems. This project simulates the spread of flowers across a 1,000-acre landscape.
 
 ![Map GIS](/assets/images/flower-model1.png)
 
-There are two stocks in the model above: "Flowered Area" and "Empty Area." The initial value for the "Flowered Area" is 10 acres; the "Empty Area" is 990 acres. With 10 acres purely of flowers, there will be minimal limitations hindering their spread - the seeds will have open space to grow in all directions. The variable "Decay Rate" is set to 20% per year, and is the product of the "Flowered Area" and rate of decay. The growth of the "Flowered Area" is dictated by the "Growth Rate" variable (a product of the Growth Rate and Flowered Area).
+There are two stocks in the model above: "Flowered Area" and "Empty Area." The initial value for the "Flowered Area" is 10 acres; the "Empty Area" is 990 acres. With 10 acres purely of flowers, there will be minimal limitations hindering their spread - the seeds will have open space to grow in all directions. The variable "Decay Rate" is set to 20% per year and is the product of the "Flowered Area" and rate of decay. The growth of the "Flowered Area" is dictated by the "Growth Rate" variable (a product of the Growth Rate and Flowered Area).
 
 If the model above only took the stated variables for simulation, the flowered area would expand by 80% per year. With no resource limitations, the model would assume an Intrinsic Growth Rate. To develop a more realistic model of the natural spread of flowers, an "Actual Growth Rate" variable will be introduced to the simulation. The "Actual Growth Rate" will be less than the Intrinsic Growth Rate of our first scenario - as the flowers spread across the landscape, the amount of "Empty Area" available will decrease and the flowers' possibility to germinate will be increasingly harder.
 
