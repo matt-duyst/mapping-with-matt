@@ -17,8 +17,9 @@ Below are 3 maps that illustrate various ranges of North Korea’s longest rangi
 
 The range of North Korea's 3 strongest missiles were obtained online. A world country shapefile was provided through the UCLA GIS Geoportal. North Korea (highlighted in dark red) was isolated by a query builder on the world county shapefile;, and then exported as a new layer. Three buffers representing each the missiles' extent were created around the North Korea layer. Each buffer was converted from decimal degrees to miles. To isolate the countries that intersect within the range of these buffers, a select by location tool was used. A world city shapefile was then downloaded from the UCLA GIS Geoportal. To isolate the major cities, a query builder was performed to isolate the cities labeled as ‘Rank 1’ (a population of 5 million or higher). These countries are labeled in blue. 
 
+### Results:
 
-### The Varying Impact of North Korea's 3 Strongest Missles
+**The Varying Impact of North Korea's 3 Strongest Missles**
 
 ![Map GIS](/assets/images/Hwasong-14.png)
 

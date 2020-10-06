@@ -20,17 +20,17 @@ The first map embodies the summation of this entire process: an illustration of 
 
 |**Old Values**|**New Values**|
 |---	|---	|
-|0-1   	|1   	|
-|1-2	|2   	|
-|2-4   	|3   	|
-|4-6   	|8   	|
-|6-8   	|16   	|
-|8-10   |32   	|
-|10-15  |64   	|
-|15-20  |128   	|
-|20-35  |256   	|
-|35-60  |512   	|
-|No Data|No Data|
+| 0-1   |  1   	|
+| 1-2	|  2   	|
+| 2-4   |  3   	|
+| 4-6   |  8   	|
+| 6-8   |  16   	|
+| 8-10  |  32   	|
+| 10-15 |  64   	|
+| 15-20 |  128   	|
+| 20-35 |  256   	|
+| 35-60 |  512   	|
+| No Data| No Data|
 
 With this reclassification, a raster calculation was again undergone. This time, considerations for both the presence of water and the terrain slope elevation were made. The reclassified terrain slope was added to the water calculation and multiplied by a value of 128. It was decided that the flow accumulation of water was another significant value to be analyzed when deciding the least cost effective path between the origin and two destinations. The 'Spatial Fill' button was used to find the amount of accumulated water. The direction of water was realized, and further used to calculate the total accumulation of water in Colombia. The direction of water was divided into two classes - the first being of values between 0 and 536,711, and the second being values between 536,711 and 1,631,109. The final value was found using the following raster calculation: Con(“Flow_Accumulation” >= 536,711, 1, 0).
 
