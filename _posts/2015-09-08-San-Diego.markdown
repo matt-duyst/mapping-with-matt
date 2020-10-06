@@ -25,20 +25,9 @@ The parameters set for requested campsite locations were:
 
 Rasters were reclassified using the following point values:
 
-**Terrain Elevation**
-Below 4000 feet: 0 points
-4000 ft to 4500 ft: 1 point
-4500 ft to 5000 ft: 2 points
-5000 ft to 5500 ft: 3 points
-5500 ft to 6000 ft: 4 points
-6000 ft and above: 5 points
+![Placeholder](/assets/images/terrain-elevation.png)
 
-**Terrain Slope** 
-0 degrees to 1 degree: 5 points
-1 degree to 3 degrees: 4 points
-3 degrees to 5 degrees: 3 points
-5 degrees to 10 degrees: 1 point
-Higher than 10 degrees:  0 points
+![Placeholder](/assets/images/terrain-slope.png)
 
 ### Results:
 
