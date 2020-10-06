@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Public School and Oil Gass Well Assessment in Los Angeles, CA" 
+title: "Public School and Oil Gas Well Assessment in Los Angeles, CA" 
 date: 2014-09-10
 description: 
 image: /assets/images/map-9.png
