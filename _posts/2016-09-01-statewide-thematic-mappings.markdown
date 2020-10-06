@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Variables of Statewide Thematic Mappings"
-date: 2016-09-01
+date: 2016-09-02
 description: 
 image: /assets/images/total-pop-per-state.png
 author: Thomas Vaeth
