@@ -186,7 +186,6 @@
   }
 
   p {
-    text-align: justify;
     margin-bottom: 1.5rem;
 
     font-size: 1.1em;
@@ -239,6 +238,8 @@
   img[src$="#full"] {
     width: 100vw;
     max-width: none;
+    
+    margin: 0;
   }
 
   .flex-vid {

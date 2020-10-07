@@ -5,24 +5,15 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 name: Kevin Duyst
-title: MappingWithMatt
+title: Mapping With Matt
 description: >
-  Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
+  Portfolio built with Barber, a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
 url: http://mappingwithmatt.com
 twitter_username: ""
 default_img: /assets/images/website-preview.png
 social:
-  - name: twitter
-    url: https://twitter.com/thomasvaeth
-  - name: instagram
-    url: https://www.instagram.com/thomas.vaeth/
   - name: linkedin
-    url: https://www.linkedin.com/in/thomasvaeth/
-  - name: github
-    url: https://github.com/samesies
-  - name: codepen
-    url: https://codepen.io/thomasvaeth/
-    
+    url: https://www.linkedin.com/in/matt-duyst/
     
 sass:
   sass_dir: _assets/scss
@@ -40,9 +31,9 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
 # Author settings
 author:
-  - name: Thomas Vaeth
-    bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
-    url: http://thomasvaeth.com
+  - name: Matt Duyst
+    bio: 
+    url: http://mappingwithmatt.com
 
 # Pagination settings
 pagination:
