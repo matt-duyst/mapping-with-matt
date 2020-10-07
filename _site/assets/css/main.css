@@ -1344,11 +1344,6 @@ sub {
 mark {
   color: #000; }
 
-::selection {
-  color: #fff;
-  background: #f00;
-  text-shadow: none; }
-
 img[data-action="zoom"] {
   cursor: pointer;
   cursor: -webkit-zoom-in;
@@ -1741,7 +1736,8 @@ main {
     margin-right: auto; }
   #markdown img[src$="#full"] {
     width: 100vw;
-    max-width: none; }
+    max-width: none;
+    margin: 0; }
   #markdown .flex-vid {
     margin-bottom: 1.5rem; }
     #markdown .flex-vid iframe {
